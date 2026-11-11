@@ -1,0 +1,29 @@
+[prov] PASS Swift-1.5-Qwen3.8-27b: manifest 025249e8 + file-set identical (36 files)
+cuda memory fraction 0.75 set (Claude P018: measured peak 80.5 GiB at root=42; 0.75 gives margin)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  42%|████▏     | 359/851 [00:00<00:00, 3588.30it/s]Loading weights:  84%|████████▍ | 719/851 [00:00<00:00, 3538.73it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 3607.80it/s]
+[load] from_pretrained bf16 done in 1s
+[load] fp32 remap: 292 tensors; on device in 358s
+[load] mem: free 5.7/121.7 GiB
+[load] layer-42 fp32 pre-hook registered
+[fit] lens ready: n_layers=64 d_model=5120 bos_applied=False embed=Embedding
+[fit] prompt 1/8: n_valid=10 482s (cum 8.0 min)
+[fit] prompt 2/8: n_valid=11 498s (cum 16.4 min)
+[fit] prompt 3/8: n_valid=11 492s (cum 24.6 min)
+[fit] prompt 4/8: n_valid=8 471s (cum 32.5 min)
+[fit] prompt 5/8: n_valid=6 410s (cum 39.4 min)
+[fit] prompt 6/8: n_valid=3 424s (cum 46.4 min)
+[fit] prompt 7/8: n_valid=1 408s (cum 53.3 min)
+Traceback (most recent call last):
+  File "$JLENS_HOME/whole_model_fit.py", line 227, in <module>
+    main()
+  File "$JLENS_HOME/whole_model_fit.py", line 162, in main
+    Js, n_valid = lens.fit_prompt(pr, layers, dim_batch=args.dim_batch,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "$JLENS_HOME/our_jlens.py", line 180, in fit_prompt
+    raise ValueError(f"prompt too short: {seq_len} <= {skip_first+1}")
+ValueError: prompt too short: 17 <= 17

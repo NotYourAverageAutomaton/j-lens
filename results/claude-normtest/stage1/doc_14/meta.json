@@ -1,0 +1,24 @@
+{
+ "doc": 14,
+ "source": "Wikipedia: Prime number",
+ "genre": "encyclopedia-mathematics",
+ "url": "https://en.wikipedia.org/wiki/Prime_number",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 5053,
+ "J_p_md5": {
+  "20": "38a0783e2c3c6ed8c1d5aab34858f38f",
+  "24": "ef54aed612d2f72899a1aaf02c0f6d2a",
+  "28": "f813dcb1b2982ccd4f5b62b3161c32dc",
+  "32": "07023f1ef12a8be9e9f1addac5c6ae82",
+  "36": "1b78eb89416844c57951b602eb538307",
+  "40": "f1117a8f753b62b1213fee32e3d92e81",
+  "44": "4ff2e3ea26447b934d61cc2be17e6967",
+  "48": "51461001c1fedfcd820ede4e7c2e712c",
+  "52": "d48cf270cf3f7e213375b6b7221b6bab",
+  "56": "e5e036fb2460106b7049bd5f9ffc2d93"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T19:11:51"
+}

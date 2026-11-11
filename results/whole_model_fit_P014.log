@@ -1,0 +1,32 @@
+[prov] PASS Swift-1.5-Qwen3.8-27b: manifest 025249e8 + file-set identical (36 files)
+cuda memory fraction 0.70 set
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  83%|████████▎ | 707/851 [00:00<00:00, 7045.82it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 7712.13it/s]
+[load] from_pretrained bf16 done in 1s
+[load] fp32 remap: 292 tensors; on device in 368s
+[load] mem: free 5.7/121.7 GiB
+Traceback (most recent call last):
+  File "$JLENS_HOME/whole_model_fit.py", line 217, in <module>
+    main()
+  File "$JLENS_HOME/whole_model_fit.py", line 140, in main
+    oj = importlib.util.module_from_spec(spec); spec.loader.exec_module(oj)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "$JLENS_HOME/our_jlens.py", line 34, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 1268, in dataclass
+    return wrap(cls)
+           ^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 1258, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 983, in _process_class
+    and _is_type(type, cls, dataclasses, dataclasses.KW_ONLY,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 749, in _is_type
+    ns = sys.modules.get(cls.__module__).__dict__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__dict__'. Did you mean: '__dir__'?

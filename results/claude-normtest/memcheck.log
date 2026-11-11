@@ -1,0 +1,5 @@
+cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  35%|███▌      | 300/851 [00:00<00:00, 2996.36it/s]Loading weights:  76%|███████▋  | 650/851 [00:00<00:00, 3290.87it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 3381.10it/s]
+[load] from_pretrained bf16 done in 1s

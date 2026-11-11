@@ -1,0 +1,16 @@
+{
+  "model_dir": "$MODELS_DIR/bf16/Swift-1.5-Qwen3.8-27b",
+  "gate1": {
+    "cos_fwd_central_L42_GDN": 0.3944758474826813,
+    "cos_L42_vs_L43_control": -0.2871655821800232,
+    "eps": 0.000123291015625,
+    "pass": false
+  },
+  "gate2": {
+    "rel_l2": 2.027817964553833,
+    "max_abs": 27.4921875,
+    "pass": false
+  },
+  "resident_keys": 292,
+  "stream_keys_expected": 559
+}

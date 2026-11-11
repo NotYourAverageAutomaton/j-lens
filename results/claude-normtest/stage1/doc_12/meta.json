@@ -1,0 +1,24 @@
+{
+ "doc": 12,
+ "source": "Wikipedia: Ada Lovelace",
+ "genre": "encyclopedia-biography",
+ "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4927,
+ "J_p_md5": {
+  "20": "36b78c64c24a5bc7ad4d592f40e96565",
+  "24": "d0ee9c7f435976ebe6256f3a13d615c1",
+  "28": "4918eadaec25ddc08dd01699e37d72a7",
+  "32": "0e23a6bf20586232851a100dd242fb1a",
+  "36": "3996e8f49ea0e2d3821d7d047b739f9b",
+  "40": "e5479a8254667f27c7454bc9edc36110",
+  "44": "74f665dc12f9d58cbf6b1cd81a2d3338",
+  "48": "280f5aee3551741dd6e45e48ca259cbe",
+  "52": "f39a2c7ef5c03b6aff19d3c3983a3eae",
+  "56": "8548571b0dbc032c811dc644a73d205b"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T14:52:12"
+}

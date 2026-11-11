@@ -1,0 +1,4 @@
+Running as unit: jlens-whole-model.scope; invocation ID: 4af07f6538194dabb0ba0fba7f0d11b7
+device=cuda:0
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+exit=137

@@ -1,0 +1,24 @@
+{
+ "doc": 5,
+ "source": "Meditations (Marcus Aurelius)",
+ "genre": "philosophy",
+ "url": "https://www.gutenberg.org/ebooks/2680",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4936,
+ "J_p_md5": {
+  "20": "a637908b841643e6708cbbe13a4bb240",
+  "24": "71ee2a9c2b56fdd712312d586f4b0adb",
+  "28": "2af7b1828b6817db3ff3a723750a1cb4",
+  "32": "a8468209179b9524816960f30df53462",
+  "36": "aa07f3718e2facf8bd1ff8305b5c50f5",
+  "40": "64e8cabea1c2b965d8b5a33e8e587603",
+  "44": "1bd6aecad34f097ac3b22683ab2f58b0",
+  "48": "93ae0b8f3e798ee4809b33cb9a6a160d",
+  "52": "767d5a9f6f4720165c05b040e8d9af86",
+  "56": "397104f3067c3822757476c3c13aef90"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T05:14:04"
+}

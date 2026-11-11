@@ -1,0 +1,25 @@
+2026-11-06T03:59:31-06:00 DIAG window: stop at first idle or at 04:15 (announced)
+2026-11-06T03:59:37-06:00 idle: stopping
+watchdog cron line commented
+backstop armed +2h
+2026-11-06T03:59:59-06:00 GPU clear
+evict: 480 files; MemAvailable 117.1 -> 117.1 GiB; Cached 48.8 -> 24.8 GiB
+2026-11-06T04:00:00-06:00 DIAG swift start (MemAvailable 117 GiB)
+2026-11-06T04:25:00-06:00 DIAG swift rc=0
+[ 18.9m] {"mask_dtype": "torch.bool", "mask_shape": [1, 1, 125, 125], "L3_attn_impl_seen": "sdpa", "first_over_1e-3": {"layer": 3, "type": "full_attention", "rel_l2": 0.017900612205266953, "per_token_first8": [0.027088532224297523, 0.02665550820529461, 0.010468526743352413, 0.010009986348450184, 0.007966993376612663, 0.013063124381005764, 0.009326724335551262, 0.003479904029518366]}, "max_rel_L0_L2": 0.0, "max_rel_L3_L63": 0.1935425102710724, "final_norm_rel": 0.18545319139957428, "logits_rel": 0.13050585985183716, "L3_token0_rel": 0.027088532224297523}
+[ 18.9m] reference arm a_eager_mask
+[transformers] You tried to access the `AttentionInterface` with a `config._attn_implementation` set to `None`. This is expected if you use an Attention Module as a standalone Module. If this is not the case, something went wrong with the dispatch of `config._attn_implementation`
+[ 24.8m] {"mask_dtype_at_L3": "torch.bfloat16", "L3_attn_impl_seen": "None", "mask_dtype_at_L43": "torch.float32", "first_over_1e-3": {"layer": 3, "type": "full_attention", "rel_l2": 0.0010837909067049623, "per_token_first8": [0.0, 0.0008500684634782374, 0.0008022935362532735, 0.0008102442952804267, 0.0009130557300522923, 0.0005018641240894794, 0.000675257935654372, 0.0005618712166324258]}, "max_rel_L0_L2": 0.0, "max_rel_L3_L63": 0.011174647137522697, "final_norm_rel": 0.008047359064221382, "logits_rel": 0.005135963670909405, "L3_token0_rel": 0.0}
+[ 24.8m] {"a_vs_c": {"max_layer_rel": 0.010840111412107944, "final_norm_rel": 0.007632743567228317}, "test2_this_model": {"d_valid": true, "d_L3_token0_rel": 0.027088532224297523, "d_final_norm_rel": 0.18545319139957428, "c_final_le_2e-3": false, "c_logits_le_2e-3": false, "outcome_this_model": "FAIL", "a_vs_c_final_in_8e-3_pm25pct": true, "note": "report only per model; Deron adjudicates across BOTH models (post P073): CONFIRMED iff d valid and c <=2e-3 on both"}}
+[ 24.8m] done swift
+evict: 480 files; MemAvailable 117.2 -> 117.3 GiB; Cached 33.3 -> 1.0 GiB
+2026-11-06T04:25:01-06:00 DIAG base start (MemAvailable 117 GiB)
+2026-11-06T04:50:57-06:00 DIAG base rc=0
+[ 19.4m] {"mask_dtype": "torch.bool", "mask_shape": [1, 1, 125, 125], "L3_attn_impl_seen": "sdpa", "first_over_1e-3": {"layer": 3, "type": "full_attention", "rel_l2": 0.017846431583166122, "per_token_first8": [0.026965325698256493, 0.026642320677638054, 0.00967196375131607, 0.01002542581409216, 0.006071802694350481, 0.01209033653140068, 0.007313892710953951, 0.0035004992969334126]}, "max_rel_L0_L2": 0.0, "max_rel_L3_L63": 0.18932196497917175, "final_norm_rel": 0.18066830933094025, "logits_rel": 0.12743926048278809, "L3_token0_rel": 0.026965325698256493}
+[ 19.4m] reference arm a_eager_mask
+[transformers] You tried to access the `AttentionInterface` with a `config._attn_implementation` set to `None`. This is expected if you use an Attention Module as a standalone Module. If this is not the case, something went wrong with the dispatch of `config._attn_implementation`
+[ 25.7m] {"mask_dtype_at_L3": "torch.bfloat16", "L3_attn_impl_seen": "None", "mask_dtype_at_L43": "torch.float32", "first_over_1e-3": {"layer": 4, "type": "linear_attention", "rel_l2": 0.0016856433358043432, "per_token_first8": [0.0, 0.001009136438369751, 0.0014342210488393903, 0.0013495369348675013, 0.0009067225037142634, 0.0009149955003522336, 0.0010457485914230347, 0.0007043146761134267]}, "max_rel_L0_L2": 0.0, "max_rel_L3_L63": 0.010690842755138874, "final_norm_rel": 0.00729652913287282, "logits_rel": 0.005090857855975628, "L3_token0_rel": 0.0}
+[ 25.7m] {"a_vs_c": {"max_layer_rel": 0.011104139499366283, "final_norm_rel": 0.00853922963142395}, "test2_this_model": {"d_valid": true, "d_L3_token0_rel": 0.026965325698256493, "d_final_norm_rel": 0.18066830933094025, "c_final_le_2e-3": false, "c_logits_le_2e-3": false, "outcome_this_model": "FAIL", "a_vs_c_final_in_8e-3_pm25pct": true, "note": "report only per model; Deron adjudicates across BOTH models (post P073): CONFIRMED iff d valid and c <=2e-3 on both"}}
+[ 25.7m] done base
+2026-11-06T04:55:49-06:00 restore rc=0
+2026-11-06T04:55:49-06:00 window closed (diag done)

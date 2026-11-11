@@ -1,0 +1,36 @@
+[   0.0m] stage1: 0 done, 16 to go; deadline none
+[prov] PASS Swift-1.5-Qwen3.8-27b: manifest 025249e8 + file-set identical (36 files)
+[   0.0m] cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  45%|████▍     | 379/851 [00:00<00:00, 3780.06it/s]Loading weights:  89%|████████▉ | 758/851 [00:00<00:00, 3447.59it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 3527.77it/s]
+[   0.0m] [load] from_pretrained bf16 done in 1s
+[   5.4m] [load] fp32 remap: 292 tensors; on device in 323s
+[   5.4m] [load] mem: free 8.6/121.7 GiB
+[  90.9m] doc 1/16 novel: n_valid=239 tokens=256 5129s | done 1
+[ 174.0m] doc 2/16 poetry: n_valid=239 tokens=256 4985s | done 2
+[ 256.5m] doc 3/16 drama: n_valid=239 tokens=256 4948s | done 3
+[ 339.1m] doc 4/16 scripture: n_valid=239 tokens=256 4957s | done 4
+[ 421.3m] doc 5/16 philosophy: n_valid=239 tokens=256 4936s | done 5
+[ 503.9m] doc 6/16 cookbook: n_valid=239 tokens=256 4950s | done 6
+[ 586.5m] doc 7/16 legal: n_valid=239 tokens=256 4958s | done 7
+[ 669.1m] doc 8/16 political-essay: n_valid=239 tokens=256 4954s | done 8
+[ 751.7m] doc 9/16 science-19c: n_valid=239 tokens=256 4961s | done 9
+[ 834.4m] doc 10/16 fairy-tale: n_valid=239 tokens=256 4957s | done 10
+[ 917.4m] doc 11/16 encyclopedia-geology: n_valid=239 tokens=256 4980s | done 11
+[ 999.5m] doc 12/16 encyclopedia-biography: n_valid=239 tokens=256 4927s | done 12
+[1082.1m] doc 13/16 encyclopedia-history: n_valid=239 tokens=256 4958s | done 13
+===== RESUME 2026-11-05T17:41:55-06:00 (v5r) =====
+[   0.0m] stage1: 13 done, 3 to go; deadline none
+[prov] PASS Swift-1.5-Qwen3.8-27b: manifest 025249e8 + file-set identical (36 files)
+[   0.0m] cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  41%|████      | 349/851 [00:00<00:00, 3442.26it/s]Loading weights:  83%|████████▎ | 703/851 [00:00<00:00, 3491.59it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 3916.26it/s]
+[   0.0m] [load] from_pretrained bf16 done in 1s
+[   5.6m] [load] fp32 remap: 292 tensors; on device in 334s
+[   5.6m] [load] mem: free 6.4/121.7 GiB
+[  89.8m] doc 14/16 encyclopedia-mathematics: n_valid=239 tokens=256 5053s | done 14
+[ 172.4m] doc 15/16 source-code: n_valid=239 tokens=256 4956s | done 15
+[ 255.4m] doc 16/16 technical-manual: n_valid=239 tokens=256 4977s | done 16
+[ 255.4m] STAGE1 window end: 16 of 16 docs done

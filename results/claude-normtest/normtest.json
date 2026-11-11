@@ -1,0 +1,15 @@
+{
+  "ts": "2026-11-03T19:09:38",
+  "patch": "ref final norm x*(1+w)",
+  "verify_with_patch": {
+    "rel_l2": 0.0,
+    "max_abs": 0.0,
+    "bar": "rel_l2 <= 0.002",
+    "pass": true,
+    "note": "whole-model in-memory (0-41 bf16 + 42-63 fp32) h_final vs layer-by-layer full reference (all bf16 from disk)"
+  },
+  "pre_norm_stack": {
+    "rel_l2": 0.0,
+    "max_abs": 0.0
+  }
+}

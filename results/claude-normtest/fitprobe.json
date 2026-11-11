@@ -1,0 +1,22 @@
+{
+  "ts": "20:36:56",
+  "seq": 27,
+  "base_gib": 68.05753660202026,
+  "n_prompts": 8,
+  "trials": [
+    {
+      "dim_batch": 16,
+      "grad_root_layer": 42,
+      "fwd_s": 2.3,
+      "peak_fwd_gib": 80.51401138305664,
+      "ok": true,
+      "back_s": [
+        1.53,
+        1.48
+      ],
+      "peak_gib": 80.51401138305664,
+      "n_back_per_prompt": 320,
+      "est_total_min": 63.3
+    }
+  ]
+}

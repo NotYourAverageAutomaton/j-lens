@@ -1,0 +1,15 @@
+[  0.0m] cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  33%|███▎      | 284/851 [00:00<00:00, 2829.24it/s]Loading weights:  78%|███████▊  | 668/851 [00:00<00:00, 3315.59it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 3431.40it/s]
+[  0.0m] [load] from_pretrained bf16 done in 1s
+[  5.3m] [load] fp32 remap: 292 tensors; on device in 318s
+[  5.3m] [load] mem: free 12.8/121.7 GiB
+$JLENS_HOME/claude-normtest/fd_gate_v5.py:65: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  return store[L_src].grad.detach().float(), g1, store[L_src].detach().float(), float((U.to(dev) * h_end.float()).sum())
+Traceback (most recent call last):
+  File "$JLENS_HOME/claude-normtest/fd_gate_v5.py", line 141, in <module>
+    recc[(s, e_)].append({"V": V.cpu(), "h": h.cpu(), "ad": float((g * V).sum()), "ad_Sm1": float((g1 * V).sum()) if g1 is not None else None})
+    ~~~~^^^^^^^^^
+KeyError: (36, 40)

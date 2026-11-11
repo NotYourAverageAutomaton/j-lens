@@ -1,0 +1,49 @@
+{
+ "script_md5": "f5e9f22d1381543b5775c0dbdabd01da",
+ "dry_run": false,
+ "stage1_dir": "$JLENS_HOME/claude-normtest/stage1",
+ "verdict": "NO-SCORE: memory guard: MemAvailable 34.5 GiB < dry-run peak 18.0 + 20.0 GiB (live engine protected)",
+ "stops": [
+  "memory guard: MemAvailable 34.5 GiB < dry-run peak 18.0 + 20.0 GiB (live engine protected)"
+ ],
+ "pins": {
+  "held_h.pt": "3ca0f99cd0d8f4fc2ab775b7a50ad04f",
+  "eval.py": "cabcfb792432628ec53b541b0458756f",
+  "stage1_fit.py": "fabece828f9fb90b0738d412c058e544",
+  "pilot_hutch.py": "5fa18d9bfa5fe9568e658e57dc100e66",
+  "$JLENS_HOME/whole_model_fit_record.log": "d0cf6a412d557ab0e4aea4e76ccd7987"
+ },
+ "files": {
+  "record/J_l_16.pt": "7e2a1bb791e93cad1305a1ca6095289d",
+  "record/J_l_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "record/J_l_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "record/J_l_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "record/J_l_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "record/J_l_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "record/J_l_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "record/J_l_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "record/J_l_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "record/J_l_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "record/J_l_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "record/J_l_60.pt": "4091bcdb8097cc61efa3c38071a7dbc9",
+  "record/J_l_62.pt": "827591a4af9cc95d9747da81a933655c"
+ },
+ "env": {
+  "torch": "2.11.0+cu130",
+  "python": "3.12.3",
+  "threads": 12,
+  "host": "gpu-host",
+  "transformers": "5.10.2",
+  "driver_note": "CPU-only run; GPU driver not used (post P087 baseline 580.173.02)"
+ },
+ "disjoint": {
+  "stage1_docs": 16,
+  "held_out": 6,
+  "overlapping_docs": []
+ },
+ "memory": {
+  "mem_available_before_Jp_gib": 34.5,
+  "required_gib": 38.0,
+  "rss_peak_gib_before_Jp": 10.91
+ }
+}

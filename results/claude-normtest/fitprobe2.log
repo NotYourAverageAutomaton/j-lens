@@ -1,0 +1,12 @@
+cuda memory fraction 0.75 set (Claude P018: measured peak 80.5 GiB at root=42; 0.75 gives margin)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  39%|███▉      | 333/851 [00:00<00:00, 3329.11it/s]Loading weights:  90%|█████████ | 769/851 [00:00<00:00, 3908.65it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 3843.24it/s]
+[load] from_pretrained bf16 done in 1s
+[load] fp32 remap: 292 tensors; on device in 322s
+[load] mem: free 6.6/121.7 GiB
+SMOKE no-grad forward ok 1.8s logits (1, 27, 248320) torch.float32 finite=True
+TRIAL {"dim_batch": 4, "grad_root_layer": 42, "fwd_s": 3.3, "peak_fwd_gib": 80.81706619262695, "ok": true, "back_s": [1.68, 1.49], "peak_gib": 80.81706619262695, "n_back_per_prompt": 1280, "est_total_min": 254.9}
+TRIAL {"dim_batch": 4, "grad_root_layer": 16, "ok": false, "err": "OOM CUDA out of memory. Tried to allocate 40.00 MiB. GPU 0 has a total capacity of 121.69 GiB of which 1.24 GiB is free. Including non-PyTorch memory, this process "}
+TRIAL {"dim_batch": 2, "grad_root_layer": 16, "fwd_s": 1.7, "peak_fwd_gib": 81.238844871521, "ok": true, "back_s": [1.43, 1.37], "peak_gib": 81.24267721176147, "n_back_per_prompt": 2560, "est_total_min": 467.8}
+FITPROBE {"ts": "22:08:11", "seq": 148, "base_gib": 68.05753755569458, "n_prompts": 8, "trials": [{"dim_batch": 4, "grad_root_layer": 42, "fwd_s": 3.3, "peak_fwd_gib": 80.81706619262695, "ok": true, "back_s": [1.68, 1.49], "peak_gib": 80.81706619262695, "n_back_per_prompt": 1280, "est_total_min": 254.9}, {"dim_batch": 4, "grad_root_layer": 16, "ok": false, "err": "OOM CUDA out of memory. Tried to allocate 40.00 MiB. GPU 0 has a total capacity of 121.69 GiB of which 1.24 GiB is free. Including non-PyTorch memory, this process "}, {"dim_batch": 2, "grad_root_layer": 16, "fwd_s": 1.7, "peak_fwd_gib": 81.238844871521, "ok": true, "back_s": [1.43, 1.37], "peak_gib": 81.24267721176147, "n_back_per_prompt": 2560, "est_total_min": 467.8}]}

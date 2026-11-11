@@ -1,0 +1,32 @@
+[    5.6s] pins OK
+[   11.6s] disjoint OK
+[   13.6s] SELFTEST: synthetic D22 / D6
+[  101.2s] positive control (a) OK
+[  165.7s] n22 L20 tables done
+[  211.3s] n22 L24 tables done
+[  257.1s] n22 L28 tables done
+[  302.6s] n22 L32 tables done
+[  348.0s] n22 L36 tables done
+[  393.2s] n22 L40 tables done
+[  438.7s] n22 L44 tables done
+[  442.0s] positive controls (b)-(d) OK [(b) skipped: selftest]
+[  487.6s] null01 L20 tables done
+[  546.5s] null01 L24 tables done
+[  626.2s] null01 L28 tables done
+[  715.0s] null01 L32 tables done
+[  774.6s] null01 L36 tables done
+[  820.2s] null01 L40 tables done
+[  866.0s] null01 L44 tables done
+[  911.7s] null02 L20 tables done
+[  957.4s] null02 L24 tables done
+[ 1002.9s] null02 L28 tables done
+[ 1048.9s] null02 L32 tables done
+[ 1094.9s] null02 L36 tables done
+[ 1159.9s] null02 L40 tables done
+[ 1241.6s] null02 L44 tables done
+[ 1310.3s] null03 L20 tables done
+[ 1377.1s] null03 L24 tables done
+[ 1457.3s] null03 L28 tables done
+[ 1539.1s] null03 L32 tables done
+[ 1633.5s] null03 L36 tables done
+[ 1721.9s] null03 L40 tables done

@@ -1,0 +1,1 @@
+[    0.0s] STOP: memory guard: MemAvailable 26.9 GiB at start < dry-run peak 18.0 + 20.0 GiB (live engine protected)

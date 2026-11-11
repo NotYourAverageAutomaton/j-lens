@@ -1,0 +1,22 @@
+device=cuda:0
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] You tried to access the `AttentionInterface` with a `config._attn_implementation` set to `None`. This is expected if you use an Attention Module as a standalone Module. If this is not the case, something went wrong with the dispatch of `config._attn_implementation`
+stream ran 42 layers, 559 keys in 349.6s
+h_l cached: $JLENS_HOME/hl_cache_Swift-1.5-Qwen3.8-27b.pt shape=(5120,) dtype=torch.bfloat16
+resident loaded 292 keys in 175.0s (skipped 348 visual, unknown 0)
+Traceback (most recent call last):
+  File "$JLENS_HOME/shape_c_loader.py", line 522, in <module>
+    main()
+  File "$JLENS_HOME/shape_c_loader.py", line 514, in main
+    phase_gates(args.model_dir, device, watch)
+  File "$JLENS_HOME/shape_c_loader.py", line 446, in phase_gates
+    g1 = gate1(resident, h_l)
+         ^^^^^^^^^^^^^^^^^^^^
+  File "$JLENS_HOME/shape_c_loader.py", line 288, in gate1
+    f42, c42 = finite_diff_direction(resident, h, w42, eps, seed=0)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$JLENS_HOME/shape_c_loader.py", line 260, in finite_diff_direction
+    e = torch.randn(param.shape, generator=g, device=param.device, dtype=param.dtype)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected a 'cuda' device type for generator but found 'cpu'

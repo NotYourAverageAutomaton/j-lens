@@ -1,0 +1,14 @@
+[    4.2s] pins OK
+[    8.2s] disjoint OK
+[   50.1s] resume (b)+(c) OK; J22 pooled
+[   61.9s] translators loaded; md5s match tl_meta.json
+[  126.7s] L20 scored
+[  158.3s] L24 scored
+[  188.9s] L28 scored
+[  220.0s] L32 scored
+[  253.5s] L36 scored
+[  286.5s] L40 scored
+[  316.3s] L44 scored
+[  455.2s] dry runs OK
+[  455.2s] TL CHECK: FAIL vs logit 0.1300642490386963 [0.11655481159687042, 0.14386829733848572] | vs shuf -0.011185957118868828 [-0.02928880974650383, 0.007220681291073561]
+[  775.0s] report-only done; verdict FAIL

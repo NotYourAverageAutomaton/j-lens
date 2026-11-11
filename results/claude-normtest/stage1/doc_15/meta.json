@@ -1,0 +1,24 @@
+{
+ "doc": 15,
+ "source": "CPython stdlib textwrap.py",
+ "genre": "source-code",
+ "url": "https://github.com/python/cpython/blob/main/Lib/textwrap.py",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4956,
+ "J_p_md5": {
+  "20": "db139ebf09e8891ae4502793c739817e",
+  "24": "32fcc8e358ecd78504e042ff79f4156d",
+  "28": "5d6687fcf312957353e10f716de0ef37",
+  "32": "a34d300f4d017913b1ca92458912427e",
+  "36": "b8ff69b1a20c248edf4f4c95c8854499",
+  "40": "01e38b52f0d8a5c39bbc56ed21ccefb6",
+  "44": "8b7d708c72b4cc73a649ab7be29022c4",
+  "48": "80edc4e2fdd3803f5645009749abc73a",
+  "52": "afc50a606dd9f22823135c4475a3e04e",
+  "56": "9748c6647d4a769ee331a1ecaf689522"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T20:34:26"
+}

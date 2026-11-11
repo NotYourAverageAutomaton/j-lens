@@ -1,0 +1,24 @@
+{
+ "doc": 9,
+ "source": "On the Origin of Species (Darwin)",
+ "genre": "science-19c",
+ "url": "https://www.gutenberg.org/ebooks/1228",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4961,
+ "J_p_md5": {
+  "20": "93bfc22a9fd0b5ab9c5c88c88644cac9",
+  "24": "0ea5ee8f2ab6246cd081446968040517",
+  "28": "05e81ee4391f08a85cfdfb22107e9f2b",
+  "32": "eb401f245b78ce421d9e022e49747b05",
+  "36": "4a16d8d132ad86344441af4dadd51b93",
+  "40": "8107753956cf2dcaa9686cf3e3ffdc88",
+  "44": "e1e8abbff2209c5700eed3d3a5b05053",
+  "48": "fc927e7eceff6224846571ab6fe2bd2d",
+  "52": "a901612ce1bfcd54561302f852a27b31",
+  "56": "00568ef7d1c9c77445046918823c41c4"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T10:44:28"
+}

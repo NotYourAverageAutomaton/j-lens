@@ -1,0 +1,16 @@
+{
+  "model_dir": "$MODELS_DIR/bf16/Swift-1.5-Qwen3.8-27b",
+  "mode": "whole-model resident (0-41 bf16 + 42-63 fp32)",
+  "full_keys": 851,
+  "skipped": 348,
+  "unknown": 0,
+  "verify": {
+    "rel_l2": 1.07594895362854,
+    "max_abs": 34.8903923034668,
+    "bar": "rel_l2 <= 0.002",
+    "pass": false,
+    "note": "whole-model in-memory (0-41 bf16 + 42-63 fp32) h_final vs layer-by-layer full reference (all bf16 from disk)"
+  },
+  "mem_gib_post_load": 68.05753660202026,
+  "ts": "2026-11-03T17:47:58"
+}

@@ -1,0 +1,13 @@
+[   0.0m] cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  37%|███▋      | 319/851 [00:00<00:00, 3177.57it/s]Loading weights:  76%|███████▋  | 650/851 [00:00<00:00, 3239.43it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 3288.52it/s]
+[   0.0m] [load] from_pretrained bf16 done in 1s
+[   5.1m] [load] fp32 remap: 292 tensors; on device in 305s
+[   5.1m] [load] mem: free 12.7/121.7 GiB
+[   5.2m] reference ready: 50 held-out positions, layers [24, 52]
+[   5.4m] {"k_per_prompt": 4, "K": 8, "pred_cos": 0.0395, "s_per_probe": 0.763, "peak_gib": 81.4, "layers": {"24": {"matrix_cos": 0.0282, "top1": 0.0, "top10": 0.0}, "52": {"matrix_cos": 0.0373, "top1": 0.0, "top10": 0.0}}}
+[   5.5m] {"k_per_prompt": 8, "K": 16, "pred_cos": 0.0558, "s_per_probe": 0.706, "peak_gib": 81.4, "layers": {"24": {"matrix_cos": 0.0384, "top1": 0.0, "top10": 0.0}, "52": {"matrix_cos": 0.0528, "top1": 0.0, "top10": 0.0}}}
+[   5.5m] VERDICT: floor NOT cleared at the budget K=16 -> K* > budget -> escalate (Hutch++/low-rank) or STOP by 1a70281
+[   5.6m] mem {"seq": 256, "dim_batch": 2, "tokens": 256, "ok": false, "error": "OOM", "peak_gib": 85.1}
+[   5.6m] DONE $JLENS_HOME/claude-normtest/pilot_hutch_smoke.json

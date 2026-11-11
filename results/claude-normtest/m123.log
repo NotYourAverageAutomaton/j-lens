@@ -1,0 +1,4 @@
+[   31.8s] L24: M1 PR corrected 3175 (raw 2362, noise 57) hit=True | M3 0.9635 hit=False (over D16 0.393)
+[   66.3s] L40: M1 PR corrected 1168 (raw 919, noise 111) hit=False | M3 0.6444 hit=False (over D16 0.513)
+[  107.6s] L52: M1 PR corrected 420 (raw 419, noise 392) hit=False | M3 0.3136 hit=False (over D16 0.527)
+[  107.6s] done

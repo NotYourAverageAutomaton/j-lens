@@ -1,0 +1,11 @@
+resident loaded 292 keys in 116.5s (full stack -> fp32; mem 35.9 GiB)
+loaded=292 unknown=0
+h_l (1, 1, 5120) torch.float32 (mem 35.9 GiB)
+eps=0.000123367 w42.dtype=torch.float32 w43.dtype=torch.float32
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] You tried to access the `AttentionInterface` with a `config._attn_implementation` set to `None`. This is expected if you use an Attention Module as a standalone Module. If this is not the case, something went wrong with the dispatch of `config._attn_implementation`
+L42 FD done (mem 35.9 GiB)
+L43 FD done (mem 35.9 GiB)
+SETTLE_FP32_FULL: {"dtype": "full-stack fp32 (all resident layers 42..63 + final_norm + lm_head; h_l fp32)", "cos_fwd_central_L42_GDN": 0.9999908208847046, "cos_L42_vs_L43_control": 0.2409752905368805, "eps": 0.0001233668439090252, "bar": "cos_fwd_central_L42 >= 0.99 AND control < 0.99", "pass": true, "bf16_baseline_cos": 0.3944758474826813, "mixed_fp32_falsifier_cos": 0.5052523016929626, "note": "settling run (i) per Deron P003: full-stack fp32 removes the downstream bf16 re-quantization confound (layers 44..63). Arm (ii) FD-vs-JVP is the immediate follow-up."}
+RESULTS: $JLENS_HOME/gate_results_settle_fp32_full.json

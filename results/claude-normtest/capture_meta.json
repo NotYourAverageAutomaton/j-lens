@@ -1,0 +1,16 @@
+{
+ "held_positions": 306,
+ "nonfit_positions": 5131,
+ "nonfit_docs": 50,
+ "layers": [
+  16,
+  62
+ ],
+ "final_layer": 63,
+ "md5": {
+  "held_h.pt": "3ca0f99cd0d8f4fc2ab775b7a50ad04f",
+  "nonfit_hfinal.pt": "f1008c9c09a3b4d34ad4814fc910072b"
+ },
+ "minutes": 5.3,
+ "ts": "2026-11-04T16:26:16"
+}

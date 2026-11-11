@@ -1,0 +1,24 @@
+{
+ "doc": 10,
+ "source": "Grimms' Fairy Tales",
+ "genre": "fairy-tale",
+ "url": "https://www.gutenberg.org/ebooks/2591",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4957,
+ "J_p_md5": {
+  "20": "ca5a28276247dde70e9d0e08453955a6",
+  "24": "7c81e3f954c644c8c3f0875bb907ad71",
+  "28": "5a3b22e47a460bc1a245bcae9d7ceddc",
+  "32": "c6fd8c9ffdb1da9c1ffa868306bd8e24",
+  "36": "2222661baa414d5bec1b2ab0a1777da6",
+  "40": "270b34eb5236ba6f9c345ba83c919033",
+  "44": "d5a3b1071eb3e11cf32200202c8d5b0d",
+  "48": "aa84b4a02de0be90a9087f6705566d62",
+  "52": "2a9f51397fbca8ebe758cd64c99c4049",
+  "56": "8e3907c3379f58bf455fd34110faf819"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T12:07:05"
+}

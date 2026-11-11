@@ -1,0 +1,74 @@
+{
+ "only_in_swift": [],
+ "only_in_base": [],
+ "n_common": 851,
+ "by_layer": {
+  "0": {
+   "dnorm2": 0.5815185163611194,
+   "rel_mean": 0.0010968984076957934
+  }
+ },
+ "by_module": {
+  "norm": {
+   "share_of_delta": 5.715407323206295e-08,
+   "rel_mean": 4.755420774442867e-05,
+   "n": 1
+  },
+  "gdn.other": {
+   "share_of_delta": 2.8749844615190036e-06,
+   "rel_mean": 4.746924048370296e-05,
+   "n": 4
+  },
+  "gdn.in_proj": {
+   "share_of_delta": 0.004168296370931988,
+   "rel_mean": 0.00039773571131219873,
+   "n": 4
+  },
+  "gdn.out_proj": {
+   "share_of_delta": 0.0017077852170471594,
+   "rel_mean": 0.00035905651558141834,
+   "n": 1
+  },
+  "mlp.down": {
+   "share_of_delta": 0.2677756142686686,
+   "rel_mean": 0.004034355013613022,
+   "n": 1
+  },
+  "mlp.gate": {
+   "share_of_delta": 0.7263453720048175,
+   "rel_mean": 0.006940995348227046,
+   "n": 1
+  }
+ },
+ "H_concentrate": {
+  "top10_layers": [
+   0
+  ],
+  "top10_share": 1.0
+ },
+ "layer_rel_mean": {
+  "0": 0.0010968984076957934
+ },
+ "lowrank_sample": {
+  "model.language_model.layers.0.linear_attn.in_proj_z.weight": {
+   "module": "gdn.in_proj",
+   "layer": 0,
+   "top1pct_share": 0.09102850407361984,
+   "top16_share": 0.0463101826608181
+  },
+  "model.language_model.layers.0.linear_attn.out_proj.weight": {
+   "module": "gdn.out_proj",
+   "layer": 0,
+   "top1pct_share": 0.11492915451526642,
+   "top16_share": 0.06987842172384262
+  },
+  "model.language_model.layers.0.mlp.gate_proj.weight": {
+   "module": "mlp.gate",
+   "layer": 0,
+   "top1pct_share": 0.9381241202354431,
+   "top16_share": 0.6625933051109314
+  }
+ },
+ "total_delta_norm2": 0.5815185163611194,
+ "minutes": 0.6
+}

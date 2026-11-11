@@ -1,0 +1,4 @@
+[    4.9s] pins OK
+[    9.5s] disjoint OK
+[    9.7s] N OK {'record_parts_from_log': [131, 107, 96, 96, 93, 119], 'N_rec': 642, 'sum_n_p': 4040, 'total': 4682, 'new_share': 0.8629, 'note': 'post P090 swap 1: sum n_p is REPORTED, not asserted (3824 = 16 x 239 assumes every doc fills 256 tokens; a shorter doc is legal). The acc tot == sum n_p stop stays.'}
+[   68.1s] STOP: acc_32 total 4273 != sum n_valid 4040 (a doc double-counted or missing)

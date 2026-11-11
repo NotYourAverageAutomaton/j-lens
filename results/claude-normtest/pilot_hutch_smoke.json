@@ -1,0 +1,73 @@
+{
+ "ts": "2026-11-04T13:06:41",
+ "design": "Deron 0f2b29a/1a70281; Claude pilot",
+ "smoke": true,
+ "layers": [
+  24,
+  52
+ ],
+ "root": 16,
+ "dim_batch": 2,
+ "max_seq": 150,
+ "n_prompts": 2,
+ "floor": {
+  "top1": 0.9,
+  "top10": 0.95
+ },
+ "budget_K": 16000,
+ "rounds": [
+  {
+   "k_per_prompt": 4,
+   "K": 8,
+   "pred_cos": 0.0395,
+   "s_per_probe": 0.763,
+   "peak_gib": 81.4,
+   "layers": {
+    "24": {
+     "matrix_cos": 0.0282,
+     "top1": 0.0,
+     "top10": 0.0
+    },
+    "52": {
+     "matrix_cos": 0.0373,
+     "top1": 0.0,
+     "top10": 0.0
+    }
+   }
+  },
+  {
+   "k_per_prompt": 8,
+   "K": 16,
+   "pred_cos": 0.0558,
+   "s_per_probe": 0.706,
+   "peak_gib": 81.4,
+   "layers": {
+    "24": {
+     "matrix_cos": 0.0384,
+     "top1": 0.0,
+     "top10": 0.0
+    },
+    "52": {
+     "matrix_cos": 0.0528,
+     "top1": 0.0,
+     "top10": 0.0
+    }
+   }
+  }
+ ],
+ "verdict": "floor NOT cleared at the budget K=16 -> K* > budget -> escalate (Hutch++/low-rank) or STOP by 1a70281",
+ "load_s": 307,
+ "n_heldout_positions": 50,
+ "mem_probe": [
+  {
+   "seq": 256,
+   "dim_batch": 2,
+   "tokens": 256,
+   "ok": false,
+   "error": "OOM",
+   "peak_gib": 85.1
+  }
+ ],
+ "finished": "2026-11-04T13:12:18",
+ "total_min": 5.6
+}

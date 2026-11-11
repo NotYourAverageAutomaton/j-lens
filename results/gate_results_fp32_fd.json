@@ -1,0 +1,10 @@
+{
+  "dtype": "mixed (layers 42,43 fp32; rest bf16; h_l bf16)",
+  "cos_fwd_central_L42_GDN": 0.5052523016929626,
+  "cos_L42_vs_L43_control": -0.029598847031593323,
+  "eps": 0.0001233668439090252,
+  "bar": "cos_fwd_central_L42 >= 0.99 AND control < 0.99",
+  "pass": false,
+  "bf16_baseline_cos": 0.3944758474826813,
+  "note": "isolates dtype of perturbed layers only; downstream bf16 re-quantizes. pos_ids bug cancels in cosine (gate2's problem)."
+}

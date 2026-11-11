@@ -1,0 +1,7 @@
+[    5.7s] pins OK
+[   13.3s] disjoint OK
+[   13.7s] N OK {'record_parts_from_log': [131, 107, 96, 96, 93, 119], 'N_rec': 642, 'sum_n_p': 3824, 'total': 4466, 'new_share': 0.8562, 'note': 'post P090 swap 1: sum n_p is REPORTED, not asserted (3824 = 16 x 239 assumes every doc fills 256 tokens; a shorter doc is legal). The acc tot == sum n_p stop stays.'}
+[  141.6s] resume (b)+(c) OK
+[  294.6s] positive control OK (J_6 reproduces eval_record.json)
+[  401.0s] GATE: CONTINUE mean D 0.02179 CI [0.01426, 0.03109]
+[  562.6s] report-only done; verdict CONTINUE

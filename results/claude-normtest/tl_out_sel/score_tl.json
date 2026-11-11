@@ -1,0 +1,721 @@
+{
+ "script_md5": "368b8b09faed3d09fabb92722a633832",
+ "selftest": false,
+ "prereg": "PREREG-shrink-check.md 0466a966 (Deron P101) + PREREG-amend-1.md e088c347 (Deron P103)",
+ "verdict": "FAIL",
+ "stops": [],
+ "pins": {
+  "held_h.pt": "3ca0f99cd0d8f4fc2ab775b7a50ad04f",
+  "eval.py": "cabcfb792432628ec53b541b0458756f",
+  "stage1_fit.py": "fabece828f9fb90b0738d412c058e544",
+  "pilot_hutch.py": "5fa18d9bfa5fe9568e658e57dc100e66",
+  "$JLENS_HOME/whole_model_fit_record.log": "d0cf6a412d557ab0e4aea4e76ccd7987",
+  "score_stage1.json": "6744987651026820f89deffa9c4ee136"
+ },
+ "files": {
+  "record/J_l_16.pt": "7e2a1bb791e93cad1305a1ca6095289d",
+  "record/J_l_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "record/J_l_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "record/J_l_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "record/J_l_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "record/J_l_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "record/J_l_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "record/J_l_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "record/J_l_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "record/J_l_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "record/J_l_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "record/J_l_60.pt": "4091bcdb8097cc61efa3c38071a7dbc9",
+  "record/J_l_62.pt": "827591a4af9cc95d9747da81a933655c",
+  "stage1/doc_01/J_p_20.pt": "f2f3b44db01c90f0b4e80c41a34c6c1a",
+  "stage1/doc_02/J_p_20.pt": "dcc2860d1055e9290e9d96c5ed713179",
+  "stage1/doc_03/J_p_20.pt": "26dd69e9b07bd264a23f49178d07e312",
+  "stage1/doc_04/J_p_20.pt": "916be5a270ac17a44abcfd4b71a145b5",
+  "stage1/doc_05/J_p_20.pt": "a637908b841643e6708cbbe13a4bb240",
+  "stage1/doc_06/J_p_20.pt": "0ea917a4c045cae0333703edee7cc6fc",
+  "stage1/doc_07/J_p_20.pt": "2167085f70a885a267087ed2c49b20a1",
+  "stage1/doc_08/J_p_20.pt": "027e750c4e6e09ba94a1ac82ca60bfef",
+  "stage1/doc_09/J_p_20.pt": "93bfc22a9fd0b5ab9c5c88c88644cac9",
+  "stage1/doc_10/J_p_20.pt": "ca5a28276247dde70e9d0e08453955a6",
+  "stage1/doc_11/J_p_20.pt": "6125d341740eb7fcb437aa0a2160b543",
+  "stage1/doc_12/J_p_20.pt": "36b78c64c24a5bc7ad4d592f40e96565",
+  "stage1/doc_13/J_p_20.pt": "da0a964782a1b9f08cc757da4fa94be8",
+  "stage1/doc_14/J_p_20.pt": "38a0783e2c3c6ed8c1d5aab34858f38f",
+  "stage1/doc_15/J_p_20.pt": "db139ebf09e8891ae4502793c739817e",
+  "stage1/doc_16/J_p_20.pt": "7fab5e8b1b29a755bbc3baf7418e40a4",
+  "stage1/acc_20.pt": "0ce77c9e8689eb81ee8c64a920e19473",
+  "stage1/doc_01/J_p_24.pt": "8368482b5c9f1e54c19a4432b8af9637",
+  "stage1/doc_02/J_p_24.pt": "97833c75b32bc99b3986fc9870969707",
+  "stage1/doc_03/J_p_24.pt": "d6467e6c9b7c2440b8d6f99edc590253",
+  "stage1/doc_04/J_p_24.pt": "d285c501e9f08479a84e567ea9cf0519",
+  "stage1/doc_05/J_p_24.pt": "71ee2a9c2b56fdd712312d586f4b0adb",
+  "stage1/doc_06/J_p_24.pt": "71336cc98cd57c715cd6b2ccc2f6010c",
+  "stage1/doc_07/J_p_24.pt": "e3e562544a739212595b796a5b47c86f",
+  "stage1/doc_08/J_p_24.pt": "4ae9412fe5fbd3aafb672579e6ca5907",
+  "stage1/doc_09/J_p_24.pt": "0ea5ee8f2ab6246cd081446968040517",
+  "stage1/doc_10/J_p_24.pt": "7c81e3f954c644c8c3f0875bb907ad71",
+  "stage1/doc_11/J_p_24.pt": "2e5a8c44b8b72b3fb60c3b2f886067f2",
+  "stage1/doc_12/J_p_24.pt": "d0ee9c7f435976ebe6256f3a13d615c1",
+  "stage1/doc_13/J_p_24.pt": "2f6bb7367e7b604fc561ee1d1963ac21",
+  "stage1/doc_14/J_p_24.pt": "ef54aed612d2f72899a1aaf02c0f6d2a",
+  "stage1/doc_15/J_p_24.pt": "32fcc8e358ecd78504e042ff79f4156d",
+  "stage1/doc_16/J_p_24.pt": "1bc99e0f8af2052397c4ec67262f375c",
+  "stage1/acc_24.pt": "55a16c05d3ca191de421bd4cb0f8005e",
+  "stage1/doc_01/J_p_28.pt": "1fe8135452b49a332514141905d8fe5c",
+  "stage1/doc_02/J_p_28.pt": "25e60387b8e9e9c48b4e1e6d1c9fb32b",
+  "stage1/doc_03/J_p_28.pt": "0c321a6e02c19ca59467ad469acf2e1a",
+  "stage1/doc_04/J_p_28.pt": "882e96f740cf62cb7a1e4088a28eb538",
+  "stage1/doc_05/J_p_28.pt": "2af7b1828b6817db3ff3a723750a1cb4",
+  "stage1/doc_06/J_p_28.pt": "e7a1c7b38edf3705f8ecf3105f97f0d7",
+  "stage1/doc_07/J_p_28.pt": "ca1c09b3882c8a1eb86983be1a75ca57",
+  "stage1/doc_08/J_p_28.pt": "3bcee384395fc4edd2ed64c2d8dd946e",
+  "stage1/doc_09/J_p_28.pt": "05e81ee4391f08a85cfdfb22107e9f2b",
+  "stage1/doc_10/J_p_28.pt": "5a3b22e47a460bc1a245bcae9d7ceddc",
+  "stage1/doc_11/J_p_28.pt": "7969dd89b59ca6b07a49ab07f22f8e57",
+  "stage1/doc_12/J_p_28.pt": "4918eadaec25ddc08dd01699e37d72a7",
+  "stage1/doc_13/J_p_28.pt": "d231cb4af070cab9918a0dd27dc90ee9",
+  "stage1/doc_14/J_p_28.pt": "f813dcb1b2982ccd4f5b62b3161c32dc",
+  "stage1/doc_15/J_p_28.pt": "5d6687fcf312957353e10f716de0ef37",
+  "stage1/doc_16/J_p_28.pt": "6c6093f7511f6615b790d0a02a5fe349",
+  "stage1/acc_28.pt": "b676390f936cad2bdf433b95ba2d2073",
+  "stage1/doc_01/J_p_32.pt": "9dab1b40792b025895c1836629d470e2",
+  "stage1/doc_02/J_p_32.pt": "6bbc22b8b48176016b14e2dc8c781bbb",
+  "stage1/doc_03/J_p_32.pt": "decf759376eef9640a4f58fc58ee8bd8",
+  "stage1/doc_04/J_p_32.pt": "2af8a80511080a64efb037bb16430027",
+  "stage1/doc_05/J_p_32.pt": "a8468209179b9524816960f30df53462",
+  "stage1/doc_06/J_p_32.pt": "5bad440bb88524b5a4da059b1b8f2343",
+  "stage1/doc_07/J_p_32.pt": "c3e5a6e4f36c533c36ee6204a3b9ebd3",
+  "stage1/doc_08/J_p_32.pt": "abab42ad54772dd36376e7024fb93579",
+  "stage1/doc_09/J_p_32.pt": "eb401f245b78ce421d9e022e49747b05",
+  "stage1/doc_10/J_p_32.pt": "c6fd8c9ffdb1da9c1ffa868306bd8e24",
+  "stage1/doc_11/J_p_32.pt": "6dd078072a9bb02189e202fd56dc6f00",
+  "stage1/doc_12/J_p_32.pt": "0e23a6bf20586232851a100dd242fb1a",
+  "stage1/doc_13/J_p_32.pt": "9d8ad0dc7e3b7798d1ed690cd64b99d1",
+  "stage1/doc_14/J_p_32.pt": "07023f1ef12a8be9e9f1addac5c6ae82",
+  "stage1/doc_15/J_p_32.pt": "a34d300f4d017913b1ca92458912427e",
+  "stage1/doc_16/J_p_32.pt": "7de94822da409612b9bf805724fca620",
+  "stage1/acc_32.pt": "325d2db4f30f97c3f7bb766cf5773f24",
+  "stage1/doc_01/J_p_36.pt": "21852961b34b54d9e1dc51a7044c9ccd",
+  "stage1/doc_02/J_p_36.pt": "3a86f8515ebb19caa52b6d2f16ee600a",
+  "stage1/doc_03/J_p_36.pt": "aaecbc0f07606852244935026e3f18ce",
+  "stage1/doc_04/J_p_36.pt": "a8cf72ecf5415ab1d377c3d4d22cc49d",
+  "stage1/doc_05/J_p_36.pt": "aa07f3718e2facf8bd1ff8305b5c50f5",
+  "stage1/doc_06/J_p_36.pt": "20e4435a2791ccc30b75734edf75dfe2",
+  "stage1/doc_07/J_p_36.pt": "38c1ebb10dac64802cd9abae63b8084b",
+  "stage1/doc_08/J_p_36.pt": "ecae284609d51c55e5d20ef3310e54f9",
+  "stage1/doc_09/J_p_36.pt": "4a16d8d132ad86344441af4dadd51b93",
+  "stage1/doc_10/J_p_36.pt": "2222661baa414d5bec1b2ab0a1777da6",
+  "stage1/doc_11/J_p_36.pt": "8caf0f30e74d7edcee19a346f878a4de",
+  "stage1/doc_12/J_p_36.pt": "3996e8f49ea0e2d3821d7d047b739f9b",
+  "stage1/doc_13/J_p_36.pt": "37ac147d6f2f2328ad68338b0c8c0829",
+  "stage1/doc_14/J_p_36.pt": "1b78eb89416844c57951b602eb538307",
+  "stage1/doc_15/J_p_36.pt": "b8ff69b1a20c248edf4f4c95c8854499",
+  "stage1/doc_16/J_p_36.pt": "00f2fcec19d82506cf576dde0030cba1",
+  "stage1/acc_36.pt": "dad9aa2033460d121ee462c9293032fc",
+  "stage1/doc_01/J_p_40.pt": "7a8773f75966513565ff39616e08626b",
+  "stage1/doc_02/J_p_40.pt": "7e60eacc561099ca63726c91a1c5147b",
+  "stage1/doc_03/J_p_40.pt": "1c533d90ee263ca68fde8ccf0f67d46b",
+  "stage1/doc_04/J_p_40.pt": "9e3bc9d9926a7eb49b9f1cd76179d424",
+  "stage1/doc_05/J_p_40.pt": "64e8cabea1c2b965d8b5a33e8e587603",
+  "stage1/doc_06/J_p_40.pt": "99031c907559106f5afc15e0a7d13e8a",
+  "stage1/doc_07/J_p_40.pt": "1859aec09bb73437305efdf508603430",
+  "stage1/doc_08/J_p_40.pt": "9d972a8336d0511bd231e0ad87a75efa",
+  "stage1/doc_09/J_p_40.pt": "8107753956cf2dcaa9686cf3e3ffdc88",
+  "stage1/doc_10/J_p_40.pt": "270b34eb5236ba6f9c345ba83c919033",
+  "stage1/doc_11/J_p_40.pt": "8396146a7ddeef776006cb76639e8901",
+  "stage1/doc_12/J_p_40.pt": "e5479a8254667f27c7454bc9edc36110",
+  "stage1/doc_13/J_p_40.pt": "709d004a9d38f31b062270b15589f8ba",
+  "stage1/doc_14/J_p_40.pt": "f1117a8f753b62b1213fee32e3d92e81",
+  "stage1/doc_15/J_p_40.pt": "01e38b52f0d8a5c39bbc56ed21ccefb6",
+  "stage1/doc_16/J_p_40.pt": "84650bbdcf970064ec5e9203276527d0",
+  "stage1/acc_40.pt": "b3dac9d28908655ffc5a53847e720043",
+  "stage1/doc_01/J_p_44.pt": "f32eb88629ac44ef3a59329cb155804f",
+  "stage1/doc_02/J_p_44.pt": "876afec123d72add22f7db357bc3efb7",
+  "stage1/doc_03/J_p_44.pt": "b128adf026692ccea62f36934fa6613c",
+  "stage1/doc_04/J_p_44.pt": "90f722c17e0d4ca4e1501f62c9b90263",
+  "stage1/doc_05/J_p_44.pt": "1bd6aecad34f097ac3b22683ab2f58b0",
+  "stage1/doc_06/J_p_44.pt": "8f6286a3359da0208cde79f5f2740bce",
+  "stage1/doc_07/J_p_44.pt": "d2c660338e661351f11a1ba60a2b55ed",
+  "stage1/doc_08/J_p_44.pt": "013cda86f174dc0653b7e940ba98fac5",
+  "stage1/doc_09/J_p_44.pt": "e1e8abbff2209c5700eed3d3a5b05053",
+  "stage1/doc_10/J_p_44.pt": "d5a3b1071eb3e11cf32200202c8d5b0d",
+  "stage1/doc_11/J_p_44.pt": "07d0434dc0945cdf0854a9057f144f22",
+  "stage1/doc_12/J_p_44.pt": "74f665dc12f9d58cbf6b1cd81a2d3338",
+  "stage1/doc_13/J_p_44.pt": "1ad5150119dc8a043593902a35f52fe9",
+  "stage1/doc_14/J_p_44.pt": "4ff2e3ea26447b934d61cc2be17e6967",
+  "stage1/doc_15/J_p_44.pt": "8b7d708c72b4cc73a649ab7be29022c4",
+  "stage1/doc_16/J_p_44.pt": "324ee21682ed988e6202a2cf716fb949",
+  "stage1/acc_44.pt": "eb26dcf01beccceac3bc35b328cce7e3",
+  "tl/big_L20.pt": "9277e2d8ba482abe8dc8b4f27e2d30f4",
+  "tl/big_L24.pt": "bca45ddb6e476552fa11d54cf0a82592",
+  "tl/big_L28.pt": "411b8b8fb9aa1e3a7858837e007f5332",
+  "tl/big_L32.pt": "25c204ddff8a850841579fc7a96a6975",
+  "tl/big_L36.pt": "7dc512598c3e8757c74ee4e7d8168255",
+  "tl/big_L40.pt": "65bf72c7aa550b207743284b978ebd87",
+  "tl/big_L44.pt": "932d2720efd3ef663522a27417596c9b",
+  "tl/shuf_L20.pt": "cf88145c210c2910c9dff21ac50cf34c",
+  "tl/shuf_L24.pt": "61b0d44eafe8814e88e7da8d42a62e3d",
+  "tl/shuf_L28.pt": "b49357ce9bdfcce62f0f7639c3c43598",
+  "tl/shuf_L32.pt": "071a3020118584632809aafb01dd7f13",
+  "tl/shuf_L36.pt": "ae34d0a51ebc7d8238fe520183a773fa",
+  "tl/shuf_L40.pt": "fe84682f03256f1b89e654327c309da9",
+  "tl/shuf_L44.pt": "bcdef6ab786dfc3bcfcd0046014c4074",
+  "tl/22_L20.pt": "f2c0f65458fceaaba34907a6765db203",
+  "tl/22_L24.pt": "d8ffbd6a811cdbf722a87b85b7a50452",
+  "tl/22_L28.pt": "bb22eea30e317ded4a21e8eacad93dec",
+  "tl/22_L32.pt": "4818f34e176cb2e7dd0d3c1c28a3f867",
+  "tl/22_L36.pt": "43e1d1f97a2b155965e31c6d049e03d6",
+  "tl/22_L40.pt": "4b61228e149da2fee68f24af46f3153e",
+  "tl/22_L44.pt": "7d3def795b25e723e2cd0d7ad8e90997"
+ },
+ "env": {
+  "torch": "2.11.0+cu130",
+  "python": "3.12.3",
+  "threads": 12,
+  "host": "gpu-host",
+  "transformers": "5.10.2",
+  "note": "CPU-only run; GPU not used"
+ },
+ "memory": {
+  "mem_available_at_start_gib": 50.0,
+  "required_gib": 37.0,
+  "rss_after_layer_20": 10.9,
+  "rss_after_layer_24": 10.9,
+  "rss_after_layer_28": 10.9,
+  "rss_after_layer_32": 10.9,
+  "rss_after_layer_36": 10.9,
+  "rss_after_layer_40": 10.9,
+  "rss_after_layer_44": 10.9,
+  "rss_peak_gib": 17.99
+ },
+ "folds": {
+  "A_passages": [
+   0,
+   1,
+   2
+  ],
+  "B_passages": [
+   3,
+   4,
+   5
+  ],
+  "A_positions": 151,
+  "B_positions": 155
+ },
+ "disjoint": {
+  "stage1_docs": 16,
+  "held_out": 6,
+  "overlapping_docs": []
+ },
+ "N": {
+  "record_parts_from_log": [
+   131,
+   107,
+   96,
+   96,
+   93,
+   119
+  ],
+  "N_rec": 642,
+  "sum_n_p": 3824,
+  "total": 4466
+ },
+ "resume_b_c": {
+  "n_valid": [
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239
+  ],
+  "acc_check": {
+   "20": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "24": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "28": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "32": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "36": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "40": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "44": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   }
+  }
+ },
+ "tl_meta": {
+  "script_md5": "6cbdc9a2123cd1f920adbb758c0cb1f0",
+  "lr": 0.0156,
+  "verdict": "TRAINED",
+  "training_control": {
+   "rule": "post P107: TL-big val KL(P_final||P_lens) < logit lens val KL at EVERY mid-band layer, else VOID",
+   "judged_on": "val-B (post P110)",
+   "valB_kl_big": {
+    "20": 3.5013396739959717,
+    "24": 3.4032763987779617,
+    "28": 3.4489142075181007,
+    "32": 3.42511223256588,
+    "36": 2.8699716851115227,
+    "40": 2.658415712416172,
+    "44": 2.630402375012636
+   },
+   "valB_kl_logit": {
+    "20": 7.85535229742527,
+    "24": 7.838616907596588,
+    "28": 7.731518626213074,
+    "32": 7.751496464014053,
+    "36": 8.074092462658882,
+    "40": 7.663660079240799,
+    "44": 7.437997788190842
+   },
+   "pass_per_layer": {
+    "20": true,
+    "24": true,
+    "28": true,
+    "32": true,
+    "36": true,
+    "40": true,
+    "44": true
+   },
+   "pass": true
+  },
+  "corpus": {
+   "zip_sha256": "91c00ae287f0d699e18605c84afc9e45c192bc6b7797ff8837e5474655a33794",
+   "articles_total_ge400_words": 28713,
+   "articles_used": 2094,
+   "articles_dropped_overlap": 0,
+   "train_positions": 1024000,
+   "val_positions": 16384,
+   "used_article_indices_first_50": [
+    23334,
+    1345,
+    16674,
+    12665,
+    16866,
+    17415,
+    10158,
+    24169,
+    16589,
+    2112,
+    7767,
+    19781,
+    6300,
+    3783,
+    9804,
+    22211,
+    26203,
+    1652,
+    24106,
+    6962,
+    25756,
+    6563,
+    16675,
+    9512,
+    28390,
+    3531,
+    10313,
+    12613,
+    9796,
+    19170,
+    14676,
+    8907,
+    1638,
+    19973,
+    8951,
+    9662,
+    11519,
+    5336,
+    438,
+    6477,
+    18375,
+    20580,
+    608,
+    16950,
+    10232,
+    3460,
+    25462,
+    1557,
+    24861,
+    22486
+   ]
+  },
+  "tl22_positions": 4466,
+  "unigram_top20": [
+   279,
+   1116,
+   641,
+   220,
+   314,
+   321,
+   303,
+   16,
+   264,
+   310,
+   15,
+   557,
+   554,
+   283,
+   24,
+   17,
+   561,
+   12,
+   31,
+   328
+  ],
+  "minutes": 289.8
+ },
+ "dry_runs": {
+  "identity_bit_equal_logit": {
+   "20": true,
+   "24": true,
+   "28": true,
+   "32": true,
+   "36": true,
+   "40": true,
+   "44": true
+  },
+  "fail_way_identity": "FAIL",
+  "pass_way_oracle_h_final": "PASS"
+ },
+ "check": {
+  "bar": "PREREG-tunedlens part B: PASS iff TL-big's mid-band fut20 gain has a paired-bootstrap 95% CI (B=10000, seed 20261109) entirely > 0 over the logit lens AND over the shuffled-target lens",
+  "mean_gain_vs_logit": 0.1300642490386963,
+  "ci_vs_logit": [
+   0.11655481159687042,
+   0.14386829733848572
+  ],
+  "mean_gain_vs_shuf": -0.011185957118868828,
+  "ci_vs_shuf": [
+   -0.02928880974650383,
+   0.007220681291073561
+  ],
+  "decision": "FAIL",
+  "lr": 0.0156
+ },
+ "report": {
+  "heading": "REPORT-ONLY. Nothing below gates anything (PREREG-tunedlens part B).",
+  "TL22_same_bars_LABELLED": {
+   "label": "TL-22, equal data with J22, report-only",
+   "decision_if_it_were_graded": "FAIL",
+   "mean_gain_vs_logit": 0.14539740979671478,
+   "ci_vs_logit": [
+    0.13077013194561005,
+    0.15982934832572937
+   ],
+   "ci_vs_shuf": [
+    -0.015263935551047325,
+    0.024353627115488052
+   ]
+  },
+  "cluster_ci_6_passages_crude": {
+   "per_passage_mean_gain_vs_logit": [
+    0.12659864127635956,
+    0.14501461386680603,
+    0.13220302760601044,
+    0.07506203651428223,
+    0.15750505030155182,
+    0.1451554298400879
+   ],
+   "ci95": [
+    0.10691547393798828,
+    0.14714330434799194
+   ]
+  },
+  "unigram_top20": {
+   "tokens": [
+    279,
+    1116,
+    641,
+    220,
+    314,
+    321,
+    303,
+    16,
+    264,
+    310,
+    15,
+    557,
+    554,
+    283,
+    24,
+    17,
+    561,
+    12,
+    31,
+    328
+   ],
+   "fut20": 0.21691957116127014,
+   "note": "a fixed top-20 at every position and layer; KL undefined"
+  },
+  "per_layer_table": {
+   "20": {
+    "TL-big": {
+     "fut20": 0.23565074801445007,
+     "top1": 0.1764705926179886,
+     "kl": 4.824967384338379
+    },
+    "TL-shuf": {
+     "fut20": 0.24434198439121246,
+     "top1": 0.06535948067903519,
+     "kl": 6.122280120849609
+    },
+    "TL-22": {
+     "fut20": 0.25164955854415894,
+     "top1": 0.258169949054718,
+     "kl": 4.063640117645264
+    },
+    "J22": {
+     "fut20": 0.036501456052064896,
+     "top1": 0.03594771400094032,
+     "kl": 9.347297668457031
+    },
+    "logit": {
+     "fut20": 0.09876802563667297,
+     "top1": 0.019607843831181526,
+     "kl": 7.678032875061035
+    }
+   },
+   "24": {
+    "TL-big": {
+     "fut20": 0.23518648743629456,
+     "top1": 0.1764705926179886,
+     "kl": 4.58226203918457
+    },
+    "TL-shuf": {
+     "fut20": 0.24249012768268585,
+     "top1": 0.07516340166330338,
+     "kl": 6.066214084625244
+    },
+    "TL-22": {
+     "fut20": 0.24815982580184937,
+     "top1": 0.2777777910232544,
+     "kl": 3.8613762855529785
+    },
+    "J22": {
+     "fut20": 0.0417068712413311,
+     "top1": 0.03921568766236305,
+     "kl": 8.874785423278809
+    },
+    "logit": {
+     "fut20": 0.11991258710622787,
+     "top1": 0.03921568766236305,
+     "kl": 7.450901985168457
+    }
+   },
+   "28": {
+    "TL-big": {
+     "fut20": 0.2395995408296585,
+     "top1": 0.1764705926179886,
+     "kl": 4.560441970825195
+    },
+    "TL-shuf": {
+     "fut20": 0.24398796260356903,
+     "top1": 0.0784313753247261,
+     "kl": 6.060845851898193
+    },
+    "TL-22": {
+     "fut20": 0.2590569853782654,
+     "top1": 0.2810457646846771,
+     "kl": 3.8171393871307373
+    },
+    "J22": {
+     "fut20": 0.05270904302597046,
+     "top1": 0.04248366132378578,
+     "kl": 8.63101863861084
+    },
+    "logit": {
+     "fut20": 0.1327536553144455,
+     "top1": 0.06209150329232216,
+     "kl": 7.368717670440674
+    }
+   },
+   "32": {
+    "TL-big": {
+     "fut20": 0.23053482174873352,
+     "top1": 0.1895424872636795,
+     "kl": 4.472373008728027
+    },
+    "TL-shuf": {
+     "fut20": 0.24890807271003723,
+     "top1": 0.07189542800188065,
+     "kl": 6.042193412780762
+    },
+    "TL-22": {
+     "fut20": 0.24629630148410797,
+     "top1": 0.2908496856689453,
+     "kl": 3.7639830112457275
+    },
+    "J22": {
+     "fut20": 0.06096068397164345,
+     "top1": 0.04575163498520851,
+     "kl": 7.733218193054199
+    },
+    "logit": {
+     "fut20": 0.12266833335161209,
+     "top1": 0.0784313753247261,
+     "kl": 7.354044437408447
+    }
+   },
+   "36": {
+    "TL-big": {
+     "fut20": 0.236367866396904,
+     "top1": 0.21895425021648407,
+     "kl": 3.7138559818267822
+    },
+    "TL-shuf": {
+     "fut20": 0.2578185200691223,
+     "top1": 0.09150326997041702,
+     "kl": 5.690928936004639
+    },
+    "TL-22": {
+     "fut20": 0.24528348445892334,
+     "top1": 0.32679739594459534,
+     "kl": 3.1825480461120605
+    },
+    "J22": {
+     "fut20": 0.06284884363412857,
+     "top1": 0.05228758230805397,
+     "kl": 7.521087646484375
+    },
+    "logit": {
+     "fut20": 0.07743930071592331,
+     "top1": 0.0555555559694767,
+     "kl": 7.202459812164307
+    }
+   },
+   "40": {
+    "TL-big": {
+     "fut20": 0.25467371940612793,
+     "top1": 0.2908496856689453,
+     "kl": 3.096580743789673
+    },
+    "TL-shuf": {
+     "fut20": 0.25593939423561096,
+     "top1": 0.09477124363183975,
+     "kl": 5.431827068328857
+    },
+    "TL-22": {
+     "fut20": 0.2653491199016571,
+     "top1": 0.41830065846443176,
+     "kl": 2.5881905555725098
+    },
+    "J22": {
+     "fut20": 0.06834734231233597,
+     "top1": 0.06862745434045792,
+     "kl": 8.688718795776367
+    },
+    "logit": {
+     "fut20": 0.09931657463312149,
+     "top1": 0.10457516461610794,
+     "kl": 6.529078483581543
+    }
+   },
+   "44": {
+    "TL-big": {
+     "fut20": 0.2437804937362671,
+     "top1": 0.30392158031463623,
+     "kl": 3.044229030609131
+    },
+    "TL-shuf": {
+     "fut20": 0.2606092393398285,
+     "top1": 0.09803921729326248,
+     "kl": 5.493934154510498
+    },
+    "TL-22": {
+     "fut20": 0.2673306465148926,
+     "top1": 0.40522876381874084,
+     "kl": 2.457129716873169
+    },
+    "J22": {
+     "fut20": 0.08681139349937439,
+     "top1": 0.09150326997041702,
+     "kl": 6.97088098526001
+    },
+    "logit": {
+     "fut20": 0.11448542028665543,
+     "top1": 0.12745098769664764,
+     "kl": 6.270631313323975
+    }
+   }
+  },
+  "trained_vs_jacobian_correction": {
+   "20": {
+    "fro_R": 2.158052444458008,
+    "fro_D22": 71.04206848144531,
+    "abs_cos_top1": 0.11201581358909607,
+    "top16_overlap": 0.06488537788391113
+   },
+   "24": {
+    "fro_R": 2.2696855068206787,
+    "fro_D22": 69.7999038696289,
+    "abs_cos_top1": 0.10083377361297607,
+    "top16_overlap": 0.0694151297211647
+   },
+   "28": {
+    "fro_R": 2.199676990509033,
+    "fro_D22": 68.51664733886719,
+    "abs_cos_top1": 0.11286131292581558,
+    "top16_overlap": 0.07337723672389984
+   },
+   "32": {
+    "fro_R": 2.2799735069274902,
+    "fro_D22": 67.08879089355469,
+    "abs_cos_top1": 0.093406081199646,
+    "top16_overlap": 0.07890990376472473
+   },
+   "36": {
+    "fro_R": 2.9474942684173584,
+    "fro_D22": 63.31721115112305,
+    "abs_cos_top1": 0.00888485461473465,
+    "top16_overlap": 0.09730705618858337
+   },
+   "40": {
+    "fro_R": 2.9154789447784424,
+    "fro_D22": 62.26525115966797,
+    "abs_cos_top1": 0.03068903274834156,
+    "top16_overlap": 0.10082396864891052
+   },
+   "44": {
+    "fro_R": 2.715358257293701,
+    "fro_D22": 61.65639877319336,
+    "abs_cos_top1": 0.13676999509334564,
+    "top16_overlap": 0.11233362555503845
+   }
+  }
+ },
+ "minutes": 12.9,
+ "ts": "2026-11-08T06:39:44"
+}

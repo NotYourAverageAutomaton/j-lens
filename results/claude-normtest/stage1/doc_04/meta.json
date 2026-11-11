@@ -1,0 +1,24 @@
+{
+ "doc": 4,
+ "source": "King James Bible",
+ "genre": "scripture",
+ "url": "https://www.gutenberg.org/ebooks/10",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4957,
+ "J_p_md5": {
+  "20": "916be5a270ac17a44abcfd4b71a145b5",
+  "24": "d285c501e9f08479a84e567ea9cf0519",
+  "28": "882e96f740cf62cb7a1e4088a28eb538",
+  "32": "2af8a80511080a64efb037bb16430027",
+  "36": "a8cf72ecf5415ab1d377c3d4d22cc49d",
+  "40": "9e3bc9d9926a7eb49b9f1cd76179d424",
+  "44": "90f722c17e0d4ca4e1501f62c9b90263",
+  "48": "d1baae5cbebd6de3c38f22e8bf63150b",
+  "52": "0e2e5224d91ddb4c99d2d4c4f66497a9",
+  "56": "a57b4335b03407b32bb44e55363516d1"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T03:51:47"
+}

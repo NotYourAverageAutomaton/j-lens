@@ -1,0 +1,24 @@
+{
+ "doc": 8,
+ "source": "The Federalist Papers",
+ "genre": "political-essay",
+ "url": "https://www.gutenberg.org/ebooks/1404",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4954,
+ "J_p_md5": {
+  "20": "027e750c4e6e09ba94a1ac82ca60bfef",
+  "24": "4ae9412fe5fbd3aafb672579e6ca5907",
+  "28": "3bcee384395fc4edd2ed64c2d8dd946e",
+  "32": "abab42ad54772dd36376e7024fb93579",
+  "36": "ecae284609d51c55e5d20ef3310e54f9",
+  "40": "9d972a8336d0511bd231e0ad87a75efa",
+  "44": "013cda86f174dc0653b7e940ba98fac5",
+  "48": "4f77d577031cdc719650dd3e871940bf",
+  "52": "aa23abf38afed29fdbbda7714419b324",
+  "56": "7208531b7474cf119a123a27e5ae7bb3"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T09:21:47"
+}

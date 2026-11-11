@@ -1,0 +1,5 @@
+[   54.3s] G = W^T W built
+[  140.4s] L24: PR(M) 19 (N/2 17, 9.7%, CONVERGED) Jett 700-1400 -> MISS (CONVERGED) | J22 17 | per-state 19 | rank Sigma 5120
+[  245.4s] L40: PR(M) 17 (N/2 16, 6.1%, CONVERGED) Jett 350-700 -> MISS (CONVERGED) | J22 15 | per-state 17 | rank Sigma 5120
+[  365.1s] L52: PR(M) 6 (N/2 6, 1.9%, CONVERGED) Jett 150-350 -> MISS (CONVERGED) | J22 6 | per-state 7 | rank Sigma 5120
+[  365.1s] done

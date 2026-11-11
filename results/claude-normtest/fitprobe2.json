@@ -1,0 +1,42 @@
+{
+  "ts": "22:08:11",
+  "seq": 148,
+  "base_gib": 68.05753755569458,
+  "n_prompts": 8,
+  "trials": [
+    {
+      "dim_batch": 4,
+      "grad_root_layer": 42,
+      "fwd_s": 3.3,
+      "peak_fwd_gib": 80.81706619262695,
+      "ok": true,
+      "back_s": [
+        1.68,
+        1.49
+      ],
+      "peak_gib": 80.81706619262695,
+      "n_back_per_prompt": 1280,
+      "est_total_min": 254.9
+    },
+    {
+      "dim_batch": 4,
+      "grad_root_layer": 16,
+      "ok": false,
+      "err": "OOM CUDA out of memory. Tried to allocate 40.00 MiB. GPU 0 has a total capacity of 121.69 GiB of which 1.24 GiB is free. Including non-PyTorch memory, this process "
+    },
+    {
+      "dim_batch": 2,
+      "grad_root_layer": 16,
+      "fwd_s": 1.7,
+      "peak_fwd_gib": 81.238844871521,
+      "ok": true,
+      "back_s": [
+        1.43,
+        1.37
+      ],
+      "peak_gib": 81.24267721176147,
+      "n_back_per_prompt": 2560,
+      "est_total_min": 467.8
+    }
+  ]
+}

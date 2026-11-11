@@ -1,0 +1,29 @@
+[    6.1s] pins OK
+[   13.5s] disjoint OK
+[   15.7s] SELFTEST: synthetic D22 / D6
+[  139.2s] positive control (a) OK
+[  206.0s] n22 L20 tables done
+[  253.1s] n22 L24 tables done
+[  300.5s] n22 L28 tables done
+[  347.7s] n22 L32 tables done
+[  394.8s] n22 L36 tables done
+[  452.1s] n22 L40 tables done
+[  540.3s] n22 L44 tables done
+[  547.0s] positive controls (b)-(d) OK [(b) skipped: selftest]
+[  632.3s] perm22 L20 tables done
+[  727.6s] perm22 L24 tables done
+[  821.8s] perm22 L28 tables done
+[  897.0s] perm22 L32 tables done
+[  944.4s] perm22 L36 tables done
+[  991.9s] perm22 L40 tables done
+[ 1050.1s] perm22 L44 tables done
+[ 1132.5s] n6 L20 tables done
+[ 1220.1s] n6 L24 tables done
+[ 1267.7s] n6 L28 tables done
+[ 1315.0s] n6 L32 tables done
+[ 1362.3s] n6 L36 tables done
+[ 1409.1s] n6 L40 tables done
+[ 1456.2s] n6 L44 tables done
+[ 1475.5s] dry runs OK: fail-way KILLED, pass-way SURVIVE
+[ 1475.5s] CHECK: SURVIVE S mean 0.00861 CI [0.006334487348794937, 0.010929198935627937] T mean 0.00084 CI [-0.0020319519098848104, 0.0035697987768799067] step2: S
+[ 1475.7s] report-only done; verdict SELFTEST SURVIVE

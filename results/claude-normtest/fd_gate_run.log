@@ -1,0 +1,12 @@
+[  0.0m] cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  32%|███▏      | 276/851 [00:00<00:00, 2730.59it/s]Loading weights:  65%|██████▍   | 550/851 [00:00<00:00, 2636.30it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 2776.81it/s]
+[  0.0m] [load] from_pretrained bf16 done in 1s
+[  5.1m] [load] fp32 remap: 292 tensors; on device in 303s
+[  5.1m] [load] mem: free 9.3/121.7 GiB
+[  5.7m] L40: rel {0.01: '1.59e-01', 0.001: '5.57e-01'} best 0.01 plateau True -> FAIL | control {0.01: '3.17e-01', 0.001: '4.22e-01'} fails=True
+[  6.3m] L44: rel {0.01: '9.35e-05', 0.001: '9.63e-04'} best 0.01 plateau False -> FAIL | control {0.01: '8.97e-02', 0.001: '8.96e-02'} fails=True
+[  7.0m] L52: rel {0.01: '1.61e-04', 0.001: '1.63e-03'} best 0.01 plateau False -> FAIL | control {0.01: '5.00e-01', 0.001: '5.02e-01'} fails=True
+[  7.8m] L24: rel {0.1: '1.90e-01', 0.03: '1.77e-01', 0.01: '5.91e-01'} best 0.03 plateau True -> FAIL | control {0.1: '7.92e-01', 0.03: '4.78e-01', 0.01: '8.61e-01'} fails=True
+[  7.8m] GATE: FAIL (a primary layer failed): Stage 1 does not start; J1 = INSTRUMENT-INVALID per post P048

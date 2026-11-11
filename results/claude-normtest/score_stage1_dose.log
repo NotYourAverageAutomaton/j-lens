@@ -1,0 +1,38 @@
+[    3.3s] pins OK
+[    6.6s] disjoint OK
+[    6.8s] N OK {'record_parts_from_log': [131, 107, 96, 96, 93, 119], 'N_rec': 642, 'sum_n_p': 3824, 'total': 4466, 'new_share': 0.8562, 'note': 'post P090 swap 1: sum n_p is REPORTED, not asserted (3824 = 16 x 239 assumes every doc fills 256 tokens; a shorter doc is legal). The acc tot == sum n_p stop stays.'}
+[  137.2s] resume (b)+(c) OK
+[  207.9s] positive control OK (J_6 reproduces eval_record.json)
+[  265.5s] GATE: CONTINUE mean D 0.02179 CI [0.01426, 0.03109]
+[  512.7s] report-only done; verdict CONTINUE
+[ 2067.2s] dose k=1: mean gain -0.06841
+[ 3785.9s] dose k=2: mean gain -0.06462
+[ 4959.4s] dose k=3: mean gain -0.06147
+[ 6407.0s] dose k=4: mean gain -0.05972
+[ 8465.5s] dose k=5: mean gain -0.05637
+[10207.2s] dose k=6: mean gain -0.05591
+[10207.3s] DOSE PAUSE: paused at k=7 j=0 for --stop-at 06:15
+[    5.4s] pins OK
+[   12.9s] disjoint OK
+[   13.5s] N OK {'record_parts_from_log': [131, 107, 96, 96, 93, 119], 'N_rec': 642, 'sum_n_p': 3824, 'total': 4466, 'new_share': 0.8562, 'note': 'post P090 swap 1: sum n_p is REPORTED, not asserted (3824 = 16 x 239 assumes every doc fills 256 tokens; a shorter doc is legal). The acc tot == sum n_p stop stays.'}
+[  170.3s] resume (b)+(c) OK
+[  313.5s] positive control OK (J_6 reproduces eval_record.json)
+[  430.6s] GATE: CONTINUE mean D 0.02179 CI [0.01426, 0.03109]
+[  591.5s] report-only done; verdict CONTINUE
+[  591.5s] resuming dose from checkpoint: {0: 1, 16: 1, 1: 50, 2: 50, 3: 50, 4: 50, 5: 50, 6: 50, 7: 0}
+[  591.5s] dose k=1: mean gain -0.06841
+[  591.5s] dose k=2: mean gain -0.06462
+[  591.5s] dose k=3: mean gain -0.06147
+[  591.5s] dose k=4: mean gain -0.05972
+[  591.5s] dose k=5: mean gain -0.05637
+[  591.5s] dose k=6: mean gain -0.05591
+[ 2528.2s] dose k=7: mean gain -0.05437
+[ 3970.7s] dose k=8: mean gain -0.05349
+[ 5830.5s] dose k=9: mean gain -0.05395
+[ 7543.5s] dose k=10: mean gain -0.05282
+[ 8849.8s] dose k=11: mean gain -0.05248
+[10231.3s] dose k=12: mean gain -0.05170
+[11831.8s] dose k=13: mean gain -0.05175
+[13684.5s] dose k=14: mean gain -0.05130
+[15411.9s] dose k=15: mean gain -0.05180
+[15411.9s] dose done, slope 0.01455296017229557

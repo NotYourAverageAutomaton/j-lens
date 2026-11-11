@@ -1,0 +1,13 @@
+[  0.0m] cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  30%|██▉       | 255/851 [00:00<00:00, 2538.38it/s]Loading weights:  67%|██████▋   | 574/851 [00:00<00:00, 2908.44it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 2985.09it/s]
+[  0.0m] [load] from_pretrained bf16 done in 1s
+[  5.1m] [load] fp32 remap: 292 tensors; on device in 305s
+[  5.1m] [load] mem: free 8.2/121.7 GiB
+[  6.0m] (a) L44: rel {0.1: '1.00e-01', 0.03: '8.63e-03', 0.01: '1.08e-03'} flat (0.03, 0.01) ratio 8.02 slope 1.97 ctrl_ok True -> FAIL
+[  6.8m] (a) L52: rel {0.1: '5.21e-03', 0.03: '3.81e-04', 0.01: '7.03e-05'} flat (0.03, 0.01) ratio 5.41 slope 1.87 ctrl_ok True -> FAIL
+[  7.3m] (b) record AD captured for L40, L24
+[  8.2m] (b) L40: ref FD {0.1: '7.81e-03', 0.03: '6.46e-04', 0.01: '1.87e-04'} pass=False | record-vs-ref 4.817e-03 (bar 0.05) control 1.787e-01 ratio 37.1 -> VOID (reference failed its own FD)
+[  8.2m] (b) L24: OOM -> UNMEASURABLE
+[  8.2m] GATE v3: FAIL: Stage 1 does not start | L24 UNMEASURABLE (reference upcast does not fit) | peak 85.1 GiB

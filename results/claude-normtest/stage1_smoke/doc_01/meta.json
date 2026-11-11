@@ -1,0 +1,16 @@
+{
+ "doc": 1,
+ "source": "Pride and Prejudice (Austen)",
+ "genre": "novel",
+ "url": "https://www.gutenberg.org/ebooks/1342",
+ "tokens_in_fit": 24,
+ "n_valid": 7,
+ "seconds": 815,
+ "J_p_md5": {
+  "20": "a7a542e9840bbabac57bb17a6dd398b0",
+  "52": "652b4f64780d593f73ae3d78d91f1503"
+ },
+ "max_seq": 24,
+ "dim_batch": 8,
+ "ts": "2026-11-04T22:04:36"
+}

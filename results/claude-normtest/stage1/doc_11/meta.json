@@ -1,0 +1,24 @@
+{
+ "doc": 11,
+ "source": "Wikipedia: Plate tectonics",
+ "genre": "encyclopedia-geology",
+ "url": "https://en.wikipedia.org/wiki/Plate_tectonics",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4980,
+ "J_p_md5": {
+  "20": "6125d341740eb7fcb437aa0a2160b543",
+  "24": "2e5a8c44b8b72b3fb60c3b2f886067f2",
+  "28": "7969dd89b59ca6b07a49ab07f22f8e57",
+  "32": "6dd078072a9bb02189e202fd56dc6f00",
+  "36": "8caf0f30e74d7edcee19a346f878a4de",
+  "40": "8396146a7ddeef776006cb76639e8901",
+  "44": "07d0434dc0945cdf0854a9057f144f22",
+  "48": "310e2bfe4aae440346e9aa8eb28f28b3",
+  "52": "be9801445cca88857557bce25966b3d2",
+  "56": "fa7bc3892711c65dcd3e06da2876ecc0"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T13:30:05"
+}

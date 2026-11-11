@@ -1,0 +1,30 @@
+[    2.2s] pins OK; frozen a {20: 0.3, 24: 0.3, 28: 0.3, 32: 0.2, 36: 0.3, 40: 0.2, 44: 0.1}
+[   28.8s] disjoint OK
+[   99.7s] resume (b)+(c) OK; z precomputed
+[  479.0s] controls c1-c6 OK
+[  538.6s] table L20 done
+[  602.4s] table L24 done
+[  693.9s] table L28 done
+[  792.3s] table L32 done
+[  887.1s] table L36 done
+[  946.2s] table L40 done
+[ 1004.9s] table L44 done
+[ 1005.2s] table done; fresh shrunk - logit -0.5682730674743652
+[ 1082.7s] resuming: {'raw': {1: 50, 2: 50, 3: 50, 4: 50, 5: 50, 6: 50, 7: 50, 8: 50, 9: 50, 10: 50, 11: 50, 12: 50, 13: 50, 14: 50, 15: 50}, 'shrunk': {1: 10, 2: 10, 3: 10, 4: 10, 5: 10, 6: 10, 7: 10, 8: 10, 9: 10, 10: 10, 11: 10, 12: 10, 13: 10, 14: 10, 15: 10}}
+[ 1082.7s] dose k=1: raw 9.7826 shrunk 6.6472
+[ 1082.7s] dose k=2: raw 9.4324 shrunk 6.6829
+[ 1082.7s] dose k=3: raw 9.0706 shrunk 6.5044
+[ 1082.7s] dose k=4: raw 8.9827 shrunk 6.5807
+[ 1082.7s] dose k=5: raw 8.7296 shrunk 6.4971
+[ 1082.7s] dose k=6: raw 8.6623 shrunk 6.5504
+[ 1082.7s] dose k=7: raw 8.5641 shrunk 6.5115
+[ 1082.7s] dose k=8: raw 8.4291 shrunk 6.4507
+[ 1082.7s] dose k=9: raw 8.5054 shrunk 6.5225
+[ 1082.7s] dose k=10: raw 8.4237 shrunk 6.4856
+[ 1082.7s] dose k=11: raw 8.3639 shrunk 6.4857
+[ 1082.7s] dose k=12: raw 8.3183 shrunk 6.4751
+[ 1082.7s] dose k=13: raw 8.2980 shrunk 6.4828
+[ 1082.7s] dose k=14: raw 8.2653 shrunk 6.4862
+[ 1082.7s] dose k=15: raw 8.2886 shrunk 6.4848
+[ 1919.4s] projected KL gain at 54 = 1.2969 nats (raw J, mid-band; CI of the projection [1.1456938982009888, 1.437870740890503]) vs CI half-width Y = 0.0373 (proxy, fresh positions)
+[ 2278.8s] done: REPORT

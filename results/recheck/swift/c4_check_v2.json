@@ -1,0 +1,127 @@
+{
+ "model": "swift",
+ "capture_attn_impl_L3": "sdpa",
+ "bars": "Deron P075 s3 as amended post P077 (2e-3 unchanged + mask leg + same-kernel check) / Qwen P076",
+ "torch": "2.11.0+cu130",
+ "transformers": "5.10.2",
+ "script_md5": "061f289776d6db6b88c7865c46bd98c2",
+ "shape_c_loader_md5": "79a102cd07691724143dab8ee93c266f",
+ "whole_model_fit_md5": "fceeffd8c4ec22bea4e5f5e87c51e3da",
+ "picked_rows": [
+  0,
+  1790,
+  3579
+ ],
+ "stories": [
+  {
+   "row": 0,
+   "ntok": 125,
+   "determinism_bit_identical": true,
+   "equals_stored_vectors_REPORT": true,
+   "binding_b_fp32_from_42": {
+    "L3_impl_seen": "sdpa",
+    "h_final_rel_l2": 0.0,
+    "logits_rel_l2": 0.0,
+    "stored_vecL42_rel_l2": 0.0,
+    "stored_vecL62_rel_l2_REPORT": 0.0,
+    "L3_token0_rel": 0.0
+   },
+   "reported_b_all_bf16": {
+    "L3_impl_seen": "sdpa",
+    "h_final_rel_l2": 0.009030151180922985,
+    "logits_rel_l2": 0.005877463147044182,
+    "stored_vecL42_rel_l2": 0.00034922713530249894,
+    "stored_vecL62_rel_l2_REPORT": 0.0022831649985164404,
+    "L3_token0_rel": 0.0
+   },
+   "mask_c_fp32_from_42": {
+    "L3_impl_seen": "sdpa",
+    "h_final_rel_l2": 0.006258341018110514,
+    "logits_rel_l2": 0.004098817706108093,
+    "stored_vecL42_rel_l2": 0.0016459086909890175,
+    "stored_vecL62_rel_l2_REPORT": 0.00239166640676558,
+    "L3_token0_rel": 0.0
+   },
+   "mask_d_fp32_from_42": {
+    "L3_impl_seen": "sdpa",
+    "h_final_rel_l2": 0.18545319139957428,
+    "logits_rel_l2": 0.13050585985183716,
+    "stored_vecL42_rel_l2": 0.021562017500400543,
+    "stored_vecL62_rel_l2_REPORT": 0.08949659764766693,
+    "L3_token0_rel": 0.027088532224297523
+   }
+  },
+  {
+   "row": 1790,
+   "ntok": 146,
+   "determinism_bit_identical": true,
+   "equals_stored_vectors_REPORT": true,
+   "binding_b_fp32_from_42": {
+    "L3_impl_seen": "sdpa",
+    "h_final_rel_l2": 0.0,
+    "logits_rel_l2": 0.0,
+    "stored_vecL42_rel_l2": 0.0,
+    "stored_vecL62_rel_l2_REPORT": 0.0,
+    "L3_token0_rel": 0.0
+   },
+   "mask_c_fp32_from_42": {
+    "L3_impl_seen": "sdpa",
+    "h_final_rel_l2": 0.006516085937619209,
+    "logits_rel_l2": 0.004235354717820883,
+    "stored_vecL42_rel_l2": 0.0016801678575575352,
+    "stored_vecL62_rel_l2_REPORT": 0.002148738596588373,
+    "L3_token0_rel": 0.0
+   },
+   "mask_d_fp32_from_42": {
+    "L3_impl_seen": "sdpa",
+    "h_final_rel_l2": 0.15300098061561584,
+    "logits_rel_l2": 0.1076437309384346,
+    "stored_vecL42_rel_l2": 0.02094852551817894,
+    "stored_vecL62_rel_l2_REPORT": 0.06950479745864868,
+    "L3_token0_rel": 0.028974737972021103
+   }
+  },
+  {
+   "row": 3579,
+   "ntok": 85,
+   "determinism_bit_identical": true,
+   "equals_stored_vectors_REPORT": true,
+   "binding_b_fp32_from_42": {
+    "L3_impl_seen": "sdpa",
+    "h_final_rel_l2": 0.0,
+    "logits_rel_l2": 0.0,
+    "stored_vecL42_rel_l2": 0.0,
+    "stored_vecL62_rel_l2_REPORT": 0.0,
+    "L3_token0_rel": 0.0
+   },
+   "mask_c_fp32_from_42": {
+    "L3_impl_seen": "sdpa",
+    "h_final_rel_l2": 0.006228105165064335,
+    "logits_rel_l2": 0.004087347071617842,
+    "stored_vecL42_rel_l2": 0.002474719425663352,
+    "stored_vecL62_rel_l2_REPORT": 0.0028857712168246508,
+    "L3_token0_rel": 0.0
+   },
+   "mask_d_fp32_from_42": {
+    "L3_impl_seen": "sdpa",
+    "h_final_rel_l2": 0.119541697204113,
+    "logits_rel_l2": 0.0813213586807251,
+    "stored_vecL42_rel_l2": 0.028010336682200432,
+    "stored_vecL62_rel_l2_REPORT": 0.06435220688581467,
+    "L3_token0_rel": 0.02017851546406746
+   }
+  }
+ ],
+ "determinism_pass": true,
+ "binding_pass": true,
+ "mask_c_pass": true,
+ "mask_d_valid": true,
+ "all_bf16_gap_max": 0.009030151180922985,
+ "tripwire_own_gap_gt_5e-2": false,
+ "same_kernel": true,
+ "verdict": "PASS",
+ "claim_limit": "faithful to HF transformers' sdpa is_causal implementation of the bf16 checkpoints (post P075); blind to bugs shared by the HF layer class / sdpa kernel / is_causal; vectors of the record-fit (mixed-precision) forward of the bf16 checkpoints",
+ "peak_gib": 75.5,
+ "minutes": 65.6,
+ "ts": "2026-11-06T17:39:04"
+}

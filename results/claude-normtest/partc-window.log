@@ -1,0 +1,16 @@
+2026-11-06T22:03:03-06:00 DIAG window: stop at first idle or at 22:15 (announced)
+2026-11-06T22:10:03-06:00 idle: stopping
+watchdog cron line commented
+backstop armed +3h
+2026-11-06T22:10:21-06:00 GPU clear
+evict: 480 files; MemAvailable 116.4 -> 116.4 GiB; Cached 43.5 -> 10.1 GiB
+2026-11-06T22:10:22-06:00 DIAG swift start (MemAvailable 116 GiB)
+2026-11-06T22:53:49-06:00 DIAG swift rc=0
+[ 30.8m] {"doc": 7, "genre": "political-essay", "forward": "C2_hf_toplevel_heldh_path", "ntok": 256, "ref_L3_impl_seen": "sdpa", "final_norm_rel": 0.0, "logits_rel": 0.0, "token0_final_norm_rel": 0.0, "peak_gib_forward": 73.3, "peak_gib_run": 75.4, "C1_vs_C2_final_norm_rel": 0.0}
+[ 30.8m] C: C1_stage1_own_forward doc 15 (technical-manual) vs 061f2897 reference(ids, 42, 'b')
+[ 36.9m] {"doc": 15, "genre": "technical-manual", "forward": "C1_stage1_own_forward", "ntok": 256, "ref_L3_impl_seen": "sdpa", "final_norm_rel": 0.0, "logits_rel": 0.0, "token0_final_norm_rel": 0.0, "peak_gib_forward": 82.9, "peak_gib_run": 82.9}
+[ 36.9m] C: C2_hf_toplevel_heldh_path doc 15 (technical-manual) vs 061f2897 reference(ids, 42, 'b')
+[ 43.3m] {"doc": 15, "genre": "technical-manual", "forward": "C2_hf_toplevel_heldh_path", "ntok": 256, "ref_L3_impl_seen": "sdpa", "final_norm_rel": 0.0, "logits_rel": 0.0, "token0_final_norm_rel": 0.0, "peak_gib_forward": 73.3, "peak_gib_run": 75.4, "C1_vs_C2_final_norm_rel": 0.0}
+[ 43.3m] Part C swift PASS | C1 PASS | C2 PASS | peak GiB 82.9
+2026-11-06T22:58:21-06:00 restore rc=0
+2026-11-06T22:58:21-06:00 window closed (diag done)

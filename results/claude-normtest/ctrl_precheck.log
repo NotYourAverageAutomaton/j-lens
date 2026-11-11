@@ -1,0 +1,15 @@
+[   1.9s] positions 306 (matches held_h.pt)
+[  56.5s] L16: self d=0.00000 | logit 0.1542 primary 0.0000 secondary(L41) 0.0068
+[  89.9s] L20: self d=0.00000 | logit 0.0988 primary 0.0000 secondary(L41) 0.0181
+[ 125.4s] L24: self d=0.00000 | logit 0.1199 primary 0.0000 secondary(L41) 0.0215
+[ 154.0s] L28: self d=0.00000 | logit 0.1328 primary 0.0000 secondary(LNone) None
+[ 187.7s] L32: self d=0.00000 | logit 0.1227 primary 0.0000 secondary(L16) 0.0013
+[ 224.9s] L36: self d=0.00000 | logit 0.0774 primary 0.0000 secondary(L16) 0.0023
+[ 260.1s] L40: self d=0.00000 | logit 0.0993 primary 0.0000 secondary(L16) 0.0053
+[ 293.9s] L44: self d=0.00000 | logit 0.1145 primary 0.0000 secondary(L16) 0.0046
+[ 325.6s] L48: self d=0.00000 | logit 0.0984 primary 0.0000 secondary(L16) 0.0082
+[ 362.7s] L52: self d=0.00000 | logit 0.0855 primary 0.0000 secondary(L16) 0.0113
+[ 389.4s] L56: self d=0.00000 | logit 0.1177 primary 0.0000 secondary(L16) 0.0218
+[ 424.3s] L60: self d=0.00000 | logit 0.1769 primary 0.0000 secondary(L16) 0.0276
+[ 461.5s] L62: self d=0.00000 | logit 0.2473 primary 0.0000 secondary(L16) 0.0169
+SELF-CHECK PASS | primary valid: True [] | secondary valid: False [20, 24, 28, 52, 56, 60, 62]

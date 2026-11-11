@@ -1,0 +1,40 @@
+{
+ "script_md5": "f254a0c0b4b5ca273d80f95f84fd984d",
+ "lr": 1.0,
+ "smoke": false,
+ "steps": 250,
+ "batch": 4096,
+ "momentum": 0.9,
+ "weight_decay": 0.001,
+ "clip_per_translator": 1.0,
+ "seed": 20261107,
+ "seed_tl22": 20261108,
+ "verdict": "INCOMPLETE",
+ "files": {
+  "held_h.pt": "3ca0f99cd0d8f4fc2ab775b7a50ad04f",
+  "pilot_hutch.py": "5fa18d9bfa5fe9568e658e57dc100e66",
+  "eval.py": "cabcfb792432628ec53b541b0458756f",
+  "$JLENS_HOME/our_jlens.py": "0f16209bdfadaa417ccf09484ce5a830",
+  "$JLENS_HOME/whole_model_fit.py": "fceeffd8c4ec22bea4e5f5e87c51e3da",
+  "$JLENS_HOME/claude-normtest/stage1_corpus.json": "19c712110b329a82bebce82f1bb70af2"
+ },
+ "mem_available_at_start_gib": 100.7,
+ "corpus": {
+  "zip_sha256": "91c00ae287f0d699e18605c84afc9e45c192bc6b7797ff8837e5474655a33794",
+  "articles_total_ge400_words": 28713
+ },
+ "capture_consistency": {
+  "bar": "max rel Frobenius <= 0.001",
+  "rel_frobenius": {
+   "20": 0.0,
+   "24": 0.0,
+   "28": 0.0,
+   "32": 0.0,
+   "36": 0.0,
+   "40": 0.0,
+   "44": 0.0,
+   "h_final": 0.0
+  },
+  "max": 0.0
+ }
+}

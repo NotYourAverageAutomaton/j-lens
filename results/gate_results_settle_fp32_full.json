@@ -1,0 +1,11 @@
+{
+  "dtype": "full-stack fp32 (all resident layers 42..63 + final_norm + lm_head; h_l fp32)",
+  "cos_fwd_central_L42_GDN": 0.9999908208847046,
+  "cos_L42_vs_L43_control": 0.2409752905368805,
+  "eps": 0.0001233668439090252,
+  "bar": "cos_fwd_central_L42 >= 0.99 AND control < 0.99",
+  "pass": true,
+  "bf16_baseline_cos": 0.3944758474826813,
+  "mixed_fp32_falsifier_cos": 0.5052523016929626,
+  "note": "settling run (i) per Deron P003: full-stack fp32 removes the downstream bf16 re-quantization confound (layers 44..63). Arm (ii) FD-vs-JVP is the immediate follow-up."
+}

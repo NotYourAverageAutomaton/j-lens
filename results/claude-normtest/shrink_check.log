@@ -1,0 +1,155 @@
+[    5.7s] pins OK
+[   11.1s] disjoint OK
+[   63.1s] resume (b)+(c) OK; J22 pooled
+[  209.8s] positive control (a) OK
+[  351.2s] n22 L20 tables done
+[  435.7s] n22 L24 tables done
+[  483.3s] n22 L28 tables done
+[  530.4s] n22 L32 tables done
+[  577.8s] n22 L36 tables done
+[  651.4s] n22 L40 tables done
+[  744.0s] n22 L44 tables done
+[  750.4s] positive controls (b)-(d) OK
+[  838.7s] null01 L20 tables done
+[  894.5s] null01 L24 tables done
+[  941.6s] null01 L28 tables done
+[  988.6s] null01 L32 tables done
+[ 1035.4s] null01 L36 tables done
+[ 1082.8s] null01 L40 tables done
+[ 1129.6s] null01 L44 tables done
+[ 1176.7s] null02 L20 tables done
+[ 1246.9s] null02 L24 tables done
+[ 1338.0s] null02 L28 tables done
+[ 1429.3s] null02 L32 tables done
+[ 1524.7s] null02 L36 tables done
+[ 1605.2s] null02 L40 tables done
+[ 1681.3s] null02 L44 tables done
+[ 1727.9s] null03 L20 tables done
+[ 1775.1s] null03 L24 tables done
+[ 1839.7s] null03 L28 tables done
+[ 1928.7s] null03 L32 tables done
+[ 2016.2s] null03 L36 tables done
+[ 2103.2s] null03 L40 tables done
+[ 2194.7s] null03 L44 tables done
+[ 2267.0s] null04 L20 tables done
+[ 2314.2s] null04 L24 tables done
+[ 2360.7s] null04 L28 tables done
+[ 2415.7s] null04 L32 tables done
+[ 2503.9s] null04 L36 tables done
+[ 2593.5s] null04 L40 tables done
+[ 2643.2s] null04 L44 tables done
+[ 2690.1s] null05 L20 tables done
+[ 2737.6s] null05 L24 tables done
+[ 2809.1s] null05 L28 tables done
+[ 2894.7s] null05 L32 tables done
+[ 2971.1s] null05 L36 tables done
+[ 3035.3s] null05 L40 tables done
+[ 3125.1s] null05 L44 tables done
+[ 3221.7s] null06 L20 tables done
+[ 3288.3s] null06 L24 tables done
+[ 3335.2s] null06 L28 tables done
+[ 3400.3s] null06 L32 tables done
+[ 3490.8s] null06 L36 tables done
+[ 3549.6s] null06 L40 tables done
+[ 3599.6s] null06 L44 tables done
+[ 3680.0s] null07 L20 tables done
+[ 3773.3s] null07 L24 tables done
+[ 3862.7s] null07 L28 tables done
+[ 3961.4s] null07 L32 tables done
+[ 4055.7s] null07 L36 tables done
+[ 4133.4s] null07 L40 tables done
+[ 4180.4s] null07 L44 tables done
+[ 4258.2s] null08 L20 tables done
+[ 4354.8s] null08 L24 tables done
+[ 4445.0s] null08 L28 tables done
+[ 4544.9s] null08 L32 tables done
+[ 4636.8s] null08 L36 tables done
+[ 4724.0s] null08 L40 tables done
+[ 4812.2s] null08 L44 tables done
+[ 4894.5s] null09 L20 tables done
+[ 4991.6s] null09 L24 tables done
+[ 5098.6s] null09 L28 tables done
+[ 5198.8s] null09 L32 tables done
+[ 5297.5s] null09 L36 tables done
+[ 5399.0s] null09 L40 tables done
+[ 5496.3s] null09 L44 tables done
+[ 5594.5s] null10 L20 tables done
+[ 5693.9s] null10 L24 tables done
+[ 5759.8s] null10 L28 tables done
+[ 5859.0s] null10 L32 tables done
+[ 5954.9s] null10 L36 tables done
+[ 6059.8s] null10 L40 tables done
+[ 6147.5s] null10 L44 tables done
+[ 6235.3s] null11 L20 tables done
+[ 6331.6s] null11 L24 tables done
+[ 6437.4s] null11 L28 tables done
+[ 6535.3s] null11 L32 tables done
+[ 6632.6s] null11 L36 tables done
+[ 6707.8s] null11 L40 tables done
+[ 6799.5s] null11 L44 tables done
+[ 6853.0s] null12 L20 tables done
+[ 6946.6s] null12 L24 tables done
+[ 6994.5s] null12 L28 tables done
+[ 7068.6s] null12 L32 tables done
+[ 7120.5s] null12 L36 tables done
+[ 7168.2s] null12 L40 tables done
+[ 7249.9s] null12 L44 tables done
+[ 7340.9s] null13 L20 tables done
+[ 7438.0s] null13 L24 tables done
+[ 7541.6s] null13 L28 tables done
+[ 7649.2s] null13 L32 tables done
+[ 7751.3s] null13 L36 tables done
+[ 7848.8s] null13 L40 tables done
+[ 7951.8s] null13 L44 tables done
+[ 8051.3s] null14 L20 tables done
+[ 8153.7s] null14 L24 tables done
+[ 8254.9s] null14 L28 tables done
+[ 8342.5s] null14 L32 tables done
+[ 8432.4s] null14 L36 tables done
+[ 8525.2s] null14 L40 tables done
+[ 8624.4s] null14 L44 tables done
+[ 8727.8s] null15 L20 tables done
+[ 8827.5s] null15 L24 tables done
+[ 8918.5s] null15 L28 tables done
+[ 9015.0s] null15 L32 tables done
+[ 9109.7s] null15 L36 tables done
+[ 9209.6s] null15 L40 tables done
+[ 9312.1s] null15 L44 tables done
+[ 9405.6s] null16 L20 tables done
+[ 9486.9s] null16 L24 tables done
+[ 9578.0s] null16 L28 tables done
+[ 9655.6s] null16 L32 tables done
+[ 9745.8s] null16 L36 tables done
+[ 9843.6s] null16 L40 tables done
+[ 9921.1s] null16 L44 tables done
+[10002.5s] null17 L20 tables done
+[10077.2s] null17 L24 tables done
+[10160.9s] null17 L28 tables done
+[10257.3s] null17 L32 tables done
+[10359.5s] null17 L36 tables done
+[10460.3s] null17 L40 tables done
+[10555.9s] null17 L44 tables done
+[10644.6s] null18 L20 tables done
+[10692.4s] null18 L24 tables done
+[10753.9s] null18 L28 tables done
+[10837.8s] null18 L32 tables done
+[10929.1s] null18 L36 tables done
+[11028.6s] null18 L40 tables done
+[11130.9s] null18 L44 tables done
+[11231.6s] null19 L20 tables done
+[11332.3s] null19 L24 tables done
+[11430.1s] null19 L28 tables done
+[11531.5s] null19 L32 tables done
+[11634.3s] null19 L36 tables done
+[11740.4s] null19 L40 tables done
+[11824.1s] null19 L44 tables done
+[11891.2s] n6 L20 tables done
+[11967.3s] n6 L24 tables done
+[12024.2s] n6 L28 tables done
+[12117.9s] n6 L32 tables done
+[12207.9s] n6 L36 tables done
+[12307.7s] n6 L40 tables done
+[12410.5s] n6 L44 tables done
+[12450.7s] dry runs OK: fail-way KILLED, pass-way SURVIVE
+[12450.8s] CHECK: SURVIVE M_real 0.00690 (S) rank 1/20 CI [0.0030536565463989973, 0.010844599455595016] null M max 0.00256 step2: S
+[12451.2s] report-only done; verdict SURVIVE

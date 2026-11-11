@@ -1,0 +1,24 @@
+{
+ "doc": 3,
+ "source": "Hamlet (Shakespeare)",
+ "genre": "drama",
+ "url": "https://www.gutenberg.org/ebooks/1524",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4948,
+ "J_p_md5": {
+  "20": "26dd69e9b07bd264a23f49178d07e312",
+  "24": "d6467e6c9b7c2440b8d6f99edc590253",
+  "28": "0c321a6e02c19ca59467ad469acf2e1a",
+  "32": "decf759376eef9640a4f58fc58ee8bd8",
+  "36": "aaecbc0f07606852244935026e3f18ce",
+  "40": "1c533d90ee263ca68fde8ccf0f67d46b",
+  "44": "b128adf026692ccea62f36934fa6613c",
+  "48": "d4a7537afc58921b390104c292c6558f",
+  "52": "dcb96c27c6206e792c8ef65754c6a4dc",
+  "56": "42a73d9956dfa69ecc6c74b7b3ad0d3e"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T02:29:11"
+}

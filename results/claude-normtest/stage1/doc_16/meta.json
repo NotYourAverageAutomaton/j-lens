@@ -1,0 +1,24 @@
+{
+ "doc": 16,
+ "source": "rsync(1) manual page",
+ "genre": "technical-manual",
+ "url": "https://download.samba.org/pub/rsync/rsync.1",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4977,
+ "J_p_md5": {
+  "20": "7fab5e8b1b29a755bbc3baf7418e40a4",
+  "24": "1bc99e0f8af2052397c4ec67262f375c",
+  "28": "6c6093f7511f6615b790d0a02a5fe349",
+  "32": "7de94822da409612b9bf805724fca620",
+  "36": "00f2fcec19d82506cf576dde0030cba1",
+  "40": "84650bbdcf970064ec5e9203276527d0",
+  "44": "324ee21682ed988e6202a2cf716fb949",
+  "48": "4efe5d41135ad186b85924e548f66e37",
+  "52": "0f417395d9459bfb8cecf5642149152f",
+  "56": "eea20b5ac95a4b9e5d9764be791c58e4"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T21:57:24"
+}

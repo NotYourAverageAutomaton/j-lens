@@ -1,0 +1,23 @@
+[   0.0m] cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 10015.72it/s]
+[   0.0m] [load] from_pretrained bf16 done in 1s
+[   5.0m] [load] fp32 remap: 292 tensors; on device in 301s
+[   5.0m] [load] mem: free 6.0/121.7 GiB
+[   5.1m] reference ready: 306 held-out positions, layers [24, 40, 52]
+[   6.2m] {"k_per_prompt": 16, "K": 96, "pred_cos": 0.1357, "s_per_probe": 0.585, "peak_gib": 81.5, "layers": {"24": {"matrix_cos": 0.0885, "top1": 0.0, "top10": 0.0}, "40": {"matrix_cos": 0.112, "top1": 0.0, "top10": 0.001}, "52": {"matrix_cos": 0.1282, "top1": 0.0, "top10": 0.0003}}}
+[   7.3m] {"k_per_prompt": 32, "K": 192, "pred_cos": 0.1901, "s_per_probe": 0.591, "peak_gib": 81.5, "layers": {"24": {"matrix_cos": 0.1227, "top1": 0.0, "top10": 0.0007}, "40": {"matrix_cos": 0.1576, "top1": 0.0, "top10": 0.002}, "52": {"matrix_cos": 0.1798, "top1": 0.0, "top10": 0.0036}}}
+[   9.2m] {"k_per_prompt": 64, "K": 384, "pred_cos": 0.2642, "s_per_probe": 0.58, "peak_gib": 81.5, "layers": {"24": {"matrix_cos": 0.1708, "top1": 0.0065, "top10": 0.0023}, "40": {"matrix_cos": 0.2194, "top1": 0.0, "top10": 0.0069}, "52": {"matrix_cos": 0.2502, "top1": 0.0, "top10": 0.0085}}}
+[  13.0m] {"k_per_prompt": 128, "K": 768, "pred_cos": 0.3612, "s_per_probe": 0.572, "peak_gib": 81.5, "layers": {"24": {"matrix_cos": 0.2375, "top1": 0.0, "top10": 0.0049}, "40": {"matrix_cos": 0.3036, "top1": 0.0065, "top10": 0.0261}, "52": {"matrix_cos": 0.3433, "top1": 0.0458, "top10": 0.0503}}}
+[  20.4m] {"k_per_prompt": 256, "K": 1536, "pred_cos": 0.4804, "s_per_probe": 0.568, "peak_gib": 81.5, "layers": {"24": {"matrix_cos": 0.33, "top1": 0.1275, "top10": 0.0529}, "40": {"matrix_cos": 0.4111, "top1": 0.049, "top10": 0.1088}, "52": {"matrix_cos": 0.4594, "top1": 0.1961, "top10": 0.1833}}}
+[  34.9m] {"k_per_prompt": 512, "K": 3072, "pred_cos": 0.6124, "s_per_probe": 0.567, "peak_gib": 81.5, "layers": {"24": {"matrix_cos": 0.4408, "top1": 0.1013, "top10": 0.0948}, "40": {"matrix_cos": 0.5376, "top1": 0.1928, "top10": 0.2725}, "52": {"matrix_cos": 0.5903, "top1": 0.3889, "top10": 0.382}}}
+[  62.8m] {"k_per_prompt": 1024, "K": 6144, "pred_cos": 0.7386, "s_per_probe": 0.554, "peak_gib": 81.5, "layers": {"24": {"matrix_cos": 0.5695, "top1": 0.219, "top10": 0.1925}, "40": {"matrix_cos": 0.6695, "top1": 0.3399, "top10": 0.482}, "52": {"matrix_cos": 0.7188, "top1": 0.5556, "top10": 0.5725}}}
+[ 117.8m] {"k_per_prompt": 2048, "K": 12288, "pred_cos": 0.8402, "s_per_probe": 0.545, "peak_gib": 81.5, "layers": {"24": {"matrix_cos": 0.699, "top1": 0.3235, "top10": 0.2967}, "40": {"matrix_cos": 0.7869, "top1": 0.5425, "top10": 0.6059}, "52": {"matrix_cos": 0.8254, "top1": 0.6993, "top10": 0.6859}}}
+[ 150.9m] {"k_per_prompt": 2666, "K": 15996, "pred_cos": 0.8704, "s_per_probe": 0.543, "peak_gib": 81.5, "layers": {"24": {"matrix_cos": 0.745, "top1": 0.3693, "top10": 0.3458}, "40": {"matrix_cos": 0.8241, "top1": 0.6046, "top10": 0.6585}, "52": {"matrix_cos": 0.8577, "top1": 0.6993, "top10": 0.7333}}}
+[ 150.9m] VERDICT: floor NOT cleared at the budget K=15996 -> K* > budget -> escalate (Hutch++/low-rank) or STOP by 1a70281
+[ 151.0m] mem {"seq": 256, "dim_batch": 1, "tokens": 256, "backward_s": 1.06, "peak_gib": 78.2, "ok": true}
+[ 151.0m] mem {"seq": 256, "dim_batch": 2, "tokens": 256, "ok": false, "error": "OOM", "peak_gib": 85.1}
+[ 151.0m] mem {"seq": 512, "dim_batch": 1, "tokens": 512, "ok": false, "error": "OOM", "peak_gib": 85.1}
+[ 151.1m] mem {"seq": 1024, "dim_batch": 1, "tokens": 1024, "ok": false, "error": "OOM", "peak_gib": 85.1}
+[ 151.1m] DONE $JLENS_HOME/claude-normtest/pilot_hutch.json

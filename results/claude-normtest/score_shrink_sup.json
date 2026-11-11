@@ -1,0 +1,454 @@
+{
+ "script_md5": "fa18d3938a5f22cf4dd29f7eada28c3e",
+ "selftest": false,
+ "prereg": "PREREG-shrink-check.md 0466a966 (Deron P101) + PREREG-amend-1.md e088c347 (Deron P103)",
+ "verdict": "REPORT-ONLY NO LEAD",
+ "stops": [],
+ "pins": {
+  "held_h.pt": "3ca0f99cd0d8f4fc2ab775b7a50ad04f",
+  "eval.py": "cabcfb792432628ec53b541b0458756f",
+  "stage1_fit.py": "fabece828f9fb90b0738d412c058e544",
+  "pilot_hutch.py": "5fa18d9bfa5fe9568e658e57dc100e66",
+  "$JLENS_HOME/whole_model_fit_record.log": "d0cf6a412d557ab0e4aea4e76ccd7987",
+  "score_stage1.json": "6744987651026820f89deffa9c4ee136"
+ },
+ "files": {
+  "record/J_l_16.pt": "7e2a1bb791e93cad1305a1ca6095289d",
+  "record/J_l_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "record/J_l_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "record/J_l_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "record/J_l_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "record/J_l_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "record/J_l_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "record/J_l_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "record/J_l_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "record/J_l_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "record/J_l_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "record/J_l_60.pt": "4091bcdb8097cc61efa3c38071a7dbc9",
+  "record/J_l_62.pt": "827591a4af9cc95d9747da81a933655c",
+  "stage1/doc_01/J_p_20.pt": "f2f3b44db01c90f0b4e80c41a34c6c1a",
+  "stage1/doc_02/J_p_20.pt": "dcc2860d1055e9290e9d96c5ed713179",
+  "stage1/doc_03/J_p_20.pt": "26dd69e9b07bd264a23f49178d07e312",
+  "stage1/doc_04/J_p_20.pt": "916be5a270ac17a44abcfd4b71a145b5",
+  "stage1/doc_05/J_p_20.pt": "a637908b841643e6708cbbe13a4bb240",
+  "stage1/doc_06/J_p_20.pt": "0ea917a4c045cae0333703edee7cc6fc",
+  "stage1/doc_07/J_p_20.pt": "2167085f70a885a267087ed2c49b20a1",
+  "stage1/doc_08/J_p_20.pt": "027e750c4e6e09ba94a1ac82ca60bfef",
+  "stage1/doc_09/J_p_20.pt": "93bfc22a9fd0b5ab9c5c88c88644cac9",
+  "stage1/doc_10/J_p_20.pt": "ca5a28276247dde70e9d0e08453955a6",
+  "stage1/doc_11/J_p_20.pt": "6125d341740eb7fcb437aa0a2160b543",
+  "stage1/doc_12/J_p_20.pt": "36b78c64c24a5bc7ad4d592f40e96565",
+  "stage1/doc_13/J_p_20.pt": "da0a964782a1b9f08cc757da4fa94be8",
+  "stage1/doc_14/J_p_20.pt": "38a0783e2c3c6ed8c1d5aab34858f38f",
+  "stage1/doc_15/J_p_20.pt": "db139ebf09e8891ae4502793c739817e",
+  "stage1/doc_16/J_p_20.pt": "7fab5e8b1b29a755bbc3baf7418e40a4",
+  "stage1/acc_20.pt": "0ce77c9e8689eb81ee8c64a920e19473",
+  "stage1/doc_01/J_p_24.pt": "8368482b5c9f1e54c19a4432b8af9637",
+  "stage1/doc_02/J_p_24.pt": "97833c75b32bc99b3986fc9870969707",
+  "stage1/doc_03/J_p_24.pt": "d6467e6c9b7c2440b8d6f99edc590253",
+  "stage1/doc_04/J_p_24.pt": "d285c501e9f08479a84e567ea9cf0519",
+  "stage1/doc_05/J_p_24.pt": "71ee2a9c2b56fdd712312d586f4b0adb",
+  "stage1/doc_06/J_p_24.pt": "71336cc98cd57c715cd6b2ccc2f6010c",
+  "stage1/doc_07/J_p_24.pt": "e3e562544a739212595b796a5b47c86f",
+  "stage1/doc_08/J_p_24.pt": "4ae9412fe5fbd3aafb672579e6ca5907",
+  "stage1/doc_09/J_p_24.pt": "0ea5ee8f2ab6246cd081446968040517",
+  "stage1/doc_10/J_p_24.pt": "7c81e3f954c644c8c3f0875bb907ad71",
+  "stage1/doc_11/J_p_24.pt": "2e5a8c44b8b72b3fb60c3b2f886067f2",
+  "stage1/doc_12/J_p_24.pt": "d0ee9c7f435976ebe6256f3a13d615c1",
+  "stage1/doc_13/J_p_24.pt": "2f6bb7367e7b604fc561ee1d1963ac21",
+  "stage1/doc_14/J_p_24.pt": "ef54aed612d2f72899a1aaf02c0f6d2a",
+  "stage1/doc_15/J_p_24.pt": "32fcc8e358ecd78504e042ff79f4156d",
+  "stage1/doc_16/J_p_24.pt": "1bc99e0f8af2052397c4ec67262f375c",
+  "stage1/acc_24.pt": "55a16c05d3ca191de421bd4cb0f8005e",
+  "stage1/doc_01/J_p_28.pt": "1fe8135452b49a332514141905d8fe5c",
+  "stage1/doc_02/J_p_28.pt": "25e60387b8e9e9c48b4e1e6d1c9fb32b",
+  "stage1/doc_03/J_p_28.pt": "0c321a6e02c19ca59467ad469acf2e1a",
+  "stage1/doc_04/J_p_28.pt": "882e96f740cf62cb7a1e4088a28eb538",
+  "stage1/doc_05/J_p_28.pt": "2af7b1828b6817db3ff3a723750a1cb4",
+  "stage1/doc_06/J_p_28.pt": "e7a1c7b38edf3705f8ecf3105f97f0d7",
+  "stage1/doc_07/J_p_28.pt": "ca1c09b3882c8a1eb86983be1a75ca57",
+  "stage1/doc_08/J_p_28.pt": "3bcee384395fc4edd2ed64c2d8dd946e",
+  "stage1/doc_09/J_p_28.pt": "05e81ee4391f08a85cfdfb22107e9f2b",
+  "stage1/doc_10/J_p_28.pt": "5a3b22e47a460bc1a245bcae9d7ceddc",
+  "stage1/doc_11/J_p_28.pt": "7969dd89b59ca6b07a49ab07f22f8e57",
+  "stage1/doc_12/J_p_28.pt": "4918eadaec25ddc08dd01699e37d72a7",
+  "stage1/doc_13/J_p_28.pt": "d231cb4af070cab9918a0dd27dc90ee9",
+  "stage1/doc_14/J_p_28.pt": "f813dcb1b2982ccd4f5b62b3161c32dc",
+  "stage1/doc_15/J_p_28.pt": "5d6687fcf312957353e10f716de0ef37",
+  "stage1/doc_16/J_p_28.pt": "6c6093f7511f6615b790d0a02a5fe349",
+  "stage1/acc_28.pt": "b676390f936cad2bdf433b95ba2d2073",
+  "stage1/doc_01/J_p_32.pt": "9dab1b40792b025895c1836629d470e2",
+  "stage1/doc_02/J_p_32.pt": "6bbc22b8b48176016b14e2dc8c781bbb",
+  "stage1/doc_03/J_p_32.pt": "decf759376eef9640a4f58fc58ee8bd8",
+  "stage1/doc_04/J_p_32.pt": "2af8a80511080a64efb037bb16430027",
+  "stage1/doc_05/J_p_32.pt": "a8468209179b9524816960f30df53462",
+  "stage1/doc_06/J_p_32.pt": "5bad440bb88524b5a4da059b1b8f2343",
+  "stage1/doc_07/J_p_32.pt": "c3e5a6e4f36c533c36ee6204a3b9ebd3",
+  "stage1/doc_08/J_p_32.pt": "abab42ad54772dd36376e7024fb93579",
+  "stage1/doc_09/J_p_32.pt": "eb401f245b78ce421d9e022e49747b05",
+  "stage1/doc_10/J_p_32.pt": "c6fd8c9ffdb1da9c1ffa868306bd8e24",
+  "stage1/doc_11/J_p_32.pt": "6dd078072a9bb02189e202fd56dc6f00",
+  "stage1/doc_12/J_p_32.pt": "0e23a6bf20586232851a100dd242fb1a",
+  "stage1/doc_13/J_p_32.pt": "9d8ad0dc7e3b7798d1ed690cd64b99d1",
+  "stage1/doc_14/J_p_32.pt": "07023f1ef12a8be9e9f1addac5c6ae82",
+  "stage1/doc_15/J_p_32.pt": "a34d300f4d017913b1ca92458912427e",
+  "stage1/doc_16/J_p_32.pt": "7de94822da409612b9bf805724fca620",
+  "stage1/acc_32.pt": "325d2db4f30f97c3f7bb766cf5773f24",
+  "stage1/doc_01/J_p_36.pt": "21852961b34b54d9e1dc51a7044c9ccd",
+  "stage1/doc_02/J_p_36.pt": "3a86f8515ebb19caa52b6d2f16ee600a",
+  "stage1/doc_03/J_p_36.pt": "aaecbc0f07606852244935026e3f18ce",
+  "stage1/doc_04/J_p_36.pt": "a8cf72ecf5415ab1d377c3d4d22cc49d",
+  "stage1/doc_05/J_p_36.pt": "aa07f3718e2facf8bd1ff8305b5c50f5",
+  "stage1/doc_06/J_p_36.pt": "20e4435a2791ccc30b75734edf75dfe2",
+  "stage1/doc_07/J_p_36.pt": "38c1ebb10dac64802cd9abae63b8084b",
+  "stage1/doc_08/J_p_36.pt": "ecae284609d51c55e5d20ef3310e54f9",
+  "stage1/doc_09/J_p_36.pt": "4a16d8d132ad86344441af4dadd51b93",
+  "stage1/doc_10/J_p_36.pt": "2222661baa414d5bec1b2ab0a1777da6",
+  "stage1/doc_11/J_p_36.pt": "8caf0f30e74d7edcee19a346f878a4de",
+  "stage1/doc_12/J_p_36.pt": "3996e8f49ea0e2d3821d7d047b739f9b",
+  "stage1/doc_13/J_p_36.pt": "37ac147d6f2f2328ad68338b0c8c0829",
+  "stage1/doc_14/J_p_36.pt": "1b78eb89416844c57951b602eb538307",
+  "stage1/doc_15/J_p_36.pt": "b8ff69b1a20c248edf4f4c95c8854499",
+  "stage1/doc_16/J_p_36.pt": "00f2fcec19d82506cf576dde0030cba1",
+  "stage1/acc_36.pt": "dad9aa2033460d121ee462c9293032fc",
+  "stage1/doc_01/J_p_40.pt": "7a8773f75966513565ff39616e08626b",
+  "stage1/doc_02/J_p_40.pt": "7e60eacc561099ca63726c91a1c5147b",
+  "stage1/doc_03/J_p_40.pt": "1c533d90ee263ca68fde8ccf0f67d46b",
+  "stage1/doc_04/J_p_40.pt": "9e3bc9d9926a7eb49b9f1cd76179d424",
+  "stage1/doc_05/J_p_40.pt": "64e8cabea1c2b965d8b5a33e8e587603",
+  "stage1/doc_06/J_p_40.pt": "99031c907559106f5afc15e0a7d13e8a",
+  "stage1/doc_07/J_p_40.pt": "1859aec09bb73437305efdf508603430",
+  "stage1/doc_08/J_p_40.pt": "9d972a8336d0511bd231e0ad87a75efa",
+  "stage1/doc_09/J_p_40.pt": "8107753956cf2dcaa9686cf3e3ffdc88",
+  "stage1/doc_10/J_p_40.pt": "270b34eb5236ba6f9c345ba83c919033",
+  "stage1/doc_11/J_p_40.pt": "8396146a7ddeef776006cb76639e8901",
+  "stage1/doc_12/J_p_40.pt": "e5479a8254667f27c7454bc9edc36110",
+  "stage1/doc_13/J_p_40.pt": "709d004a9d38f31b062270b15589f8ba",
+  "stage1/doc_14/J_p_40.pt": "f1117a8f753b62b1213fee32e3d92e81",
+  "stage1/doc_15/J_p_40.pt": "01e38b52f0d8a5c39bbc56ed21ccefb6",
+  "stage1/doc_16/J_p_40.pt": "84650bbdcf970064ec5e9203276527d0",
+  "stage1/acc_40.pt": "b3dac9d28908655ffc5a53847e720043",
+  "stage1/doc_01/J_p_44.pt": "f32eb88629ac44ef3a59329cb155804f",
+  "stage1/doc_02/J_p_44.pt": "876afec123d72add22f7db357bc3efb7",
+  "stage1/doc_03/J_p_44.pt": "b128adf026692ccea62f36934fa6613c",
+  "stage1/doc_04/J_p_44.pt": "90f722c17e0d4ca4e1501f62c9b90263",
+  "stage1/doc_05/J_p_44.pt": "1bd6aecad34f097ac3b22683ab2f58b0",
+  "stage1/doc_06/J_p_44.pt": "8f6286a3359da0208cde79f5f2740bce",
+  "stage1/doc_07/J_p_44.pt": "d2c660338e661351f11a1ba60a2b55ed",
+  "stage1/doc_08/J_p_44.pt": "013cda86f174dc0653b7e940ba98fac5",
+  "stage1/doc_09/J_p_44.pt": "e1e8abbff2209c5700eed3d3a5b05053",
+  "stage1/doc_10/J_p_44.pt": "d5a3b1071eb3e11cf32200202c8d5b0d",
+  "stage1/doc_11/J_p_44.pt": "07d0434dc0945cdf0854a9057f144f22",
+  "stage1/doc_12/J_p_44.pt": "74f665dc12f9d58cbf6b1cd81a2d3338",
+  "stage1/doc_13/J_p_44.pt": "1ad5150119dc8a043593902a35f52fe9",
+  "stage1/doc_14/J_p_44.pt": "4ff2e3ea26447b934d61cc2be17e6967",
+  "stage1/doc_15/J_p_44.pt": "8b7d708c72b4cc73a649ab7be29022c4",
+  "stage1/doc_16/J_p_44.pt": "324ee21682ed988e6202a2cf716fb949",
+  "stage1/acc_44.pt": "eb26dcf01beccceac3bc35b328cce7e3"
+ },
+ "env": {
+  "torch": "2.11.0+cu130",
+  "python": "3.12.3",
+  "threads": 12,
+  "host": "gpu-host",
+  "transformers": "5.10.2",
+  "note": "CPU-only run; GPU not used"
+ },
+ "memory": {
+  "mem_available_at_start_gib": 52.4,
+  "required_gib": 37.0,
+  "rss_after_layer_20": 10.9,
+  "rss_after_layer_24": 10.9,
+  "rss_after_layer_28": 10.9,
+  "rss_after_layer_32": 10.9,
+  "rss_after_layer_36": 10.9,
+  "rss_after_layer_40": 10.9,
+  "rss_after_layer_44": 10.9,
+  "rss_peak_gib": 16.16
+ },
+ "folds": {
+  "A_passages": [
+   0,
+   1,
+   2
+  ],
+  "B_passages": [
+   3,
+   4,
+   5
+  ],
+  "A_positions": 151,
+  "B_positions": 155
+ },
+ "disjoint": {
+  "stage1_docs": 16,
+  "held_out": 6,
+  "overlapping_docs": []
+ },
+ "N": {
+  "record_parts_from_log": [
+   131,
+   107,
+   96,
+   96,
+   93,
+   119
+  ],
+  "N_rec": 642,
+  "sum_n_p": 3824,
+  "total": 4466
+ },
+ "resume_b_c": {
+  "n_valid": [
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239
+  ],
+  "acc_check": {
+   "20": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "24": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "28": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "32": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "36": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "40": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "44": {
+    "tot": 3824,
+    "sum_n": 3824,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   }
+  }
+ },
+ "dry_runs": {
+  "fail_way_grid0": "NO LEAD",
+  "pass_way_oracle_h_final": "LEAD"
+ },
+ "report_only": {
+  "heading": "REPORT-ONLY (Deron P106). A LEAD is grounds for its own pre-reg on fresh text, not a pass.",
+  "decision": "NO LEAD",
+  "M_real": -0.06546804308891296,
+  "ci_2.5_97.5": [
+   -0.07762535661458969,
+   -0.05464206263422966
+  ],
+  "rank_of_M_real": 1,
+  "of": 20,
+  "null": [
+   {
+    "seed": 20261105,
+    "M": -0.09574960917234421
+   },
+   {
+    "seed": 20261106,
+    "M": -0.10241837799549103
+   },
+   {
+    "seed": 20261107,
+    "M": -0.10172884166240692
+   },
+   {
+    "seed": 20261108,
+    "M": -0.09803588688373566
+   },
+   {
+    "seed": 20261109,
+    "M": -0.10115416347980499
+   },
+   {
+    "seed": 20261110,
+    "M": -0.09752198308706284
+   },
+   {
+    "seed": 20261111,
+    "M": -0.10329446941614151
+   },
+   {
+    "seed": 20261112,
+    "M": -0.10061803460121155
+   },
+   {
+    "seed": 20261113,
+    "M": -0.10131905972957611
+   },
+   {
+    "seed": 20261114,
+    "M": -0.10478118062019348
+   },
+   {
+    "seed": 20261115,
+    "M": -0.09949572384357452
+   },
+   {
+    "seed": 20261116,
+    "M": -0.10319220274686813
+   },
+   {
+    "seed": 20261117,
+    "M": -0.1030336245894432
+   },
+   {
+    "seed": 20261118,
+    "M": -0.09789860993623734
+   },
+   {
+    "seed": 20261119,
+    "M": -0.10126291960477829
+   },
+   {
+    "seed": 20261120,
+    "M": -0.10155155509710312
+   },
+   {
+    "seed": 20261121,
+    "M": -0.09412561357021332
+   },
+   {
+    "seed": 20261122,
+    "M": -0.09952276945114136
+   },
+   {
+    "seed": 20261123,
+    "M": -0.09334567934274673
+   }
+  ],
+  "chosen": {
+   "20": {
+    "picked_on_A_scores_B": 1.25,
+    "picked_on_B_scores_A": 1.25
+   },
+   "24": {
+    "picked_on_A_scores_B": 1.25,
+    "picked_on_B_scores_A": 1.25
+   },
+   "28": {
+    "picked_on_A_scores_B": 1.25,
+    "picked_on_B_scores_A": 1.25
+   },
+   "32": {
+    "picked_on_A_scores_B": 1.25,
+    "picked_on_B_scores_A": 1.25
+   },
+   "36": {
+    "picked_on_A_scores_B": 1.25,
+    "picked_on_B_scores_A": 1.25
+   },
+   "40": {
+    "picked_on_A_scores_B": 1.25,
+    "picked_on_B_scores_A": 1.25
+   },
+   "44": {
+    "picked_on_A_scores_B": 1.25,
+    "picked_on_B_scores_A": 1.25
+   }
+  },
+  "per_layer_mean_fut20": {
+   "20": {
+    "logit": 0.09876802563667297,
+    "a=1": 0.036501456052064896,
+    "up": {
+     "1.25": 0.023801743984222412,
+     "1.5": 0.003594771260395646,
+     "2.0": 0.0,
+     "3.0": 0.0
+    }
+   },
+   "24": {
+    "logit": 0.11991258710622787,
+    "a=1": 0.0417068712413311,
+    "up": {
+     "1.25": 0.025962237268686295,
+     "1.5": 0.00958605669438839,
+     "2.0": 0.0022875817958265543,
+     "3.0": 0.0
+    }
+   },
+   "28": {
+    "logit": 0.1327536553144455,
+    "a=1": 0.05270904302597046,
+    "up": {
+     "1.25": 0.02700098790228367,
+     "1.5": 0.012418300844728947,
+     "2.0": 0.0016339869471266866,
+     "3.0": 0.0
+    }
+   },
+   "32": {
+    "logit": 0.12266833335161209,
+    "a=1": 0.06096068397164345,
+    "up": {
+     "1.25": 0.03969161957502365,
+     "1.5": 0.021250909194350243,
+     "2.0": 0.009268337860703468,
+     "3.0": 0.0020424837712198496
+    }
+   },
+   "36": {
+    "logit": 0.07743930071592331,
+    "a=1": 0.06284884363412857,
+    "up": {
+     "1.25": 0.050857193768024445,
+     "1.5": 0.03740403801202774,
+     "2.0": 0.01786881498992443,
+     "3.0": 0.006290849298238754
+    }
+   },
+   "40": {
+    "logit": 0.09931657463312149,
+    "a=1": 0.06834734231233597,
+    "up": {
+     "1.25": 0.06202017888426781,
+     "1.5": 0.05276092141866684,
+     "2.0": 0.04501763731241226,
+     "3.0": 0.03632119670510292
+    }
+   },
+   "44": {
+    "logit": 0.11448542028665543,
+    "a=1": 0.08681139349937439,
+    "up": {
+     "1.25": 0.07773369550704956,
+     "1.5": 0.0711393803358078,
+     "2.0": 0.058929868042469025,
+     "3.0": 0.05525340139865875
+    }
+   }
+  }
+ },
+ "minutes": 48.8
+}

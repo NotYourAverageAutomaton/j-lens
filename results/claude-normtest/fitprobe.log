@@ -1,0 +1,10 @@
+cuda memory fraction 0.85 set (raised from 0.70: GDN forward activations exceed weight-only estimate; GB10 dedicated tonight)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  51%|█████     | 435/851 [00:00<00:00, 4302.08it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 4407.12it/s]
+[load] from_pretrained bf16 done in 1s
+[load] fp32 remap: 292 tensors; on device in 344s
+[load] mem: free 8.2/121.7 GiB
+SMOKE no-grad forward ok 2.2s logits (1, 27, 248320) torch.float32 finite=True
+TRIAL {"dim_batch": 16, "grad_root_layer": 42, "fwd_s": 2.3, "peak_fwd_gib": 80.51401138305664, "ok": true, "back_s": [1.53, 1.48], "peak_gib": 80.51401138305664, "n_back_per_prompt": 320, "est_total_min": 63.3}
+FITPROBE {"ts": "20:36:56", "seq": 27, "base_gib": 68.05753660202026, "n_prompts": 8, "trials": [{"dim_batch": 16, "grad_root_layer": 42, "fwd_s": 2.3, "peak_fwd_gib": 80.51401138305664, "ok": true, "back_s": [1.53, 1.48], "peak_gib": 80.51401138305664, "n_back_per_prompt": 320, "est_total_min": 63.3}]}

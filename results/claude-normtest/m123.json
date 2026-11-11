@@ -1,0 +1,261 @@
+{
+ "script_md5": "1aece08720240f32acbaee7a18da3a2c",
+ "prereg": "Deron P112 definitions; Jett PREDICTION-ADDENDUM 4e85fd19",
+ "verdict": "REPORT-ONLY DONE",
+ "stops": [],
+ "files": {
+  "stage1/doc_01/J_p_24.pt": "8368482b5c9f1e54c19a4432b8af9637",
+  "stage1/doc_02/J_p_24.pt": "97833c75b32bc99b3986fc9870969707",
+  "stage1/doc_03/J_p_24.pt": "d6467e6c9b7c2440b8d6f99edc590253",
+  "stage1/doc_04/J_p_24.pt": "d285c501e9f08479a84e567ea9cf0519",
+  "stage1/doc_05/J_p_24.pt": "71ee2a9c2b56fdd712312d586f4b0adb",
+  "stage1/doc_06/J_p_24.pt": "71336cc98cd57c715cd6b2ccc2f6010c",
+  "stage1/doc_07/J_p_24.pt": "e3e562544a739212595b796a5b47c86f",
+  "stage1/doc_08/J_p_24.pt": "4ae9412fe5fbd3aafb672579e6ca5907",
+  "stage1/doc_09/J_p_24.pt": "0ea5ee8f2ab6246cd081446968040517",
+  "stage1/doc_10/J_p_24.pt": "7c81e3f954c644c8c3f0875bb907ad71",
+  "stage1/doc_11/J_p_24.pt": "2e5a8c44b8b72b3fb60c3b2f886067f2",
+  "stage1/doc_12/J_p_24.pt": "d0ee9c7f435976ebe6256f3a13d615c1",
+  "stage1/doc_13/J_p_24.pt": "2f6bb7367e7b604fc561ee1d1963ac21",
+  "stage1/doc_14/J_p_24.pt": "ef54aed612d2f72899a1aaf02c0f6d2a",
+  "stage1/doc_15/J_p_24.pt": "32fcc8e358ecd78504e042ff79f4156d",
+  "stage1/doc_16/J_p_24.pt": "1bc99e0f8af2052397c4ec67262f375c",
+  "stage1/doc_01/J_p_40.pt": "7a8773f75966513565ff39616e08626b",
+  "stage1/doc_02/J_p_40.pt": "7e60eacc561099ca63726c91a1c5147b",
+  "stage1/doc_03/J_p_40.pt": "1c533d90ee263ca68fde8ccf0f67d46b",
+  "stage1/doc_04/J_p_40.pt": "9e3bc9d9926a7eb49b9f1cd76179d424",
+  "stage1/doc_05/J_p_40.pt": "64e8cabea1c2b965d8b5a33e8e587603",
+  "stage1/doc_06/J_p_40.pt": "99031c907559106f5afc15e0a7d13e8a",
+  "stage1/doc_07/J_p_40.pt": "1859aec09bb73437305efdf508603430",
+  "stage1/doc_08/J_p_40.pt": "9d972a8336d0511bd231e0ad87a75efa",
+  "stage1/doc_09/J_p_40.pt": "8107753956cf2dcaa9686cf3e3ffdc88",
+  "stage1/doc_10/J_p_40.pt": "270b34eb5236ba6f9c345ba83c919033",
+  "stage1/doc_11/J_p_40.pt": "8396146a7ddeef776006cb76639e8901",
+  "stage1/doc_12/J_p_40.pt": "e5479a8254667f27c7454bc9edc36110",
+  "stage1/doc_13/J_p_40.pt": "709d004a9d38f31b062270b15589f8ba",
+  "stage1/doc_14/J_p_40.pt": "f1117a8f753b62b1213fee32e3d92e81",
+  "stage1/doc_15/J_p_40.pt": "01e38b52f0d8a5c39bbc56ed21ccefb6",
+  "stage1/doc_16/J_p_40.pt": "84650bbdcf970064ec5e9203276527d0",
+  "stage1/doc_01/J_p_52.pt": "590a731bd2a8428c647e0e31da51251b",
+  "stage1/doc_02/J_p_52.pt": "c745fbfc2c0207da13771c00a68f95e8",
+  "stage1/doc_03/J_p_52.pt": "dcb96c27c6206e792c8ef65754c6a4dc",
+  "stage1/doc_04/J_p_52.pt": "0e2e5224d91ddb4c99d2d4c4f66497a9",
+  "stage1/doc_05/J_p_52.pt": "767d5a9f6f4720165c05b040e8d9af86",
+  "stage1/doc_06/J_p_52.pt": "fddd0f22f09077a69364684eb251ce8b",
+  "stage1/doc_07/J_p_52.pt": "68fbd798b84982865949ee601bc9c844",
+  "stage1/doc_08/J_p_52.pt": "aa23abf38afed29fdbbda7714419b324",
+  "stage1/doc_09/J_p_52.pt": "a901612ce1bfcd54561302f852a27b31",
+  "stage1/doc_10/J_p_52.pt": "2a9f51397fbca8ebe758cd64c99c4049",
+  "stage1/doc_11/J_p_52.pt": "be9801445cca88857557bce25966b3d2",
+  "stage1/doc_12/J_p_52.pt": "f39a2c7ef5c03b6aff19d3c3983a3eae",
+  "stage1/doc_13/J_p_52.pt": "13b70645d190413648e07556b64942d3",
+  "stage1/doc_14/J_p_52.pt": "d48cf270cf3f7e213375b6b7221b6bab",
+  "stage1/doc_15/J_p_52.pt": "afc50a606dd9f22823135c4475a3e04e",
+  "stage1/doc_16/J_p_52.pt": "0f417395d9459bfb8cecf5642149152f"
+ },
+ "env": {
+  "torch": "2.11.0+cu130",
+  "python": "3.12.3",
+  "threads": 8,
+  "host": "gpu-host"
+ },
+ "M2": "UNMEASURABLE with the 306 held states (rank(Sigma_h) <= 305 caps PR(M) at 305); needs >= ~20k captured states (post P112 item 2)",
+ "split": {
+  "seed": 20261108,
+  "half_A_docs": [
+   1,
+   2,
+   3,
+   8,
+   10,
+   11,
+   12,
+   13
+  ],
+  "half_B_docs": [
+   4,
+   5,
+   6,
+   7,
+   9,
+   14,
+   15,
+   16
+  ],
+  "n_valid": [
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239,
+   239
+  ]
+ },
+ "layers": {
+  "24": {
+   "M1": {
+    "PR_corrected": 3174.9130859375,
+    "PR_raw_D16": 2361.9912109375,
+    "PR_noise": 56.581844329833984,
+    "jett_interval": [
+     3000,
+     3900
+    ],
+    "hit": true,
+    "top10_sigma_D": [
+     6.973383903503418,
+     5.727082252502441,
+     4.297356605529785,
+     4.139094352722168,
+     3.60180926322937,
+     3.5053048133850098,
+     3.3593099117279053,
+     3.188812255859375,
+     3.0740628242492676,
+     2.940380334854126
+    ],
+    "top10_sigma_noise": [
+     4.428528308868408,
+     3.163522958755493,
+     2.941033363342285,
+     1.8561939001083374,
+     1.6932352781295776,
+     1.5827747583389282,
+     1.4786385297775269,
+     1.4258383512496948,
+     1.3667058944702148,
+     1.3423181772232056
+    ],
+    "share_of_D_energy_above_noise": 0.9618128538131714
+   },
+   "M3": {
+    "ratio_over_J16": 0.9635129570960999,
+    "jett_interval": [
+     0.1,
+     0.25
+    ],
+    "hit": false,
+    "ratio_over_D16_report_only": 0.3926442265510559,
+    "fro_J16": 28.590700149536133,
+    "fro_D16": 70.1589584350586,
+    "fro_I": 71.5541763305664
+   }
+  },
+  "40": {
+   "M1": {
+    "PR_corrected": 1167.9251708984375,
+    "PR_raw_D16": 919.2705688476562,
+    "PR_noise": 110.69896697998047,
+    "jett_interval": [
+     2400,
+     3300
+    ],
+    "hit": false,
+    "top10_sigma_D": [
+     9.052237510681152,
+     7.562197208404541,
+     5.214529991149902,
+     3.9791409969329834,
+     3.9094550609588623,
+     3.5880651473999023,
+     3.548821449279785,
+     3.347872734069824,
+     3.275965452194214,
+     3.1547889709472656
+    ],
+    "top10_sigma_noise": [
+     4.548112392425537,
+     2.971088171005249,
+     2.2817795276641846,
+     1.731366515159607,
+     1.5525327920913696,
+     1.4798558950424194,
+     1.3607679605484009,
+     1.2807869911193848,
+     1.2270065546035767,
+     1.214002251625061
+    ],
+    "share_of_D_energy_above_noise": 0.9345647692680359
+   },
+   "M3": {
+    "ratio_over_J16": 0.6443655490875244,
+    "jett_interval": [
+     0.1,
+     0.25
+    ],
+    "hit": false,
+    "ratio_over_D16_report_only": 0.512770414352417,
+    "fro_J16": 50.115867614746094,
+    "fro_D16": 62.97738265991211,
+    "fro_I": 71.5541763305664
+   }
+  },
+  "52": {
+   "M1": {
+    "PR_corrected": 420.1678466796875,
+    "PR_raw_D16": 419.18231201171875,
+    "PR_noise": 391.5220642089844,
+    "jett_interval": [
+     1700,
+     2600
+    ],
+    "hit": false,
+    "top10_sigma_D": [
+     8.671403884887695,
+     6.606124401092529,
+     5.1081223487854,
+     4.362881660461426,
+     4.217257976531982,
+     3.7151997089385986,
+     3.620623826980591,
+     3.470905065536499,
+     3.4449799060821533,
+     3.3916497230529785
+    ],
+    "top10_sigma_noise": [
+     2.519585371017456,
+     1.5289138555526733,
+     1.311079740524292,
+     1.0868356227874756,
+     0.9884312152862549,
+     0.8550111651420593,
+     0.8201653361320496,
+     0.8107964992523193,
+     0.7831015586853027,
+     0.7606548070907593
+    ],
+    "share_of_D_energy_above_noise": 0.9304587244987488
+   },
+   "M3": {
+    "ratio_over_J16": 0.3135961592197418,
+    "jett_interval": [
+     0.1,
+     0.25
+    ],
+    "hit": false,
+    "ratio_over_D16_report_only": 0.5274293422698975,
+    "fro_J16": 81.9655532836914,
+    "fro_D16": 48.73464584350586,
+    "fro_I": 71.5541763305664
+   }
+  }
+ },
+ "limits": [
+  "M1 noise mixes position and doc variance (post P112)",
+  "16 Stage-1 docs, not the 6-doc record (per-doc record maps do not exist)",
+  "index-matched quadrature subtraction is a heuristic for spectra of a sum (as defined in post P112)"
+ ],
+ "minutes": 1.8,
+ "rss_peak_gib": 2.68,
+ "ts": "2026-11-07T20:40:26"
+}

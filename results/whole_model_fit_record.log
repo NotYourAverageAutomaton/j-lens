@@ -1,0 +1,112 @@
+[prov] PASS Swift-1.5-Qwen3.8-27b: manifest 025249e8 + file-set identical (36 files)
+cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  35%|███▍      | 295/851 [00:00<00:00, 2947.80it/s]Loading weights:  71%|███████▏  | 607/851 [00:00<00:00, 3035.90it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 3290.38it/s]
+[load] from_pretrained bf16 done in 1s
+[load] fp32 remap: 292 tensors; on device in 326s
+[load] mem: free 7.3/121.7 GiB
+[load] layer-42 fp32 pre-hook registered
+[fit] lens ready: n_layers=64 d_model=5120 bos_applied=False embed=Embedding
+[fit] prompt 1/6: n_valid=131 3555s (cum 59.2 min)
+[fit] prompt 2/6: n_valid=107 2384s (cum 99.0 min)
+[fit] prompt 3/6: n_valid=96 2328s (cum 137.9 min)
+[fit] prompt 4/6: n_valid=96 2329s (cum 176.8 min)
+[fit] prompt 5/6: n_valid=93 2297s (cum 215.1 min)
+[fit] prompt 6/6: n_valid=119 3414s (cum 272.1 min)
+[fit] all prompts done in 272.2 min
+[save] $JLENS_HOME/results-whole-swift-record/J_l_16.pt (5120, 5120) torch.float32 |F|=61.2
+[save] $JLENS_HOME/results-whole-swift-record/J_l_17.pt (5120, 5120) torch.float32 |F|=55.3
+[save] $JLENS_HOME/results-whole-swift-record/J_l_18.pt (5120, 5120) torch.float32 |F|=45.3
+[save] $JLENS_HOME/results-whole-swift-record/J_l_19.pt (5120, 5120) torch.float32 |F|=43.8
+[save] $JLENS_HOME/results-whole-swift-record/J_l_20.pt (5120, 5120) torch.float32 |F|=42.9
+[save] $JLENS_HOME/results-whole-swift-record/J_l_21.pt (5120, 5120) torch.float32 |F|=42.1
+[save] $JLENS_HOME/results-whole-swift-record/J_l_22.pt (5120, 5120) torch.float32 |F|=41.6
+[save] $JLENS_HOME/results-whole-swift-record/J_l_23.pt (5120, 5120) torch.float32 |F|=42.9
+[save] $JLENS_HOME/results-whole-swift-record/J_l_24.pt (5120, 5120) torch.float32 |F|=43.5
+[save] $JLENS_HOME/results-whole-swift-record/J_l_25.pt (5120, 5120) torch.float32 |F|=44.0
+[save] $JLENS_HOME/results-whole-swift-record/J_l_26.pt (5120, 5120) torch.float32 |F|=42.6
+[save] $JLENS_HOME/results-whole-swift-record/J_l_27.pt (5120, 5120) torch.float32 |F|=44.3
+[save] $JLENS_HOME/results-whole-swift-record/J_l_28.pt (5120, 5120) torch.float32 |F|=45.9
+[save] $JLENS_HOME/results-whole-swift-record/J_l_29.pt (5120, 5120) torch.float32 |F|=47.3
+[save] $JLENS_HOME/results-whole-swift-record/J_l_30.pt (5120, 5120) torch.float32 |F|=48.0
+[save] $JLENS_HOME/results-whole-swift-record/J_l_31.pt (5120, 5120) torch.float32 |F|=49.9
+[save] $JLENS_HOME/results-whole-swift-record/J_l_32.pt (5120, 5120) torch.float32 |F|=46.9
+[save] $JLENS_HOME/results-whole-swift-record/J_l_33.pt (5120, 5120) torch.float32 |F|=46.6
+[save] $JLENS_HOME/results-whole-swift-record/J_l_34.pt (5120, 5120) torch.float32 |F|=43.9
+[save] $JLENS_HOME/results-whole-swift-record/J_l_35.pt (5120, 5120) torch.float32 |F|=44.9
+[save] $JLENS_HOME/results-whole-swift-record/J_l_36.pt (5120, 5120) torch.float32 |F|=46.6
+[save] $JLENS_HOME/results-whole-swift-record/J_l_37.pt (5120, 5120) torch.float32 |F|=48.2
+[save] $JLENS_HOME/results-whole-swift-record/J_l_38.pt (5120, 5120) torch.float32 |F|=52.0
+[save] $JLENS_HOME/results-whole-swift-record/J_l_39.pt (5120, 5120) torch.float32 |F|=56.6
+[save] $JLENS_HOME/results-whole-swift-record/J_l_40.pt (5120, 5120) torch.float32 |F|=63.9
+[save] $JLENS_HOME/results-whole-swift-record/J_l_41.pt (5120, 5120) torch.float32 |F|=70.2
+[save] $JLENS_HOME/results-whole-swift-record/J_l_42.pt (5120, 5120) torch.float32 |F|=73.3
+[save] $JLENS_HOME/results-whole-swift-record/J_l_43.pt (5120, 5120) torch.float32 |F|=77.0
+[save] $JLENS_HOME/results-whole-swift-record/J_l_44.pt (5120, 5120) torch.float32 |F|=79.6
+[save] $JLENS_HOME/results-whole-swift-record/J_l_45.pt (5120, 5120) torch.float32 |F|=83.0
+[save] $JLENS_HOME/results-whole-swift-record/J_l_46.pt (5120, 5120) torch.float32 |F|=85.5
+[save] $JLENS_HOME/results-whole-swift-record/J_l_47.pt (5120, 5120) torch.float32 |F|=87.8
+[save] $JLENS_HOME/results-whole-swift-record/J_l_48.pt (5120, 5120) torch.float32 |F|=86.9
+[save] $JLENS_HOME/results-whole-swift-record/J_l_49.pt (5120, 5120) torch.float32 |F|=86.4
+[save] $JLENS_HOME/results-whole-swift-record/J_l_50.pt (5120, 5120) torch.float32 |F|=85.0
+[save] $JLENS_HOME/results-whole-swift-record/J_l_51.pt (5120, 5120) torch.float32 |F|=84.4
+[save] $JLENS_HOME/results-whole-swift-record/J_l_52.pt (5120, 5120) torch.float32 |F|=86.0
+[save] $JLENS_HOME/results-whole-swift-record/J_l_53.pt (5120, 5120) torch.float32 |F|=86.8
+[save] $JLENS_HOME/results-whole-swift-record/J_l_54.pt (5120, 5120) torch.float32 |F|=88.0
+[save] $JLENS_HOME/results-whole-swift-record/J_l_55.pt (5120, 5120) torch.float32 |F|=88.5
+[save] $JLENS_HOME/results-whole-swift-record/J_l_56.pt (5120, 5120) torch.float32 |F|=88.6
+[save] $JLENS_HOME/results-whole-swift-record/J_l_57.pt (5120, 5120) torch.float32 |F|=88.6
+[save] $JLENS_HOME/results-whole-swift-record/J_l_58.pt (5120, 5120) torch.float32 |F|=88.5
+[save] $JLENS_HOME/results-whole-swift-record/J_l_59.pt (5120, 5120) torch.float32 |F|=86.9
+[save] $JLENS_HOME/results-whole-swift-record/J_l_60.pt (5120, 5120) torch.float32 |F|=83.1
+[save] $JLENS_HOME/results-whole-swift-record/J_l_61.pt (5120, 5120) torch.float32 |F|=80.2
+[save] $JLENS_HOME/results-whole-swift-record/J_l_62.pt (5120, 5120) torch.float32 |F|=76.1
+Traceback (most recent call last):
+  File "$JLENS_HOME/whole_model_fit.py", line 243, in <module>
+    main()
+  File "$JLENS_HOME/whole_model_fit.py", line 218, in main
+    model(input_ids=ids, use_cache=False)
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/utils/generic.py", line 903, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 1667, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/utils/generic.py", line 1032, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/utils/output_capturing.py", line 252, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 1204, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1885, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1846, in inner
+    hook_result = hook(self, args, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$JLENS_HOME/our_jlens.py", line 146, in hook
+    h.retain_grad()          # grad wrt this intermediate residual
+    ^^^^^^^^^^^^^^^
+RuntimeError: can't retain_grad on Tensor that has requires_grad=False

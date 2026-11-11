@@ -1,0 +1,9 @@
+device=cuda:0
+cuda memory fraction 0.70 set
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+whole model loaded 851 keys in 347.0s (skipped 348 visual/mtp, unknown 0)
+post-load mem 68.0 GiB
+[transformers] You tried to access the `AttentionInterface` with a `config._attn_implementation` set to `None`. This is expected if you use an Attention Module as a standalone Module. If this is not the case, something went wrong with the dispatch of `config._attn_implementation`
+VERIFY: {"rel_l2": 1.07594895362854, "max_abs": 34.8903923034668, "bar": "rel_l2 <= 0.002", "pass": false, "note": "whole-model in-memory (0-41 bf16 + 42-63 fp32) h_final vs layer-by-layer full reference (all bf16 from disk)"}
+RESULTS: $JLENS_HOME/gate_results_whole_model.json
+VERIFY FAILED — not holding; freeing model

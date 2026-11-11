@@ -1,0 +1,37 @@
+[    0.0s] common 851 only swift 0 only base 0
+[    0.0s] 0/851 model.language_model.layers.0.input_layernorm.weight rel=4.755e-05
+[    2.2s] 50/851 model.language_model.layers.3.self_attn.q_norm.weight rel=0.000e+00
+[    5.7s] 100/851 model.language_model.layers.7.self_attn.k_norm.weight rel=0.000e+00
+[   11.7s] 150/851 model.language_model.layers.13.linear_attn.in_proj_a.weight rel=2.562e-04
+[   13.6s] 200/851 model.language_model.layers.9.linear_attn.A_log rel=0.000e+00
+[   15.3s] 250/851 model.language_model.layers.18.linear_attn.out_proj.weight rel=3.592e-04
+[   17.2s] 300/851 model.language_model.layers.22.linear_attn.in_proj_qkv.weight rel=3.859e-04
+[   19.2s] 350/851 model.language_model.layers.26.linear_attn.dt_bias rel=0.000e+00
+[   21.1s] 400/851 model.language_model.layers.30.input_layernorm.weight rel=1.374e-05
+[   23.9s] 450/851 model.language_model.layers.33.mlp.gate_proj.weight rel=4.690e-03
+[   26.2s] 500/851 model.language_model.layers.37.linear_attn.norm.weight rel=0.000e+00
+[   28.2s] 550/851 model.language_model.layers.41.linear_attn.in_proj_b.weight rel=8.245e-04
+[   30.8s] 600/851 model.language_model.layers.45.linear_attn.conv1d.weight rel=1.893e-04
+[   33.1s] 650/851 model.language_model.layers.48.post_attention_layernorm.weight rel=1.720e-05
+[   34.9s] 700/851 model.language_model.layers.52.mlp.down_proj.weight rel=1.606e-03
+[   36.7s] 750/851 model.language_model.layers.56.linear_attn.in_proj_z.weight rel=3.896e-04
+[   38.5s] 800/851 model.language_model.layers.60.linear_attn.in_proj_a.weight rel=4.191e-04
+[   43.9s] 850/851 lm_head.weight rel=8.086e-05
+[   65.5s] svd model.language_model.layers.0.mlp.down_proj.weight 0.839
+[   96.0s] svd model.language_model.layers.4.mlp.down_proj.weight 0.822
+[  127.9s] svd model.language_model.layers.12.mlp.down_proj.weight 0.808
+[  156.5s] svd model.language_model.layers.8.mlp.down_proj.weight 0.821
+[  187.6s] svd model.language_model.layers.16.mlp.down_proj.weight 0.835
+[  216.6s] svd model.language_model.layers.20.mlp.down_proj.weight 0.757
+[  248.6s] svd model.language_model.layers.24.mlp.down_proj.weight 0.739
+[  279.5s] svd model.language_model.layers.28.mlp.down_proj.weight 0.679
+[  310.0s] svd model.language_model.layers.32.mlp.down_proj.weight 0.635
+[  338.3s] svd model.language_model.layers.36.mlp.down_proj.weight 0.590
+[  369.0s] svd model.language_model.layers.40.mlp.down_proj.weight 0.591
+[  396.7s] svd model.language_model.layers.44.mlp.down_proj.weight 0.550
+[  412.0s] svd model.language_model.layers.48.mlp.down_proj.weight 0.506
+[  427.2s] svd model.language_model.layers.52.mlp.down_proj.weight 0.530
+[  445.7s] svd model.language_model.layers.56.mlp.down_proj.weight 0.548
+[  476.0s] svd model.language_model.layers.60.mlp.down_proj.weight 0.622
+[  476.0s] DONE C 1.966 H_mid False H_lowrank True | modules {'norm': 0.0, 'gdn.other': 0.0, 'gdn.in_proj': 0.003, 'gdn.out_proj': 0.001, 'mlp.down': 0.109, 'mlp.gate': 0.385, 'mlp.up': 0.381, 'attn.k': 0.006, 'attn.o': 0.029, 'attn.q': 0.081, 'attn.v': 0.005, 'embed': 0.0, 'lm_head': 0.0}
+rc=0

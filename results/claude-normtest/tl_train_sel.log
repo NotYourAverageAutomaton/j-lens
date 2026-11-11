@@ -1,0 +1,65 @@
+[prov] PASS Swift-1.5-Qwen3.8-27b: manifest 025249e8 + file-set identical (36 files)
+[   0.1m] cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  36%|███▌      | 303/851 [00:00<00:00, 3029.06it/s]Loading weights:  72%|███████▏  | 614/851 [00:00<00:00, 3066.10it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 3857.30it/s]
+[   0.1m] [load] from_pretrained bf16 done in 1s
+[   5.5m] [load] fp32 remap: 292 tensors; on device in 320s
+[   5.5m] [load] mem: free 9.0/121.7 GiB
+[   5.6m] device free after load 39.59 GiB; other GPU processes []
+[   5.7m] capture consistency vs held_h.pt: {'20': 0.0, '24': 0.0, '28': 0.0, '32': 0.0, '36': 0.0, '40': 0.0, '44': 0.0, 'h_final': 0.0}
+[   5.7m] capturing validation slice
+[   8.1m] val-A logit KL {20: 7.725956380367279, 24: 7.692126855254173, 28: 7.616002127528191, 32: 7.6092987805604935, 36: 7.939409464597702, 40: 7.5671917498111725, 44: 7.3569502383470535} | val-B {20: 7.85535229742527, 24: 7.838616907596588, 28: 7.731518626213074, 32: 7.751496464014053, 36: 8.074092462658882, 40: 7.663660079240799, 44: 7.437997788190842}
+$JLENS_HOME/claude-normtest/tl_train.py:249: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  loss = (lp_f.exp() * (lp_f - lp)).sum() / BATCH; loss.backward(); tot += float(loss)
+[  49.1m] probe peak allocated 76.88 GiB; min device free 3.29 GiB; procs []
+[  49.1m] probe lr 0.125: val-A KL {20: 5.7054, 24: 4.7005, 28: 6.7206, 32: 5.4002, 36: 4.2045, 40: 4.2263, 44: 4.05} mean 5.0011
+[  49.1m] probe lr 0.0156: val-A KL {20: 4.6477, 24: 4.5572, 28: 4.5765, 32: 4.5074, 36: 3.9446, 40: 3.6743, 44: 3.6504} mean 4.2226
+[  49.1m] probe lr 0.00195: val-A KL {20: 5.5645, 24: 5.5406, 28: 5.5164, 32: 5.4543, 36: 5.2719, 40: 5.0056, 44: 4.9121} mean 5.3236
+[  49.1m] probe lr 0.000244: val-A KL {20: 6.7638, 24: 6.7659, 28: 6.7345, 32: 6.6736, 36: 6.7976, 40: 6.4531, 44: 6.285} mean 6.6391
+[  49.1m] chosen lr 0.0156
+[  49.1m] capturing training chunk for steps 0..7 (MemAvailable 17.3 GiB)
+[  54.7m] capturing training chunk for steps 8..15 (MemAvailable 16.0 GiB)
+[  60.2m] capturing training chunk for steps 16..23 (MemAvailable 16.0 GiB)
+[  65.7m] capturing training chunk for steps 24..31 (MemAvailable 15.8 GiB)
+[  69.3m] step 25: val-B KL big {20: 4.7048, 24: 4.5991, 28: 4.6152, 32: 4.57, 36: 3.9925, 40: 3.7277, 44: 3.7024}
+[  72.4m] capturing training chunk for steps 32..39 (MemAvailable 15.9 GiB)
+[  77.9m] capturing training chunk for steps 40..47 (MemAvailable 15.8 GiB)
+[  83.7m] capturing training chunk for steps 48..55 (MemAvailable 15.7 GiB)
+[  87.8m] step 50: val-B KL big {20: 4.2676, 24: 4.1617, 28: 4.1917, 32: 4.1499, 36: 3.5439, 40: 3.2867, 44: 3.2615}
+[  90.4m] capturing training chunk for steps 56..63 (MemAvailable 15.9 GiB)
+[  95.8m] capturing training chunk for steps 64..71 (MemAvailable 15.9 GiB)
+[ 101.4m] capturing training chunk for steps 72..79 (MemAvailable 15.9 GiB)
+[ 105.9m] step 75: val-B KL big {20: 4.0154, 24: 3.9092, 28: 3.9537, 32: 3.9163, 36: 3.3149, 40: 3.0717, 44: 3.047}
+[ 108.2m] capturing training chunk for steps 80..87 (MemAvailable 15.7 GiB)
+[ 113.7m] capturing training chunk for steps 88..95 (MemAvailable 15.0 GiB)
+[ 119.1m] capturing training chunk for steps 96..103 (MemAvailable 15.8 GiB)
+[ 124.1m] step 100: val-B KL big {20: 3.8617, 24: 3.7572, 28: 3.7994, 32: 3.7685, 36: 3.1788, 40: 2.9402, 44: 2.9205}
+[ 125.8m] capturing training chunk for steps 104..111 (MemAvailable 15.8 GiB)
+[ 131.3m] capturing training chunk for steps 112..119 (MemAvailable 15.5 GiB)
+[ 136.8m] capturing training chunk for steps 120..127 (MemAvailable 15.6 GiB)
+[ 142.2m] step 125: val-B KL big {20: 3.7689, 24: 3.6666, 28: 3.7142, 32: 3.6831, 36: 3.0883, 40: 2.8609, 44: 2.8457}
+[ 143.5m] capturing training chunk for steps 128..135 (MemAvailable 15.6 GiB)
+[ 149.0m] capturing training chunk for steps 136..143 (MemAvailable 15.7 GiB)
+[ 154.4m] capturing training chunk for steps 144..151 (MemAvailable 15.8 GiB)
+[ 160.3m] step 150: val-B KL big {20: 3.6728, 24: 3.5682, 28: 3.6128, 32: 3.5836, 36: 3.0038, 40: 2.7819, 44: 2.7598}
+[ 161.2m] capturing training chunk for steps 152..159 (MemAvailable 15.0 GiB)
+[ 166.7m] capturing training chunk for steps 160..167 (MemAvailable 15.7 GiB)
+[ 172.2m] capturing training chunk for steps 168..175 (MemAvailable 14.9 GiB)
+[ 178.5m] step 175: val-B KL big {20: 3.6018, 24: 3.5006, 28: 3.5466, 32: 3.5169, 36: 2.9398, 40: 2.7234, 44: 2.6978}
+[ 179.0m] capturing training chunk for steps 176..183 (MemAvailable 15.8 GiB)
+[ 184.5m] capturing training chunk for steps 184..191 (MemAvailable 15.8 GiB)
+[ 190.0m] capturing training chunk for steps 192..199 (MemAvailable 14.9 GiB)
+[ 196.7m] step 200: val-B KL big {20: 3.5501, 24: 3.4488, 28: 3.4958, 32: 3.4698, 36: 2.8994, 40: 2.6872, 44: 2.6627}
+[ 196.7m] capturing training chunk for steps 200..207 (MemAvailable 15.8 GiB)
+[ 202.1m] capturing training chunk for steps 208..215 (MemAvailable 15.0 GiB)
+[ 207.5m] capturing training chunk for steps 216..223 (MemAvailable 15.9 GiB)
+[ 212.9m] capturing training chunk for steps 224..231 (MemAvailable 15.0 GiB)
+[ 216.5m] step 225: val-B KL big {20: 3.514, 24: 3.4155, 28: 3.463, 32: 3.4388, 36: 2.8787, 40: 2.6668, 44: 2.6401}
+[ 219.6m] capturing training chunk for steps 232..239 (MemAvailable 15.1 GiB)
+[ 225.0m] capturing training chunk for steps 240..247 (MemAvailable 15.7 GiB)
+[ 230.5m] capturing training chunk for steps 248..249 (MemAvailable 15.6 GiB)
+[ 233.1m] step 250: val-B KL big {20: 3.5013, 24: 3.4033, 28: 3.4489, 32: 3.4251, 36: 2.87, 40: 2.6584, 44: 2.6304}
+[ 233.1m] training control: PASS {20: True, 24: True, 28: True, 32: True, 36: True, 40: True, 44: True}
+[ 289.8m] done: TRAINED

@@ -1,0 +1,24 @@
+{
+ "doc": 13,
+ "source": "Wikipedia: Hanseatic League",
+ "genre": "encyclopedia-history",
+ "url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4958,
+ "J_p_md5": {
+  "20": "da0a964782a1b9f08cc757da4fa94be8",
+  "24": "2f6bb7367e7b604fc561ee1d1963ac21",
+  "28": "d231cb4af070cab9918a0dd27dc90ee9",
+  "32": "9d8ad0dc7e3b7798d1ed690cd64b99d1",
+  "36": "37ac147d6f2f2328ad68338b0c8c0829",
+  "40": "709d004a9d38f31b062270b15589f8ba",
+  "44": "1ad5150119dc8a043593902a35f52fe9",
+  "48": "7c943ca444d683ea5db57253d850cfbe",
+  "52": "13b70645d190413648e07556b64942d3",
+  "56": "33455a69e848cd34b8854993d13a9452"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T16:14:49"
+}

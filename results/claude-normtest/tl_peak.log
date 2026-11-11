@@ -1,0 +1,17 @@
+[prov] PASS Swift-1.5-Qwen3.8-27b: manifest 025249e8 + file-set identical (36 files)
+[   0.1m] cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  37%|███▋      | 313/851 [00:00<00:00, 3113.26it/s]Loading weights:  77%|███████▋  | 653/851 [00:00<00:00, 3220.09it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 3268.78it/s]
+[   0.1m] [load] from_pretrained bf16 done in 1s
+[   6.5m] [load] fp32 remap: 292 tensors; on device in 383s
+[   6.5m] [load] mem: free 7.9/121.7 GiB
+[   6.8m] device free after load 43.4 GiB; other GPU processes []
+[   7.1m] capture consistency vs held_h.pt: {'20': 0.0, '24': 0.0, '28': 0.0, '32': 0.0, '36': 0.0, '40': 0.0, '44': 0.0, 'h_final': 0.0}
+[   7.1m] capturing validation slice
+[   9.5m] val-A logit KL {20: 7.725956380367279, 24: 7.692126855254173, 28: 7.616002127528191, 32: 7.6092987805604935, 36: 7.939409464597702, 40: 7.5671917498111725, 44: 7.3569502383470535} | val-B {20: 7.85535229742527, 24: 7.838616907596588, 28: 7.731518626213074, 32: 7.751496464014053, 36: 8.074092462658882, 40: 7.663660079240799, 44: 7.437997788190842}
+$JLENS_HOME/claude-normtest/tl_train.py:249: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  loss = (lp_f.exp() * (lp_f - lp)).sum() / BATCH; loss.backward(); tot += float(loss)
+[  18.4m] probe peak allocated 76.88 GiB; min device free 12.89 GiB; procs []
+[  18.4m] done: PEAK-OK

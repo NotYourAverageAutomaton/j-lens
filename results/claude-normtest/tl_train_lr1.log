@@ -1,0 +1,20 @@
+[prov] PASS Swift-1.5-Qwen3.8-27b: manifest 025249e8 + file-set identical (36 files)
+[   0.1m] cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  44%|████▍     | 376/851 [00:00<00:00, 3747.02it/s]Loading weights:  88%|████████▊ | 751/851 [00:00<00:00, 3742.35it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 3844.44it/s]
+[   0.1m] [load] from_pretrained bf16 done in 1s
+[   5.8m] [load] fp32 remap: 292 tensors; on device in 341s
+[   5.8m] [load] mem: free 5.6/121.7 GiB
+[   6.2m] capture consistency vs held_h.pt: {'20': 0.0, '24': 0.0, '28': 0.0, '32': 0.0, '36': 0.0, '40': 0.0, '44': 0.0, 'h_final': 0.0}
+[   6.2m] capturing validation slice
+[   8.2m] val logit KL {20: 7.790654420852661, 24: 7.765371859073639, 28: 7.673760324716568, 32: 7.680397599935532, 36: 8.006750971078873, 40: 7.615425944328308, 44: 7.397474020719528}
+[   8.2m] capturing training chunk for steps 0..7 (MemAvailable 15.4 GiB)
+Traceback (most recent call last):
+  File "$JLENS_HOME/claude-normtest/tl_train.py", line 196, in <module>
+    log(f"capturing training chunk for steps {step}..{step + n // BATCH - 1} (MemAvailable {ma:.1f} GiB)"); H, ids = take(n)
+                                                                                                                     ^^^^^^^
+  File "$JLENS_HOME/claude-normtest/tl_train.py", line 158, in take
+    t = torch.cat(hs[l]); hs[l] = t[:n].clone() if t.shape[0] > n else t; del t
+                                  ^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 640.00 MiB. GPU 0 has a total capacity of 121.69 GiB of which 2.62 GiB is free. Process 1027128 has 5.37 GiB memory in use. Process 1027127 has 8.12 GiB memory in use. Process 1027129 has 1.11 GiB memory in use. Including non-PyTorch memory, this process has 85.36 GiB memory in use. 85.18 GiB allowed; Of the allocated memory 82.44 GiB is allocated by PyTorch, and 2.72 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

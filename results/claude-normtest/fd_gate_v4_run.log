@@ -1,0 +1,80 @@
+[  0.0m] cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  42%|████▏     | 355/851 [00:00<00:00, 3515.39it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 5063.04it/s]
+[  0.0m] [load] from_pretrained bf16 done in 1s
+[  5.5m] [load] fp32 remap: 292 tensors; on device in 328s
+[  5.5m] [load] mem: free 5.7/121.7 GiB
+$JLENS_HOME/claude-normtest/fd_gate_v4.py:61: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  return store[L_src].grad.detach().float(), g1, store[L_src].detach().float(), float((U.to(dev) * h_end.float()).sum())
+[  7.1m] (a) L44: min 6.56e-04@0.005 slope 1.7187297603012601 ctl 3.14e-01 -> PASS
+[  8.6m] (a) L52: min 6.59e-05@0.01 slope 1.9020524413760567 ctl 9.97e-01 -> PASS
+[  9.2m] record ADs captured for (b) and (c)
+[ 10.8m] (b) L40: ref min 1.00e-04@0.005 slope 1.5115588514841196 | rec-vs-ref 4.84e-03 ctl 1.78e-01 x36.9 -> PASS
+[ 11.4m] (c) [20->28]: ref min 1.25e-04@0.005 slope 1.8193615052544285 | rec-vs-ref 3.58e-03 ctl 0.2586253881454468 -> PASS
+Traceback (most recent call last):
+  File "$JLENS_HOME/claude-normtest/fd_gate_v4.py", line 163, in <module>
+    g, _, _, _ = run(ids, s, e_, Ue, "ref", stop=True); ads.append(float((g * V).sum()))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$JLENS_HOME/claude-normtest/fd_gate_v4.py", line 76, in run
+    try: model(input_ids=ids, use_cache=False)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/utils/generic.py", line 903, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 1667, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/utils/generic.py", line 1032, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/utils/output_capturing.py", line 252, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 1204, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 785, in forward
+    hidden_states = self.linear_attn(
+                    ^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 460, in forward
+    mixed_qkv = self.in_proj_qkv(hidden_states)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: expected mat1 and mat2 to have the same dtype, but got: c10::BFloat16 != float

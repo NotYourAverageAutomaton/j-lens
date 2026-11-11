@@ -1,0 +1,21 @@
+[    0.9s] pins OK; frozen a real {20: 0.3, 24: 0.3, 28: 0.3, 32: 0.2, 36: 0.3, 40: 0.2, 44: 0.1}
+[   18.6s] fresh_h OK: 1434 positions
+[   87.0s] D22 pooled
+[  165.5s] positive controls (a)(b) OK
+[  215.2s] L20 logit 0.1055 real(a=0.3) 0.1161
+[  255.0s] L24 logit 0.1291 real(a=0.3) 0.1266
+[  286.6s] L28 logit 0.1525 real(a=0.3) 0.1533
+[  318.3s] L32 logit 0.1434 real(a=0.2) 0.1591
+[  350.1s] L36 logit 0.0681 real(a=0.3) 0.0844
+[  381.6s] L40 logit 0.0874 real(a=0.2) 0.0875
+[  413.1s] L44 logit 0.1069 real(a=0.1) 0.1130
+[  498.2s] L20 null tables done
+[  632.8s] L24 null tables done
+[  764.9s] L28 null tables done
+[  861.4s] L32 null tables done
+[  924.7s] L36 null tables done
+[ 1019.5s] L40 null tables done
+[ 1143.1s] L44 null tables done
+[ 1159.4s] dry runs OK: fail-way FAIL, pass-way PASS
+[ 1159.4s] STEP 2: PASS M_real 0.00672 rank 1/20 CI [0.004544137977063656, 0.008899475447833538] null M max 0.00192
+[ 1159.7s] report-only done; verdict PASS

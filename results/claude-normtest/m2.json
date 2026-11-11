@@ -1,0 +1,188 @@
+{
+ "script_md5": "95a1dd0271e91eaf9dfd59c8dd792a15",
+ "prereg": "Deron P112 item 2 + post P123; Jett PREDICTION-ADDENDUM 4e85fd19",
+ "verdict": "REPORT-ONLY DONE",
+ "stops": [],
+ "files": {
+  "m2_states.pt": "8b8baff33a6a0947f64c6bf317cdb2d8",
+  "record/J_l_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_01/J_p_24.pt": "8368482b5c9f1e54c19a4432b8af9637",
+  "stage1/doc_02/J_p_24.pt": "97833c75b32bc99b3986fc9870969707",
+  "stage1/doc_03/J_p_24.pt": "d6467e6c9b7c2440b8d6f99edc590253",
+  "stage1/doc_04/J_p_24.pt": "d285c501e9f08479a84e567ea9cf0519",
+  "stage1/doc_05/J_p_24.pt": "71ee2a9c2b56fdd712312d586f4b0adb",
+  "stage1/doc_06/J_p_24.pt": "71336cc98cd57c715cd6b2ccc2f6010c",
+  "stage1/doc_07/J_p_24.pt": "e3e562544a739212595b796a5b47c86f",
+  "stage1/doc_08/J_p_24.pt": "4ae9412fe5fbd3aafb672579e6ca5907",
+  "stage1/doc_09/J_p_24.pt": "0ea5ee8f2ab6246cd081446968040517",
+  "stage1/doc_10/J_p_24.pt": "7c81e3f954c644c8c3f0875bb907ad71",
+  "stage1/doc_11/J_p_24.pt": "2e5a8c44b8b72b3fb60c3b2f886067f2",
+  "stage1/doc_12/J_p_24.pt": "d0ee9c7f435976ebe6256f3a13d615c1",
+  "stage1/doc_13/J_p_24.pt": "2f6bb7367e7b604fc561ee1d1963ac21",
+  "stage1/doc_14/J_p_24.pt": "ef54aed612d2f72899a1aaf02c0f6d2a",
+  "stage1/doc_15/J_p_24.pt": "32fcc8e358ecd78504e042ff79f4156d",
+  "stage1/doc_16/J_p_24.pt": "1bc99e0f8af2052397c4ec67262f375c",
+  "record/J_l_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_01/J_p_40.pt": "7a8773f75966513565ff39616e08626b",
+  "stage1/doc_02/J_p_40.pt": "7e60eacc561099ca63726c91a1c5147b",
+  "stage1/doc_03/J_p_40.pt": "1c533d90ee263ca68fde8ccf0f67d46b",
+  "stage1/doc_04/J_p_40.pt": "9e3bc9d9926a7eb49b9f1cd76179d424",
+  "stage1/doc_05/J_p_40.pt": "64e8cabea1c2b965d8b5a33e8e587603",
+  "stage1/doc_06/J_p_40.pt": "99031c907559106f5afc15e0a7d13e8a",
+  "stage1/doc_07/J_p_40.pt": "1859aec09bb73437305efdf508603430",
+  "stage1/doc_08/J_p_40.pt": "9d972a8336d0511bd231e0ad87a75efa",
+  "stage1/doc_09/J_p_40.pt": "8107753956cf2dcaa9686cf3e3ffdc88",
+  "stage1/doc_10/J_p_40.pt": "270b34eb5236ba6f9c345ba83c919033",
+  "stage1/doc_11/J_p_40.pt": "8396146a7ddeef776006cb76639e8901",
+  "stage1/doc_12/J_p_40.pt": "e5479a8254667f27c7454bc9edc36110",
+  "stage1/doc_13/J_p_40.pt": "709d004a9d38f31b062270b15589f8ba",
+  "stage1/doc_14/J_p_40.pt": "f1117a8f753b62b1213fee32e3d92e81",
+  "stage1/doc_15/J_p_40.pt": "01e38b52f0d8a5c39bbc56ed21ccefb6",
+  "stage1/doc_16/J_p_40.pt": "84650bbdcf970064ec5e9203276527d0",
+  "record/J_l_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_01/J_p_52.pt": "590a731bd2a8428c647e0e31da51251b",
+  "stage1/doc_02/J_p_52.pt": "c745fbfc2c0207da13771c00a68f95e8",
+  "stage1/doc_03/J_p_52.pt": "dcb96c27c6206e792c8ef65754c6a4dc",
+  "stage1/doc_04/J_p_52.pt": "0e2e5224d91ddb4c99d2d4c4f66497a9",
+  "stage1/doc_05/J_p_52.pt": "767d5a9f6f4720165c05b040e8d9af86",
+  "stage1/doc_06/J_p_52.pt": "fddd0f22f09077a69364684eb251ce8b",
+  "stage1/doc_07/J_p_52.pt": "68fbd798b84982865949ee601bc9c844",
+  "stage1/doc_08/J_p_52.pt": "aa23abf38afed29fdbbda7714419b324",
+  "stage1/doc_09/J_p_52.pt": "a901612ce1bfcd54561302f852a27b31",
+  "stage1/doc_10/J_p_52.pt": "2a9f51397fbca8ebe758cd64c99c4049",
+  "stage1/doc_11/J_p_52.pt": "be9801445cca88857557bce25966b3d2",
+  "stage1/doc_12/J_p_52.pt": "f39a2c7ef5c03b6aff19d3c3983a3eae",
+  "stage1/doc_13/J_p_52.pt": "13b70645d190413648e07556b64942d3",
+  "stage1/doc_14/J_p_52.pt": "d48cf270cf3f7e213375b6b7221b6bab",
+  "stage1/doc_15/J_p_52.pt": "afc50a606dd9f22823135c4475a3e04e",
+  "stage1/doc_16/J_p_52.pt": "0f417395d9459bfb8cecf5642149152f"
+ },
+ "env": {
+  "torch": "2.11.0+cu130",
+  "python": "3.12.3",
+  "threads": 12,
+  "host": "gpu-host"
+ },
+ "controls": {
+  "i_pr_k_equal_37": 37.0,
+  "ii_gram_vs_svd_rel": 0.0,
+  "iii_jrms_vs_autograd_rel_L24": 4.583892732057393e-08
+ },
+ "N": {
+  "full": 20076,
+  "half": 10038,
+  "half_rule": "first 42 articles"
+ },
+ "layers": {
+  "24": {
+   "PR_primary_J6": 18.95283206937279,
+   "PR_half_N": 17.122863901693027,
+   "rel_change_half_vs_full": 0.09655381111284875,
+   "label": "CONVERGED",
+   "jett_interval": [
+    700,
+    1400
+   ],
+   "hit": false,
+   "graded_as": "MISS (CONVERGED)",
+   "report_only": {
+    "PR_J22": 17.092921649291537,
+    "PR_per_state_jrms_mean_J6": 19.18705879380612,
+    "top10_s2_M": [
+     1188814.5580491181,
+     375974.6599217303,
+     232874.80341203738,
+     213808.04347458022,
+     160964.3241206049,
+     107333.62618118673,
+     91881.81635782964,
+     76511.57861371245,
+     70647.94393202233,
+     60414.07807596734
+    ]
+   },
+   "sigma_h": {
+    "rank_gt_1e-7_max": 5120,
+    "eig_max": 76.85116412728088,
+    "eig_min": 0.0122368645874605,
+    "half_rank": 5120
+   }
+  },
+  "40": {
+   "PR_primary_J6": 16.97863387734093,
+   "PR_half_N": 15.943814651927143,
+   "rel_change_half_vs_full": 0.06094832086548602,
+   "label": "CONVERGED",
+   "jett_interval": [
+    350,
+    700
+   ],
+   "hit": false,
+   "graded_as": "MISS (CONVERGED)",
+   "report_only": {
+    "PR_J22": 14.735651700520492,
+    "PR_per_state_jrms_mean_J6": 17.02288613055685,
+    "top10_s2_M": [
+     956188.7404747535,
+     300843.8424402978,
+     199531.6117569049,
+     136379.35350558496,
+     126621.80327385994,
+     109653.60666325511,
+     100496.11875341162,
+     85923.78085416522,
+     81675.17525002487,
+     68064.39597242043
+    ]
+   },
+   "sigma_h": {
+    "rank_gt_1e-7_max": 5120,
+    "eig_max": 144.36075652501748,
+    "eig_min": 0.01700235089981818,
+    "half_rank": 5120
+   }
+  },
+  "52": {
+   "PR_primary_J6": 6.152780415685793,
+   "PR_half_N": 6.033037061823599,
+   "rel_change_half_vs_full": 0.019461665421525966,
+   "label": "CONVERGED",
+   "jett_interval": [
+    150,
+    350
+   ],
+   "hit": false,
+   "graded_as": "MISS (CONVERGED)",
+   "report_only": {
+    "PR_J22": 5.850589594152142,
+    "PR_per_state_jrms_mean_J6": 6.749550913717271,
+    "top10_s2_M": [
+     497045.1864151056,
+     130765.70550411395,
+     33870.48725065186,
+     30375.98415704569,
+     27366.17241649901,
+     24969.00958901649,
+     22121.881092032356,
+     19359.178675673316,
+     17933.473547376554,
+     14134.831539173701
+    ]
+   },
+   "sigma_h": {
+    "rank_gt_1e-7_max": 5120,
+    "eig_max": 535.1180753223788,
+    "eig_min": 0.04794081241794501,
+    "half_rank": 5120
+   }
+  }
+ },
+ "limits": [
+  "one model (Swift); WikiText-103 states, 256-token windows (post P123)",
+  "N/d ~ 3.9: sample-covariance spectrum still biased; see the N/2 label",
+  "M2 is report-only; it grades Jett's interval prediction, nothing in the lab gates on it"
+ ],
+ "minutes": 6.1,
+ "rss_peak_gib": 8.37,
+ "ts": "2026-11-07T23:33:30"
+}

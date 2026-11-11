@@ -1,0 +1,737 @@
+{
+ "script_md5": "f2409a0985640186cd5b32a2cd4f0680",
+ "dry_run": true,
+ "stage1_dir": "$JLENS_HOME/claude-normtest/dry-stage1-identical",
+ "verdict": "NO-SCORE: dose checkpoint is from a different script or gives different g6/g22: refusing to resume",
+ "stops": [
+  "dose checkpoint is from a different script or gives different g6/g22: refusing to resume"
+ ],
+ "pins": {
+  "held_h.pt": "3ca0f99cd0d8f4fc2ab775b7a50ad04f",
+  "eval.py": "cabcfb792432628ec53b541b0458756f",
+  "stage1_fit.py": "fabece828f9fb90b0738d412c058e544",
+  "pilot_hutch.py": "5fa18d9bfa5fe9568e658e57dc100e66",
+  "$JLENS_HOME/whole_model_fit_record.log": "d0cf6a412d557ab0e4aea4e76ccd7987"
+ },
+ "files": {
+  "record/J_l_16.pt": "7e2a1bb791e93cad1305a1ca6095289d",
+  "record/J_l_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "record/J_l_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "record/J_l_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "record/J_l_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "record/J_l_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "record/J_l_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "record/J_l_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "record/J_l_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "record/J_l_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "record/J_l_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "record/J_l_60.pt": "4091bcdb8097cc61efa3c38071a7dbc9",
+  "record/J_l_62.pt": "827591a4af9cc95d9747da81a933655c",
+  "stage1/doc_01/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_01/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_01/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_01/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_01/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_01/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_01/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_01/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_01/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_01/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_02/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_02/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_02/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_02/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_02/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_02/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_02/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_02/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_02/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_02/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_03/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_03/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_03/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_03/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_03/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_03/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_03/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_03/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_03/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_03/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_04/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_04/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_04/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_04/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_04/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_04/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_04/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_04/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_04/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_04/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_05/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_05/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_05/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_05/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_05/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_05/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_05/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_05/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_05/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_05/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_06/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_06/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_06/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_06/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_06/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_06/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_06/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_06/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_06/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_06/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_07/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_07/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_07/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_07/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_07/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_07/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_07/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_07/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_07/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_07/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_08/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_08/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_08/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_08/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_08/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_08/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_08/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_08/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_08/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_08/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_09/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_09/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_09/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_09/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_09/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_09/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_09/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_09/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_09/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_09/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_10/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_10/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_10/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_10/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_10/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_10/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_10/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_10/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_10/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_10/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_11/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_11/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_11/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_11/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_11/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_11/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_11/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_11/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_11/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_11/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_12/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_12/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_12/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_12/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_12/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_12/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_12/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_12/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_12/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_12/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_13/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_13/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_13/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_13/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_13/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_13/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_13/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_13/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_13/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_13/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_14/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_14/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_14/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_14/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_14/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_14/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_14/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_14/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_14/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_14/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_15/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_15/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_15/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_15/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_15/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_15/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_15/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_15/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_15/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_15/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/doc_16/J_p_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "stage1/doc_16/J_p_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "stage1/doc_16/J_p_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "stage1/doc_16/J_p_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "stage1/doc_16/J_p_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "stage1/doc_16/J_p_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "stage1/doc_16/J_p_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "stage1/doc_16/J_p_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "stage1/doc_16/J_p_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "stage1/doc_16/J_p_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "stage1/acc_20.pt": "ebf7c34dc64d4292f310bda77ec54fa0",
+  "stage1/acc_24.pt": "ef76fe39b87cbe471670f2d2bb0835cd",
+  "stage1/acc_28.pt": "aa216fa283c4e625a3919fb1a1ddb34b",
+  "stage1/acc_32.pt": "5f993425010596a3c6b2abe823150625",
+  "stage1/acc_36.pt": "54493d30ebfa583bcf58452ec0ce8edb",
+  "stage1/acc_40.pt": "ba5b2128080713a6743c3f8cc0f0cb27",
+  "stage1/acc_44.pt": "0d84774f4f42c2523abaa75f63a52060",
+  "stage1/acc_48.pt": "44f59a9938e82c5f2130eddfd8a1fdca",
+  "stage1/acc_52.pt": "7433d2c9d6c38d141f7e17b013bb3eb9",
+  "stage1/acc_56.pt": "74fbc5f31fd7189c7d13174d5f60272f"
+ },
+ "env": {
+  "torch": "2.11.0+cu130",
+  "python": "3.12.3",
+  "threads": 12,
+  "host": "gpu-host",
+  "transformers": "5.10.2",
+  "driver_note": "CPU-only run; GPU driver not used (post P087 baseline 580.173.02)"
+ },
+ "memory": {
+  "mem_available_at_start_gib": 51.9,
+  "required_gib": 50.0,
+  "mem_available_before_Jp_gib": 45.5,
+  "rss_peak_gib_before_Jp": 10.89,
+  "rss_after_layer_20": 10.89,
+  "rss_after_layer_24": 11.62,
+  "rss_after_layer_28": 13.51,
+  "rss_after_layer_32": 15.4,
+  "rss_after_layer_36": 17.3,
+  "rss_after_layer_40": 19.58,
+  "rss_after_layer_44": 21.24,
+  "rss_after_layer_48": 23.09,
+  "rss_after_layer_52": 23.48,
+  "rss_after_layer_56": 23.68,
+  "rss_peak_gib": 29.26
+ },
+ "disjoint": {
+  "stage1_docs": 16,
+  "held_out": 6,
+  "overlapping_docs": []
+ },
+ "resume_b_c": {
+  "n_valid": [
+   230,
+   233,
+   236,
+   239,
+   242,
+   245,
+   248,
+   251,
+   254,
+   257,
+   260,
+   263,
+   266,
+   269,
+   272,
+   275
+  ],
+  "doc_genre": [
+   "synthetic-1",
+   "synthetic-2",
+   "synthetic-3",
+   "synthetic-4",
+   "synthetic-5",
+   "synthetic-6",
+   "synthetic-7",
+   "synthetic-8",
+   "synthetic-9",
+   "synthetic-10",
+   "synthetic-11",
+   "synthetic-12",
+   "synthetic-13",
+   "synthetic-14",
+   "synthetic-15",
+   "synthetic-16"
+  ],
+  "doc_ts": [
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry"
+  ],
+  "acc_check": {
+   "20": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 6.370472505068392e-08
+   },
+   "24": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 6.348781056431108e-08
+   },
+   "28": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 6.301682731191249e-08
+   },
+   "32": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 6.32929229027468e-08
+   },
+   "36": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 6.344136238567444e-08
+   },
+   "40": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 6.262148133373557e-08
+   },
+   "44": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 6.612021508090038e-08
+   },
+   "48": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 6.627319493190953e-08
+   },
+   "52": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 6.520576079083185e-08
+   },
+   "56": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 6.887795933607777e-08
+   }
+  }
+ },
+ "N": {
+  "record_parts_from_log": [
+   131,
+   107,
+   96,
+   96,
+   93,
+   119
+  ],
+  "N_rec": 642,
+  "sum_n_p": 4040,
+  "total": 4682,
+  "new_share": 0.8629,
+  "note": "post P090 swap 1: sum n_p is REPORTED, not asserted (3824 = 16 x 239 assumes every doc fills 256 tokens; a shorter doc is legal). The acc tot == sum n_p stop stays."
+ },
+ "positive_control": {
+  "16": {
+   "jlens": 0.0006535947904922068,
+   "logit": 0.15416279435157776,
+   "max_abs_diff": 1.5850744994327925e-08
+  },
+  "20": {
+   "jlens": 0.007189542520791292,
+   "logit": 0.09876802563667297,
+   "max_abs_diff": 1.4608981524499853e-09
+  },
+  "24": {
+   "jlens": 0.012935730628669262,
+   "logit": 0.11991258710622787,
+   "max_abs_diff": 9.349748197884367e-09
+  },
+  "28": {
+   "jlens": 0.01783769205212593,
+   "logit": 0.1327536553144455,
+   "max_abs_diff": 3.627897093849697e-09
+  },
+  "32": {
+   "jlens": 0.02454092912375927,
+   "logit": 0.12266833335161209,
+   "max_abs_diff": 4.845312220891351e-09
+  },
+  "36": {
+   "jlens": 0.05039812996983528,
+   "logit": 0.07743930071592331,
+   "max_abs_diff": 9.374096499037421e-09
+  },
+  "40": {
+   "jlens": 0.07187467813491821,
+   "logit": 0.09931657463312149,
+   "max_abs_diff": 5.25923336824885e-09
+  },
+  "44": {
+   "jlens": 0.07256977260112762,
+   "logit": 0.11448542028665543,
+   "max_abs_diff": 5.210536752064954e-09
+  },
+  "48": {
+   "jlens": 0.09162258356809616,
+   "logit": 0.0984451174736023,
+   "max_abs_diff": 7.3044907761277145e-09
+  },
+  "52": {
+   "jlens": 0.12938064336776733,
+   "logit": 0.0855262503027916,
+   "max_abs_diff": 1.533943069786936e-09
+  },
+  "56": {
+   "jlens": 0.15393583476543427,
+   "logit": 0.11767948418855667,
+   "max_abs_diff": 3.0678861256960843e-09
+  },
+  "60": {
+   "jlens": 0.2065398246049881,
+   "logit": 0.17689205706119537,
+   "max_abs_diff": 1.6970766902879575e-08
+  },
+  "62": {
+   "jlens": 0.2333735227584839,
+   "logit": 0.2473168969154358,
+   "max_abs_diff": 1.582639669317487e-08
+  }
+ },
+ "gate": {
+  "bar": "post P047 s3: paired bootstrap 95% CI (306 positions) of [mid-band fut20 gain over logit at n=22] - [same at n=6] entirely > 0; mid-band = L20-44",
+  "mean_D": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "B": 10000,
+  "seed": 20261106,
+  "mean_gain_n6": -0.07257106900215149,
+  "mean_gain_n22": -0.07257106900215149,
+  "decision": "STOP"
+ },
+ "report": {
+  "heading": "REPORT-ONLY. Nothing below gates anything (post P047 s4, post P089).",
+  "cluster_ci_6_clusters_crude": {
+   "label": "6 clusters, crude",
+   "per_passage_mean_D": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "per_layer_table": {
+   "heading": "not a J1 verdict (post P089 Q3): per-layer readability at n=22, REPORT-ONLY",
+   "rows": {
+    "20": {
+     "J22": {
+      "fut20": 0.007189542542096057,
+      "top1": 0.009803921915590763,
+      "kl": 11.929574012756348
+     },
+     "J6": {
+      "fut20": 0.007189542542096057,
+      "top1": 0.009803921915590763,
+      "kl": 11.929574012756348
+     },
+     "logit": {
+      "fut20": 0.09876802709757113,
+      "top1": 0.019607843831181526,
+      "kl": 7.678032875061035
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 12.976012229919434
+     }
+    },
+    "24": {
+     "J22": {
+      "fut20": 0.012935729977352168,
+      "top1": 0.013071895577013493,
+      "kl": 11.257987976074219
+     },
+     "J6": {
+      "fut20": 0.012935729977352168,
+      "top1": 0.013071895577013493,
+      "kl": 11.257987976074219
+     },
+     "logit": {
+      "fut20": 0.11991259645597607,
+      "top1": 0.03921568766236305,
+      "kl": 7.450901985168457
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 13.388376235961914
+     }
+    },
+    "28": {
+     "J22": {
+      "fut20": 0.0178376908347108,
+      "top1": 0.013071895577013493,
+      "kl": 11.46478271484375
+     },
+     "J6": {
+      "fut20": 0.0178376908347108,
+      "top1": 0.013071895577013493,
+      "kl": 11.46478271484375
+     },
+     "logit": {
+      "fut20": 0.1327536589423426,
+      "top1": 0.06209150329232216,
+      "kl": 7.368717670440674
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 12.726853370666504
+     }
+    },
+    "32": {
+     "J22": {
+      "fut20": 0.02454092774808017,
+      "top1": 0.013071895577013493,
+      "kl": 11.198161125183105
+     },
+     "J6": {
+      "fut20": 0.02454092774808017,
+      "top1": 0.013071895577013493,
+      "kl": 11.198161125183105
+     },
+     "logit": {
+      "fut20": 0.12266832850629987,
+      "top1": 0.0784313753247261,
+      "kl": 7.354044437408447
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 14.025812149047852
+     }
+    },
+    "36": {
+     "J22": {
+      "fut20": 0.050398122908827524,
+      "top1": 0.0555555559694767,
+      "kl": 8.715082168579102
+     },
+     "J6": {
+      "fut20": 0.050398122908827524,
+      "top1": 0.0555555559694767,
+      "kl": 8.715082168579102
+     },
+     "logit": {
+      "fut20": 0.07743931009001981,
+      "top1": 0.0555555559694767,
+      "kl": 7.202459812164307
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 14.05257511138916
+     }
+    },
+    "40": {
+     "J22": {
+      "fut20": 0.07187467679576157,
+      "top1": 0.07189542800188065,
+      "kl": 9.384313583374023
+     },
+     "J6": {
+      "fut20": 0.07187467679576157,
+      "top1": 0.07189542800188065,
+      "kl": 9.384313583374023
+     },
+     "logit": {
+      "fut20": 0.09931657989235486,
+      "top1": 0.10457516461610794,
+      "kl": 6.529078483581543
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 12.971343040466309
+     }
+    },
+    "44": {
+     "J22": {
+      "fut20": 0.0725697696793313,
+      "top1": 0.08496732264757156,
+      "kl": 9.001729011535645
+     },
+     "J6": {
+      "fut20": 0.0725697696793313,
+      "top1": 0.08496732264757156,
+      "kl": 9.001728057861328
+     },
+     "logit": {
+      "fut20": 0.11448542549719218,
+      "top1": 0.12745098769664764,
+      "kl": 6.270631313323975
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 12.927355766296387
+     }
+    },
+    "48": {
+     "J22": {
+      "fut20": 0.09162257626360538,
+      "top1": 0.15032680332660675,
+      "kl": 7.145442485809326
+     },
+     "J6": {
+      "fut20": 0.09162257626360538,
+      "top1": 0.15032680332660675,
+      "kl": 7.145442485809326
+     },
+     "logit": {
+      "fut20": 0.09844512012756727,
+      "top1": 0.12745098769664764,
+      "kl": 6.040850639343262
+     },
+     "rowperm_J22": {
+      "fut20": 0.00032679739049057557,
+      "top1": 0.0,
+      "kl": 13.35775375366211
+     }
+    },
+    "52": {
+     "J22": {
+      "fut20": 0.129380643099936,
+      "top1": 0.232026144862175,
+      "kl": 5.054152011871338
+     },
+     "J6": {
+      "fut20": 0.129380643099936,
+      "top1": 0.232026144862175,
+      "kl": 5.054152011871338
+     },
+     "logit": {
+      "fut20": 0.08552624876884853,
+      "top1": 0.1764705926179886,
+      "kl": 5.620715618133545
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 13.072229385375977
+     }
+    },
+    "56": {
+     "J22": {
+      "fut20": 0.15393583590980447,
+      "top1": 0.36274510622024536,
+      "kl": 4.465238094329834
+     },
+     "J6": {
+      "fut20": 0.15393583590980447,
+      "top1": 0.36274510622024536,
+      "kl": 4.465238094329834
+     },
+     "logit": {
+      "fut20": 0.11767948112067055,
+      "top1": 0.27450981736183167,
+      "kl": 4.763373851776123
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 13.40272331237793
+     }
+    }
+   },
+   "rowperm_must_fail_precheck": {
+    "rule": "fut20 < .01 AND below logit at every scored layer",
+    "fut20": {
+     "20": 0.0,
+     "24": 0.0,
+     "28": 0.0,
+     "32": 0.0,
+     "36": 0.0,
+     "40": 0.0,
+     "44": 0.0,
+     "48": 0.00032679739049057557,
+     "52": 0.0,
+     "56": 0.0
+    },
+    "valid": true
+   }
+  },
+  "equal_weight_per_doc": {
+   "note": "J_6 enters as 6 equal docs (only its n-weighted mean exists)",
+   "mean_D": 0.0
+  },
+  "eight_vs_eight": {
+   "split_seed": 20261108,
+   "half_A_docs": [
+    1,
+    2,
+    3,
+    8,
+    10,
+    11,
+    12,
+    13
+   ],
+   "half_B_docs": [
+    4,
+    5,
+    6,
+    7,
+    9,
+    14,
+    15,
+    16
+   ],
+   "agreement": {
+    "24": {
+     "top1_agree": 1.0,
+     "top10_overlap": 1.0
+    },
+    "40": {
+     "top1_agree": 1.0,
+     "top10_overlap": 1.0
+    },
+    "52": {
+     "top1_agree": 1.0,
+     "top10_overlap": 1.0
+    }
+   }
+  },
+  "limit_86pct_new_positions": "4040 of 4682 positions (86.3%) are new, so a CONTINUE supports 'more data helps', and cannot separate more DOCUMENTS (diversity) from more TEXT (volume) (post P056)."
+ },
+ "minutes": 9.9,
+ "ts": "2026-11-07T03:12:32"
+}

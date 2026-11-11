@@ -1,0 +1,14 @@
+[prov] PASS Swift-1.5-Qwen3.8-27b: manifest 025249e8 + file-set identical (36 files)
+[   0.2m] cuda memory fraction 0.70 set (Claude P020/probe2: root=16 dim_batch=2 peak 81.2 GiB fits the 85.2 GiB cap)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  37%|███▋      | 316/851 [00:00<00:00, 3141.47it/s]Loading weights:  84%|████████▍ | 717/851 [00:00<00:00, 3631.64it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 3787.86it/s]
+[   0.2m] [load] from_pretrained bf16 done in 1s
+[   6.0m] [load] fp32 remap: 292 tensors; on device in 352s
+[   6.0m] [load] mem: free 8.3/121.7 GiB
+[   6.1m] capture consistency vs held_h.pt: {'24': 0.0, '40': 0.0, '52': 0.0, 'h_final': 0.0}
+[   6.5m] 20 articles, 4780 states (MemAvailable 28.7 GiB)
+[   6.8m] 40 articles, 9560 states (MemAvailable 28.6 GiB)
+[   7.1m] 60 articles, 14340 states (MemAvailable 29.1 GiB)
+[   7.5m] 80 articles, 19120 states (MemAvailable 28.9 GiB)
+[   7.6m] done: CAPTURED 20076 states from 84 articles; m2_states.pt 8b8baff3

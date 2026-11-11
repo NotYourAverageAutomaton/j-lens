@@ -1,0 +1,11 @@
+resident loaded 292 keys in 183.9s (layers 0,1 -> fp32; mem 19.4 GiB)
+loaded=292 unknown=0
+h_l (1, 1, 5120) torch.bfloat16 (mem 19.4 GiB)
+eps=0.000123367 w42.dtype=torch.float32 w43.dtype=torch.float32
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] You tried to access the `AttentionInterface` with a `config._attn_implementation` set to `None`. This is expected if you use an Attention Module as a standalone Module. If this is not the case, something went wrong with the dispatch of `config._attn_implementation`
+L42 FD done (mem 19.4 GiB)
+L43 FD done (mem 19.4 GiB)
+FP32_FD: {"dtype": "mixed (layers 42,43 fp32; rest bf16; h_l bf16)", "cos_fwd_central_L42_GDN": 0.5052523016929626, "cos_L42_vs_L43_control": -0.029598847031593323, "eps": 0.0001233668439090252, "bar": "cos_fwd_central_L42 >= 0.99 AND control < 0.99", "pass": false, "bf16_baseline_cos": 0.3944758474826813, "note": "isolates dtype of perturbed layers only; downstream bf16 re-quantizes. pos_ids bug cancels in cosine (gate2's problem)."}
+RESULTS: $JLENS_HOME/gate_results_fp32_fd.json

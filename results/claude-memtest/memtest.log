@@ -1,0 +1,5 @@
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+whole model loaded 851 keys in 340.1s (skipped 348 visual/mtp, unknown 0)
+[transformers] You tried to access the `AttentionInterface` with a `config._attn_implementation` set to `None`. This is expected if you use an Attention Module as a standalone Module. If this is not the case, something went wrong with the dispatch of `config._attn_implementation`
+MEMTEST {"ts": "2026-11-03T16:04:53", "cap_fraction": 0.7, "total_gib": 121.6893424987793, "load_s": 423.2, "keys": 851, "unknown": 0, "alloc_after_load_gib": 68.0496015548706, "peak_after_load_gib": 70.4187421798706, "param_dtypes": {"0-41:bfloat16": 15987294208, "42-63:float32": 8365902336}, "seq": 19, "h_dtype": "torch.float32", "h_finite": true, "h_norm": 587.4583740234375, "peak_after_forward_gib": 70.4187421798706}
+exit=0

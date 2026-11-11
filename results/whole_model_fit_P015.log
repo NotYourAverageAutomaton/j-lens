@@ -1,0 +1,73 @@
+[prov] PASS Swift-1.5-Qwen3.8-27b: manifest 025249e8 + file-set identical (36 files)
+cuda memory fraction 0.70 set
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:  78%|███████▊  | 663/851 [00:00<00:00, 6628.82it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 7203.78it/s]
+[load] from_pretrained bf16 done in 1s
+[load] fp32 remap: 292 tensors; on device in 324s
+[load] mem: free 5.9/121.7 GiB
+[fit] lens ready: n_layers=64 d_model=5120 bos_applied=False embed=Embedding
+Traceback (most recent call last):
+  File "$JLENS_HOME/whole_model_fit.py", line 219, in <module>
+    main()
+  File "$JLENS_HOME/whole_model_fit.py", line 154, in main
+    Js, n_valid = lens.fit_prompt(pr, layers, dim_batch=args.dim_batch,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "$JLENS_HOME/our_jlens.py", line 192, in fit_prompt
+    self.model(input_ids=batch_ids, use_cache=False)   # forward; hooks fill store
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/utils/generic.py", line 903, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 1667, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/utils/generic.py", line 1032, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/utils/output_capturing.py", line 252, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 1204, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 785, in forward
+    hidden_states = self.linear_attn(
+                    ^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 535, in forward
+    core_attn_out, last_recurrent_state = self.chunk_gated_delta_rule(
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 294, in torch_chunk_gated_delta_rule
+    attn[..., i, :i] = row + (row.unsqueeze(-1) * sub).sum(-2)
+                              ~~~~~~~~~~~~~~~~~~^~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 121.69 GiB of which 1.37 GiB is free. Including non-PyTorch memory, this process has 85.37 GiB memory in use. 85.18 GiB allowed; Of the allocated memory 84.89 GiB is allocated by PyTorch, and 282.98 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)

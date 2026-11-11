@@ -1,0 +1,25 @@
+2026-11-06T02:41:58-06:00 DIAG window: stop at first idle or at 02:50 (announced)
+2026-11-06T02:50:01-06:00 stop time reached with 4 requests in flight: stopping (announced)
+watchdog cron line commented
+backstop armed +2h
+2026-11-06T02:50:25-06:00 GPU clear
+evict: 480 files; MemAvailable 117.2 -> 117.2 GiB; Cached 42.8 -> 10.7 GiB
+2026-11-06T02:50:26-06:00 DIAG swift start (MemAvailable 117 GiB)
+2026-11-06T03:16:04-06:00 DIAG swift rc=0
+[ 12.6m] reference arm a_eager_mask
+[ 19.5m] {"L3_attn_impl_seen": "None", "first_over_1e-3": {"layer": 3, "type": "full_attention", "rel_l2": 0.0010837909067049623, "per_token_first8": [0.0, 0.0008500684634782374, 0.0008022935362532735, 0.0008102442952804267, 0.0009130557300522923, 0.0005018641240894794, 0.000675257935654372, 0.0005618712166324258]}, "max_rel_L0_L2": 0.0, "max_rel_L3_L63": 0.011174647137522697, "final_norm_rel": 0.008047359064221382, "logits_rel": 0.005135963670909405}
+[ 19.5m] reference arm b_sdpa
+[ 25.5m] {"L3_attn_impl_seen": "sdpa", "first_over_1e-3": null, "max_rel_L0_L2": 0.0, "max_rel_L3_L63": 0.0, "final_norm_rel": 0.0, "logits_rel": 0.0}
+[ 25.5m] {"a_vs_b": {"max_layer_rel": 0.01117829792201519, "final_norm_rel": 0.008047391660511494}, "verdict_vs_predictions": {"a_L0_L2_lt_1e-3": true, "a_L3_L63_lt_1e-3": false, "a_final_and_logits_le_2e-3": false, "b_L0_L2_lt_1e-3": true, "b_L3_L63_lt_1e-3": true, "b_final_and_logits_le_2e-3": true, "a_vs_b_le_1e-3": false, "note": "report only; Deron adjudicates. Either arm final/logits > 2e-3 = hypothesis dead (post P071)."}}
+[ 25.5m] done swift
+evict: 480 files; MemAvailable 117.5 -> 117.5 GiB; Cached 33.8 -> 1.1 GiB
+2026-11-06T03:16:05-06:00 DIAG base start (MemAvailable 117 GiB)
+2026-11-06T03:41:07-06:00 DIAG base rc=0
+[ 12.6m] reference arm a_eager_mask
+[ 18.7m] {"L3_attn_impl_seen": "None", "first_over_1e-3": {"layer": 4, "type": "linear_attention", "rel_l2": 0.0016856433358043432, "per_token_first8": [0.0, 0.001009136438369751, 0.0014342210488393903, 0.0013495369348675013, 0.0009067225037142634, 0.0009149955003522336, 0.0010457485914230347, 0.0007043146761134267]}, "max_rel_L0_L2": 0.0, "max_rel_L3_L63": 0.010690842755138874, "final_norm_rel": 0.00729652913287282, "logits_rel": 0.005090857855975628}
+[ 18.7m] reference arm b_sdpa
+[ 24.8m] {"L3_attn_impl_seen": "sdpa", "first_over_1e-3": null, "max_rel_L0_L2": 0.0, "max_rel_L3_L63": 0.0, "final_norm_rel": 0.0, "logits_rel": 0.0}
+[ 24.8m] {"a_vs_b": {"max_layer_rel": 0.010685422457754612, "final_norm_rel": 0.007296635303646326}, "verdict_vs_predictions": {"a_L0_L2_lt_1e-3": true, "a_L3_L63_lt_1e-3": false, "a_final_and_logits_le_2e-3": false, "b_L0_L2_lt_1e-3": true, "b_L3_L63_lt_1e-3": true, "b_final_and_logits_le_2e-3": true, "a_vs_b_le_1e-3": false, "note": "report only; Deron adjudicates. Either arm final/logits > 2e-3 = hypothesis dead (post P071)."}}
+[ 24.8m] done base
+2026-11-06T03:45:38-06:00 restore rc=0
+2026-11-06T03:45:38-06:00 window closed (diag done)

@@ -1,0 +1,9 @@
+[   77.5s] G = W^T W and centred G_c built
+[  102.5s] factor spectra: {'PR_G': 253.78976367633496, 'PR_G_centred': 3032.3945192609262, 'share_of_trG_on_wbar_direction': 0.053125804249187024}
+[  272.1s] L24: centred PR(M) 56.2 (N/2 54.1) | PR(Sigma_h) 229
+[  272.1s] L24: PR(M) 19 (N/2 17, 9.7%, CONVERGED) Jett 700-1400 -> MISS (CONVERGED) | J22 17 | per-state 19 | rank Sigma 5120
+[  441.3s] L40: centred PR(M) 46.1 (N/2 44.5) | PR(Sigma_h) 205
+[  441.3s] L40: PR(M) 17 (N/2 16, 6.1%, CONVERGED) Jett 350-700 -> MISS (CONVERGED) | J22 15 | per-state 17 | rank Sigma 5120
+[  607.3s] L52: centred PR(M) 24.3 (N/2 23.9) | PR(Sigma_h) 181
+[  607.3s] L52: PR(M) 6 (N/2 6, 1.9%, CONVERGED) Jett 150-350 -> MISS (CONVERGED) | J22 6 | per-state 7 | rank Sigma 5120
+[  607.3s] done

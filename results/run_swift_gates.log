@@ -1,0 +1,9 @@
+Running as unit: run-r7736f315bb4f45109081cbc17732c74e.scope; invocation ID: 312a4eb854ed402a8142d432da3e8eb6
+device=cuda:0
+resident loaded 292 keys in 139.5s (skipped 348 visual, unknown 0)
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] You tried to access the `AttentionInterface` with a `config._attn_implementation` set to `None`. This is expected if you use an Attention Module as a standalone Module. If this is not the case, something went wrong with the dispatch of `config._attn_implementation`
+GATE1: {"cos_fwd_central_L42_GDN": 0.0, "cos_L42_vs_L43_control": 0.0, "eps": 0.000123291015625, "pass": false}
+GATE2: {"rel_l2": 2.027817964553833, "max_abs": 27.4921875, "pass": false}
+RESULTS: $JLENS_HOME/gate_results.json

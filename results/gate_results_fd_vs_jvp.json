@@ -1,0 +1,14 @@
+{
+  "arm": "(ii) FD-vs-JVP, L42 GDN, central FD vs torch.func.jvp (functional_call)",
+  "dtype": "full-stack fp32 (all resident layers 42..63 + final_norm + lm_head; h_l fp32)",
+  "cos_fd_vs_jvp_L42": 0.9999991655349731,
+  "cos_control_L42_vs_L43_seed1": 0.24074876308441162,
+  "rel_l2_fd_vs_jvp": 0.0013505331007763743,
+  "fd_norm": 434.8138427734375,
+  "jvp_L42_norm": 434.9505310058594,
+  "jvp_L43_norm": 955.448486328125,
+  "eps": 0.0001233668439090252,
+  "bar": "cos_main >= 0.99 AND cos_ctrl < ~0.9 (non-discriminating if ctrl >= ~0.9); rel_l2 report-only (1e-5 is gate-2)",
+  "pass": true,
+  "note": "arm (ii) per Deron P004 sequence (ii)->gate2->fit. functional_call fix per Claude P006 (crash + dead-tangent). Same full fp32 path + seeded directions as arm (i)."
+}

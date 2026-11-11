@@ -1,0 +1,23 @@
+{
+ "script_md5": "b7f9ac27505823b41e2a97b913ef0481",
+ "dry_run": false,
+ "stage1_dir": "$JLENS_HOME/claude-normtest/stage1",
+ "verdict": "NO-SCORE: memory guard: MemAvailable 26.9 GiB at start < dry-run peak 18.0 + 20.0 GiB (live engine protected)",
+ "stops": [
+  "memory guard: MemAvailable 26.9 GiB at start < dry-run peak 18.0 + 20.0 GiB (live engine protected)"
+ ],
+ "pins": {},
+ "files": {},
+ "env": {
+  "torch": "2.11.0+cu130",
+  "python": "3.12.3",
+  "threads": 12,
+  "host": "gpu-host",
+  "transformers": "5.10.2",
+  "driver_note": "CPU-only run; GPU driver not used (post P087 baseline 580.173.02)"
+ },
+ "memory": {
+  "mem_available_at_start_gib": 26.9,
+  "required_gib": 38.0
+ }
+}

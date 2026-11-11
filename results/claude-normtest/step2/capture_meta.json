@@ -1,0 +1,34 @@
+{
+ "script_md5": "893c83c51861adfa949599b74bb1743a",
+ "verdict": "CAPTURED",
+ "passages_md5": "2d302976c81e9956813d03f03cc37973",
+ "held_h.pt": "3ca0f99cd0d8f4fc2ab775b7a50ad04f",
+ "pilot_hutch.py": "5fa18d9bfa5fe9568e658e57dc100e66",
+ "mem_available_at_start_gib": 101.7,
+ "capture_consistency": {
+  "bar": "max rel Frobenius <= 0.001",
+  "rel_frobenius": {
+   "20": 0.0,
+   "24": 0.0,
+   "28": 0.0,
+   "32": 0.0,
+   "36": 0.0,
+   "40": 0.0,
+   "44": 0.0,
+   "h_final": 0.0
+  },
+  "max": 0.0
+ },
+ "fresh_h_md5": "bcb227608f36be1b348ace3c4fc90a32",
+ "positions": 1434,
+ "per_passage": [
+  239,
+  239,
+  239,
+  239,
+  239,
+  239
+ ],
+ "minutes": 5.6,
+ "ts": "2026-11-07T22:07:40"
+}

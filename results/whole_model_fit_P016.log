@@ -1,0 +1,36 @@
+[prov] PASS Swift-1.5-Qwen3.8-27b: manifest 025249e8 + file-set identical (36 files)
+cuda memory fraction 0.85 set (raised from 0.70: GDN forward activations exceed weight-only estimate; GB10 dedicated tonight)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights: 100%|██████████| 851/851 [00:00<00:00, 10899.35it/s]
+[load] from_pretrained bf16 done in 1s
+Traceback (most recent call last):
+  File "$JLENS_HOME/whole_model_fit.py", line 219, in <module>
+    main()
+  File "$JLENS_HOME/whole_model_fit.py", line 136, in main
+    model, tc = load_whole_model(args.model_dir, device, log)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$JLENS_HOME/whole_model_fit.py", line 101, in load_whole_model
+    model.to(device)
+  File "$VENV/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3713, in to
+    return super().to(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1384, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 934, in _apply
+    module._apply(fn)
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 934, in _apply
+    module._apply(fn)
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 965, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "$VENV/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1370, in convert
+    return t.to(
+           ^^^^^
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

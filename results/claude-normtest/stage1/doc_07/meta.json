@@ -1,0 +1,24 @@
+{
+ "doc": 7,
+ "source": "US Constitution",
+ "genre": "legal",
+ "url": "https://www.gutenberg.org/ebooks/5",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4958,
+ "J_p_md5": {
+  "20": "2167085f70a885a267087ed2c49b20a1",
+  "24": "e3e562544a739212595b796a5b47c86f",
+  "28": "ca1c09b3882c8a1eb86983be1a75ca57",
+  "32": "c3e5a6e4f36c533c36ee6204a3b9ebd3",
+  "36": "38c1ebb10dac64802cd9abae63b8084b",
+  "40": "1859aec09bb73437305efdf508603430",
+  "44": "d2c660338e661351f11a1ba60a2b55ed",
+  "48": "0c539a4aead74096c5be364d1c560aa3",
+  "52": "68fbd798b84982865949ee601bc9c844",
+  "56": "ead361b10ae1084cc061e7ad8e0cb75f"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T07:59:13"
+}

@@ -1,0 +1,24 @@
+{
+ "doc": 2,
+ "source": "Leaves of Grass (Whitman)",
+ "genre": "poetry",
+ "url": "https://www.gutenberg.org/ebooks/1322",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4985,
+ "J_p_md5": {
+  "20": "dcc2860d1055e9290e9d96c5ed713179",
+  "24": "97833c75b32bc99b3986fc9870969707",
+  "28": "25e60387b8e9e9c48b4e1e6d1c9fb32b",
+  "32": "6bbc22b8b48176016b14e2dc8c781bbb",
+  "36": "3a86f8515ebb19caa52b6d2f16ee600a",
+  "40": "7e60eacc561099ca63726c91a1c5147b",
+  "44": "876afec123d72add22f7db357bc3efb7",
+  "48": "bea0d6bcb06bb2fd29633d2c15ab5ab6",
+  "52": "c745fbfc2c0207da13771c00a68f95e8",
+  "56": "cab12240ebf0a03c545423959ab0e85f"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T01:06:42"
+}

@@ -1,0 +1,24 @@
+{
+ "doc": 6,
+ "source": "Boston Cooking-School Cook Book (Farmer)",
+ "genre": "cookbook",
+ "url": "https://www.gutenberg.org/ebooks/65061",
+ "tokens_in_fit": 256,
+ "n_valid": 239,
+ "seconds": 4950,
+ "J_p_md5": {
+  "20": "0ea917a4c045cae0333703edee7cc6fc",
+  "24": "71336cc98cd57c715cd6b2ccc2f6010c",
+  "28": "e7a1c7b38edf3705f8ecf3105f97f0d7",
+  "32": "5bad440bb88524b5a4da059b1b8f2343",
+  "36": "20e4435a2791ccc30b75734edf75dfe2",
+  "40": "99031c907559106f5afc15e0a7d13e8a",
+  "44": "8f6286a3359da0208cde79f5f2740bce",
+  "48": "f1c2d886489968c960bfe9d39f910563",
+  "52": "fddd0f22f09077a69364684eb251ce8b",
+  "56": "a336d038e737bc2f0b0a089b63a9654e"
+ },
+ "max_seq": 256,
+ "dim_batch": 1,
+ "ts": "2026-11-05T06:36:34"
+}

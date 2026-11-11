@@ -1,0 +1,8 @@
+[    4.9s] pins OK
+[   12.0s] disjoint OK
+[   12.4s] N OK {'record_parts_from_log': [131, 107, 96, 96, 93, 119], 'N_rec': 642, 'sum_n_p': 4040, 'total': 4682, 'new_share': 0.8629, 'note': 'post P090 swap 1: sum n_p is REPORTED, not asserted (3824 = 16 x 239 assumes every doc fills 256 tokens; a shorter doc is legal). The acc tot == sum n_p stop stays.'}
+[  248.1s] resume (b)+(c) OK
+[  320.5s] positive control OK (J_6 reproduces eval_record.json)
+[  379.9s] GATE: STOP mean D 0.00000 CI [0.00000, 0.00000]
+[  592.8s] report-only done; verdict STOP
+[  592.8s] STOP: dose checkpoint is from a different script or gives different g6/g22: refusing to resume

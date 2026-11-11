@@ -1,0 +1,735 @@
+{
+ "script_md5": "b7f9ac27505823b41e2a97b913ef0481",
+ "dry_run": true,
+ "stage1_dir": "$JLENS_HOME/claude-normtest/dry-stage1-identity",
+ "verdict": "CONTINUE",
+ "stops": [],
+ "pins": {
+  "held_h.pt": "3ca0f99cd0d8f4fc2ab775b7a50ad04f",
+  "eval.py": "cabcfb792432628ec53b541b0458756f",
+  "stage1_fit.py": "fabece828f9fb90b0738d412c058e544",
+  "pilot_hutch.py": "5fa18d9bfa5fe9568e658e57dc100e66",
+  "$JLENS_HOME/whole_model_fit_record.log": "d0cf6a412d557ab0e4aea4e76ccd7987"
+ },
+ "files": {
+  "record/J_l_16.pt": "7e2a1bb791e93cad1305a1ca6095289d",
+  "record/J_l_20.pt": "8d7ce550ece4b04df7ad53335492c944",
+  "record/J_l_24.pt": "4f9030e06a406733ca90f6d54c74bbf9",
+  "record/J_l_28.pt": "4bebd501a338651c8eba28e3db08d73c",
+  "record/J_l_32.pt": "9b2ec5e4076ab4feb8e1d4bf1bdb5209",
+  "record/J_l_36.pt": "fcfaa6daa7220d81bef31f940be4d49e",
+  "record/J_l_40.pt": "53a8ea6427d1317600faec8bfdbb10fc",
+  "record/J_l_44.pt": "262d9a8766957d57f968d51e6fd3a1f5",
+  "record/J_l_48.pt": "3d507861df5091818d3e00d11a04d9ae",
+  "record/J_l_52.pt": "8cfa95808075d94d8c5cb71909fa3e98",
+  "record/J_l_56.pt": "256f49b2f1d3edef6751901c8304b225",
+  "record/J_l_60.pt": "4091bcdb8097cc61efa3c38071a7dbc9",
+  "record/J_l_62.pt": "827591a4af9cc95d9747da81a933655c",
+  "stage1/doc_01/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_01/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_01/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_01/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_01/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_01/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_01/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_01/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_01/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_01/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_02/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_02/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_02/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_02/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_02/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_02/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_02/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_02/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_02/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_02/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_03/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_03/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_03/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_03/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_03/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_03/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_03/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_03/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_03/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_03/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_04/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_04/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_04/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_04/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_04/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_04/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_04/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_04/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_04/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_04/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_05/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_05/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_05/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_05/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_05/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_05/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_05/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_05/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_05/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_05/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_06/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_06/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_06/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_06/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_06/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_06/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_06/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_06/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_06/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_06/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_07/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_07/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_07/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_07/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_07/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_07/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_07/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_07/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_07/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_07/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_08/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_08/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_08/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_08/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_08/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_08/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_08/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_08/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_08/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_08/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_09/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_09/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_09/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_09/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_09/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_09/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_09/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_09/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_09/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_09/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_10/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_10/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_10/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_10/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_10/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_10/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_10/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_10/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_10/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_10/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_11/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_11/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_11/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_11/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_11/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_11/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_11/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_11/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_11/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_11/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_12/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_12/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_12/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_12/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_12/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_12/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_12/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_12/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_12/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_12/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_13/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_13/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_13/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_13/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_13/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_13/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_13/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_13/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_13/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_13/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_14/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_14/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_14/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_14/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_14/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_14/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_14/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_14/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_14/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_14/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_15/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_15/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_15/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_15/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_15/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_15/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_15/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_15/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_15/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_15/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_16/J_p_20.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_16/J_p_24.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_16/J_p_28.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_16/J_p_32.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_16/J_p_36.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_16/J_p_40.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_16/J_p_44.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_16/J_p_48.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_16/J_p_52.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/doc_16/J_p_56.pt": "ed61a175a567fe77b2262226ad7205aa",
+  "stage1/acc_20.pt": "6c7d4b1e19ca9a075d7b7c9bb14a2dbe",
+  "stage1/acc_24.pt": "e1c1da5ef7b921ba6f0e0b7da3e38606",
+  "stage1/acc_28.pt": "641e26bb8dbde0241c8e9c70a06ec679",
+  "stage1/acc_32.pt": "4fca49c14feb181030c02eed4d04ff9b",
+  "stage1/acc_36.pt": "deda922d100b2642cd894ddf40bd650d",
+  "stage1/acc_40.pt": "a6f0d73addc72754e02397e3370ec143",
+  "stage1/acc_44.pt": "874f23a4f9ab9d884c0b86864ccf4fb1",
+  "stage1/acc_48.pt": "bb0762bafbd3be413bb072e94ab94dd1",
+  "stage1/acc_52.pt": "722b4829f8591fea418b8297101d6c79",
+  "stage1/acc_56.pt": "2de3113498b68b65d4f09544a738c1d6"
+ },
+ "env": {
+  "torch": "2.11.0+cu130",
+  "python": "3.12.3",
+  "threads": 12,
+  "host": "gpu-host",
+  "transformers": "5.10.2",
+  "driver_note": "CPU-only run; GPU driver not used (post P087 baseline 580.173.02)"
+ },
+ "memory": {
+  "mem_available_at_start_gib": 41.9,
+  "required_gib": 38.0,
+  "mem_available_before_Jp_gib": 34.9,
+  "rss_peak_gib_before_Jp": 10.91,
+  "rss_after_layer_20": 10.91,
+  "rss_after_layer_24": 10.91,
+  "rss_after_layer_28": 10.91,
+  "rss_after_layer_32": 10.91,
+  "rss_after_layer_36": 10.91,
+  "rss_after_layer_40": 11.04,
+  "rss_after_layer_44": 11.94,
+  "rss_after_layer_48": 11.94,
+  "rss_after_layer_52": 11.94,
+  "rss_after_layer_56": 12.14,
+  "rss_peak_gib": 17.41
+ },
+ "disjoint": {
+  "stage1_docs": 16,
+  "held_out": 6,
+  "overlapping_docs": []
+ },
+ "resume_b_c": {
+  "n_valid": [
+   230,
+   233,
+   236,
+   239,
+   242,
+   245,
+   248,
+   251,
+   254,
+   257,
+   260,
+   263,
+   266,
+   269,
+   272,
+   275
+  ],
+  "doc_genre": [
+   "synthetic-identity-1",
+   "synthetic-identity-2",
+   "synthetic-identity-3",
+   "synthetic-identity-4",
+   "synthetic-identity-5",
+   "synthetic-identity-6",
+   "synthetic-identity-7",
+   "synthetic-identity-8",
+   "synthetic-identity-9",
+   "synthetic-identity-10",
+   "synthetic-identity-11",
+   "synthetic-identity-12",
+   "synthetic-identity-13",
+   "synthetic-identity-14",
+   "synthetic-identity-15",
+   "synthetic-identity-16"
+  ],
+  "doc_ts": [
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry",
+   "dry"
+  ],
+  "acc_check": {
+   "20": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "24": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "28": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "32": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "36": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "40": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "44": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "48": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "52": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   },
+   "56": {
+    "tot": 4040,
+    "sum_n": 4040,
+    "rel_diff_acc_vs_sum_nJ": 0.0
+   }
+  }
+ },
+ "N": {
+  "record_parts_from_log": [
+   131,
+   107,
+   96,
+   96,
+   93,
+   119
+  ],
+  "N_rec": 642,
+  "sum_n_p": 4040,
+  "total": 4682,
+  "new_share": 0.8629,
+  "note": "post P090 swap 1: sum n_p is REPORTED, not asserted (3824 = 16 x 239 assumes every doc fills 256 tokens; a shorter doc is legal). The acc tot == sum n_p stop stays."
+ },
+ "positive_control": {
+  "16": {
+   "jlens": 0.0006535947904922068,
+   "logit": 0.15416279435157776,
+   "max_abs_diff": 1.5850744994327925e-08
+  },
+  "20": {
+   "jlens": 0.007189542520791292,
+   "logit": 0.09876802563667297,
+   "max_abs_diff": 1.4608981524499853e-09
+  },
+  "24": {
+   "jlens": 0.012935730628669262,
+   "logit": 0.11991258710622787,
+   "max_abs_diff": 9.349748197884367e-09
+  },
+  "28": {
+   "jlens": 0.01783769205212593,
+   "logit": 0.1327536553144455,
+   "max_abs_diff": 3.627897093849697e-09
+  },
+  "32": {
+   "jlens": 0.02454092912375927,
+   "logit": 0.12266833335161209,
+   "max_abs_diff": 4.845312220891351e-09
+  },
+  "36": {
+   "jlens": 0.05039812996983528,
+   "logit": 0.07743930071592331,
+   "max_abs_diff": 9.374096499037421e-09
+  },
+  "40": {
+   "jlens": 0.07187467813491821,
+   "logit": 0.09931657463312149,
+   "max_abs_diff": 5.25923336824885e-09
+  },
+  "44": {
+   "jlens": 0.07256977260112762,
+   "logit": 0.11448542028665543,
+   "max_abs_diff": 5.210536752064954e-09
+  },
+  "48": {
+   "jlens": 0.09162258356809616,
+   "logit": 0.0984451174736023,
+   "max_abs_diff": 7.3044907761277145e-09
+  },
+  "52": {
+   "jlens": 0.12938064336776733,
+   "logit": 0.0855262503027916,
+   "max_abs_diff": 1.533943069786936e-09
+  },
+  "56": {
+   "jlens": 0.15393583476543427,
+   "logit": 0.11767948418855667,
+   "max_abs_diff": 3.0678861256960843e-09
+  },
+  "60": {
+   "jlens": 0.2065398246049881,
+   "logit": 0.17689205706119537,
+   "max_abs_diff": 1.6970766902879575e-08
+  },
+  "62": {
+   "jlens": 0.2333735227584839,
+   "logit": 0.2473168969154358,
+   "max_abs_diff": 1.582639669317487e-08
+  }
+ },
+ "gate": {
+  "bar": "post P047 s3: paired bootstrap 95% CI (306 positions) of [mid-band fut20 gain over logit at n=22] - [same at n=6] entirely > 0; mid-band = L20-44",
+  "mean_D": 0.07030979543924332,
+  "ci95": [
+   0.05806325376033783,
+   0.0844760313630104
+  ],
+  "B": 10000,
+  "seed": 20261106,
+  "mean_gain_n6": -0.07257106900215149,
+  "mean_gain_n22": -0.0022612749598920345,
+  "decision": "CONTINUE"
+ },
+ "report": {
+  "heading": "REPORT-ONLY. Nothing below gates anything (post P047 s4, post P089).",
+  "cluster_ci_6_clusters_crude": {
+   "label": "6 clusters, crude",
+   "per_passage_mean_D": [
+    0.07537641376256943,
+    0.04210055619478226,
+    0.06528183072805405,
+    0.12283725291490555,
+    0.03817082196474075,
+    0.07888204604387283
+   ],
+   "ci95": [
+    0.05020016431808472,
+    0.09407445043325424
+   ]
+  },
+  "per_layer_table": {
+   "heading": "not a J1 verdict (post P089 Q3): per-layer readability at n=22, REPORT-ONLY",
+   "rows": {
+    "20": {
+     "J22": {
+      "fut20": 0.10029308139985683,
+      "top1": 0.03594771400094032,
+      "kl": 7.532262325286865
+     },
+     "J6": {
+      "fut20": 0.007189542542096057,
+      "top1": 0.009803921915590763,
+      "kl": 11.929574012756348
+     },
+     "logit": {
+      "fut20": 0.09876802709757113,
+      "top1": 0.019607843831181526,
+      "kl": 7.678032875061035
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 12.97811222076416
+     }
+    },
+    "24": {
+     "J22": {
+      "fut20": 0.11161557390214571,
+      "top1": 0.05228758230805397,
+      "kl": 7.271981239318848
+     },
+     "J6": {
+      "fut20": 0.012935729977352168,
+      "top1": 0.013071895577013493,
+      "kl": 11.257987976074219
+     },
+     "logit": {
+      "fut20": 0.11991259645597607,
+      "top1": 0.03921568766236305,
+      "kl": 7.450901985168457
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 13.37093734741211
+     }
+    },
+    "28": {
+     "J22": {
+      "fut20": 0.12540979534874555,
+      "top1": 0.07189542800188065,
+      "kl": 7.21079158782959
+     },
+     "J6": {
+      "fut20": 0.0178376908347108,
+      "top1": 0.013071895577013493,
+      "kl": 11.46478271484375
+     },
+     "logit": {
+      "fut20": 0.1327536589423426,
+      "top1": 0.06209150329232216,
+      "kl": 7.368717670440674
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 11.872795104980469
+     }
+    },
+    "32": {
+     "J22": {
+      "fut20": 0.11487965743526135,
+      "top1": 0.09803921729326248,
+      "kl": 7.097963333129883
+     },
+     "J6": {
+      "fut20": 0.02454092774808017,
+      "top1": 0.013071895577013493,
+      "kl": 11.198161125183105
+     },
+     "logit": {
+      "fut20": 0.12266832850629987,
+      "top1": 0.0784313753247261,
+      "kl": 7.354044437408447
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 12.55370807647705
+     }
+    },
+    "36": {
+     "J22": {
+      "fut20": 0.08287166835728034,
+      "top1": 0.07516340166330338,
+      "kl": 6.770626068115234
+     },
+     "J6": {
+      "fut20": 0.050398122908827524,
+      "top1": 0.0555555559694767,
+      "kl": 8.715082168579102
+     },
+     "logit": {
+      "fut20": 0.07743931009001981,
+      "top1": 0.0555555559694767,
+      "kl": 7.202459812164307
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 14.098184585571289
+     }
+    },
+    "40": {
+     "J22": {
+      "fut20": 0.10318757279538641,
+      "top1": 0.11437908560037613,
+      "kl": 6.069186687469482
+     },
+     "J6": {
+      "fut20": 0.07187467679576157,
+      "top1": 0.07189542800188065,
+      "kl": 9.384313583374023
+     },
+     "logit": {
+      "fut20": 0.09931657989235486,
+      "top1": 0.10457516461610794,
+      "kl": 6.529078483581543
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 13.997164726257324
+     }
+    },
+    "44": {
+     "J22": {
+      "fut20": 0.1112576528555817,
+      "top1": 0.13071896135807037,
+      "kl": 5.639228820800781
+     },
+     "J6": {
+      "fut20": 0.0725697696793313,
+      "top1": 0.08496732264757156,
+      "kl": 9.001728057861328
+     },
+     "logit": {
+      "fut20": 0.11448542549719218,
+      "top1": 0.12745098769664764,
+      "kl": 6.270631313323975
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 12.93048095703125
+     }
+    },
+    "48": {
+     "J22": {
+      "fut20": 0.11645010018757745,
+      "top1": 0.15032680332660675,
+      "kl": 5.3017425537109375
+     },
+     "J6": {
+      "fut20": 0.09162257626360538,
+      "top1": 0.15032680332660675,
+      "kl": 7.145442485809326
+     },
+     "logit": {
+      "fut20": 0.09844512012756727,
+      "top1": 0.12745098769664764,
+      "kl": 6.040850639343262
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 12.873196601867676
+     }
+    },
+    "52": {
+     "J22": {
+      "fut20": 0.10162102029311891,
+      "top1": 0.20915032923221588,
+      "kl": 4.959200382232666
+     },
+     "J6": {
+      "fut20": 0.129380643099936,
+      "top1": 0.232026144862175,
+      "kl": 5.054152011871338
+     },
+     "logit": {
+      "fut20": 0.08552624876884853,
+      "top1": 0.1764705926179886,
+      "kl": 5.620715618133545
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 13.00644302368164
+     }
+    },
+    "56": {
+     "J22": {
+      "fut20": 0.12323892722819366,
+      "top1": 0.2875817120075226,
+      "kl": 4.544363498687744
+     },
+     "J6": {
+      "fut20": 0.15393583590980447,
+      "top1": 0.36274510622024536,
+      "kl": 4.465238094329834
+     },
+     "logit": {
+      "fut20": 0.11767948112067055,
+      "top1": 0.27450981736183167,
+      "kl": 4.763373851776123
+     },
+     "rowperm_J22": {
+      "fut20": 0.0,
+      "top1": 0.0,
+      "kl": 13.340555191040039
+     }
+    }
+   },
+   "rowperm_must_fail_precheck": {
+    "rule": "fut20 < .01 AND below logit at every scored layer",
+    "fut20": {
+     "20": 0.0,
+     "24": 0.0,
+     "28": 0.0,
+     "32": 0.0,
+     "36": 0.0,
+     "40": 0.0,
+     "44": 0.0,
+     "48": 0.0,
+     "52": 0.0,
+     "56": 0.0
+    },
+    "valid": true
+   }
+  },
+  "equal_weight_per_doc": {
+   "note": "J_6 enters as 6 equal docs (only its n-weighted mean exists)",
+   "mean_D": 0.05950213968753815
+  },
+  "eight_vs_eight": {
+   "split_seed": 20261108,
+   "half_A_docs": [
+    1,
+    2,
+    3,
+    8,
+    10,
+    11,
+    12,
+    13
+   ],
+   "half_B_docs": [
+    4,
+    5,
+    6,
+    7,
+    9,
+    14,
+    15,
+    16
+   ],
+   "agreement": {
+    "24": {
+     "top1_agree": 1.0,
+     "top10_overlap": 1.0
+    },
+    "40": {
+     "top1_agree": 1.0,
+     "top10_overlap": 1.0
+    },
+    "52": {
+     "top1_agree": 1.0,
+     "top10_overlap": 1.0
+    }
+   }
+  },
+  "limit_86pct_new_positions": "4040 of 4682 positions (86.3%) are new, so a CONTINUE supports 'more data helps', and cannot separate more DOCUMENTS (diversity) from more TEXT (volume) (post P056)."
+ },
+ "minutes": 9.0,
+ "ts": "2026-11-07T01:05:58"
+}
