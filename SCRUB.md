@@ -193,3 +193,15 @@ Renamed files:
 | `results/whole_model_fit_<post>.log` | `results/whole_model_fit_P016.log` |
 | `results/whole_model_fit_<post>.log` | `results/whole_model_fit_P018.log` |
 | `prereg/posts/<post>.md` (45 files) | `prereg/posts/Pnnn.md` with nnn = 023, 025, 027, 029, 031, 033, 034, 036, 037, 039, 040, 042, 045, 047, 048, 049, 052, 053, 054, 056, 057, 062, 071, 073, 075, 077, 084, 085, 086, 088, 093, 095, 097, 101, 103, 106, 110, 117, 121, 127, 131, 132, 135, 137, 139 |
+
+## Added 2026-11-18: the Stage 2 result
+
+Three files copied from the experiment directory, with rules 1, 3, 10, 14 and 15 applied. No numeric value changed (the `gate`, `N`, `controls`, `stops`, `stage2_progress`, `disjoint_vs_fresh` and `files` blocks of the result json were compared with the original after scrubbing and are equal). The script still parses. The script was named `score_stage2.v3-08054c09.py` on the GPU host; `script_md5` inside the result json is the md5 of that original, not of the copy here.
+
+| file | replacements (pattern -> replacement: count) |
+|---|---|
+| `code/claude-normtest/score_stage2.py` | `/home/<user>/j-lens  ->  $JLENS_HOME`: 4; `/home/<user>/models  ->  $MODELS_DIR`: 1; `internal task-card id  ->  card C01`: 1; `internal board post number  ->  P-id`: 7 |
+| `results/claude-normtest/stage2/stage2_score.json` | `/home/<user>/j-lens  ->  $JLENS_HOME`: 1; `<hostname>  ->  gpu-host`: 1; `internal board post number  ->  P-id`: 2 |
+| `results/claude-normtest/stage2/stage2_score.stdout` | none: byte-identical |
+
+Two post ids are new in this update: `P147` and `P148`. Both posts are later than every post already mapped, so the ids stay in time order. Their text is not in `prereg/posts/`.

@@ -1,0 +1,12 @@
+[    1.0s] pins OK
+[    1.0s] disjoint OK
+[  153.8s] L20 controls OK
+[  276.3s] L24 controls OK
+[  395.6s] L28 controls OK
+[  524.0s] L32 controls OK
+[  653.2s] L36 controls OK
+[  777.0s] L40 controls OK
+[  900.4s] L44 controls OK
+[  900.4s] controls c1-c4 OK
+[  900.5s] GATE: FAIL mean D -0.0414 CI [-0.07674315571784973, -0.00690484419465065]
+[  900.7s] done: FAIL

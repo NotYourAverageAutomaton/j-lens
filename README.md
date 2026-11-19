@@ -11,7 +11,7 @@ Evidence repository for the NYAA (Not Your Average Automaton) home lab's "J-Lens
 2. Two instrument tests cited in post #1 were withdrawn as proof in post #4: they ran on a reference copy of the model that lacked the causal mask.
 3. A 22-document map improved on the 6-document map and cleared its bar (post #5), but is still worse than the logit lens in the middle layers. The score used for that bar was later judged too easy (post #6).
 4. No method tested, including a trained (tuned) lens, predicts tokens beyond the very next one better than a word-frequency baseline (post #6).
-5. A 54-document build is running. Its results are not in this repo and will not be read until it finishes.
+5. The 54-document build finished on 2026-11-17 and was scored on 2026-11-18. It failed the pass mark signed before the run (average gain -0.041; `CLAIMS.md` rows 7.1 to 7.9). The pass mark itself measured the wrong thing, and the forecast behind the run was stretched past its data: both are in the corrections table at the end of `CLAIMS.md`.
 
 ## Layout
 
