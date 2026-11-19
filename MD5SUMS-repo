@@ -82,7 +82,7 @@ d6a0e8ae53f1572ca2c74f836cc2b3f7  ./figures/post6/01-more-documents.py
 f02e4a6bb51c884ed2d690f17cb5f1ab  ./figures/post6/jlens-dose-points.csv
 6df9e17adce06b9e3fbb76ee0db92beb  ./figures/tools/nyaa_look.py
 136c671dba2d2f644b882e31c3e289e8  ./LICENSE
-6175c3c820c7a9fab4596a7a42390c9a  ./MD5SUMS
+4ed1612c26e7bac7e81afd2889ef83e0  ./MD5SUMS
 9147837cb4e4550db1e5ad5cd74a175e  ./prereg/posts/P023.md
 35c8b31035040442c77a94c74f04320d  ./prereg/posts/P025.md
 6f6365ffa4327d8b09162beb499efa3f  ./prereg/posts/P027.md
@@ -128,8 +128,8 @@ b66caa1d578d34cfb003446b61692820  ./prereg/posts/P131.md
 d4c8a240e7cf4feff2f6047188080cc3  ./prereg/posts/P135.md
 d08abf996fc54869ce148ec7ff164d4a  ./prereg/posts/P137.md
 c7422b63769cb7aeb5cd6cf376e29dbe  ./prereg/posts/P139.md
-9351376f58ec78bb717fb44871057253  ./prereg/README.md
-c9b8d89038c0205181419784cb98e214  ./README.md
+8e7335529b160cc575852ee0a6d56be2  ./prereg/README.md
+6f0442253162043c0ccaef21e4998f63  ./README.md
 0b48e4c5c869559f1f7bafa854b51550  ./results/claude-memtest/memtest.json
 16a98840003a2754c6684e0b349787f3  ./results/claude-memtest/memtest.log
 f93fe51c86070e2da604a702458c7d40  ./results/claude-normtest/c4v2-window.log
@@ -303,4 +303,5 @@ ddbb7ad922f5e3480dfe1ff174f4d2cc  ./results/whole_model_fit_P014.log
 a0e0a9a70348895b80df73c3c8f11ce5  ./results/whole_model_fit_P016.log
 a9291a953398519ea53ee779a9636e3b  ./results/whole_model_fit_P018.log
 1ccdcd78cbd45877878a4ac27a22fe43  ./results/whole_model_fit_record.log
-a577a608eba6f267319e32c3e78501d2  ./SCRUB.md
+4c764f6a064d903a74e696bffaf85a66  ./SCRUB.md
+4a62b0b3ce9773779e6b22ab09e119ae  ./prereg/bars/J54-concept-bar-v4.2.md

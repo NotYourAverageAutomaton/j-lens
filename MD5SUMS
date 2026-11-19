@@ -246,3 +246,4 @@ d0cf6a412d557ab0e4aea4e76ccd7987  1ccdcd78cbd45877878a4ac27a22fe43  results/whol
 08054c09e38c8627c680da022a073843  7a9461ce602820f336b80b7893dd2c2f  code/claude-normtest/score_stage2.py  gpu-host:$JLENS_HOME/claude-normtest/score_stage2.py (v3)  scrubbed
 be9170167bd65b32dde5fa5f005638fb  947e2f2b9b5681799dc85618a27f761a  results/claude-normtest/stage2/stage2_score.json  gpu-host:$JLENS_HOME/claude-normtest/stage2/stage2_score.json  scrubbed
 21bf99d40e4ae6f40ab117c8df4df95a  21bf99d40e4ae6f40ab117c8df4df95a  results/claude-normtest/stage2/stage2_score.stdout  gpu-host:$JLENS_HOME/claude-normtest/stage2/stage2_score.stdout  identical
+2217480f0e0321ef927fdde9b7f921d3  4a62b0b3ce9773779e6b22ab09e119ae  prereg/bars/J54-concept-bar-v4.2.md  gpu-host:$JLENS_HOME/claude-normtest/concept/ (the frozen bar file, v4.2)  scrubbed

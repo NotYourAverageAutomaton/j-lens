@@ -12,6 +12,7 @@ Evidence repository for the NYAA (Not Your Average Automaton) home lab's "J-Lens
 3. A 22-document map improved on the 6-document map and cleared its bar (post #5), but is still worse than the logit lens in the middle layers. The score used for that bar was later judged too easy (post #6).
 4. No method tested, including a trained (tuned) lens, predicts tokens beyond the very next one better than a word-frequency baseline (post #6).
 5. The 54-document build finished on 2026-11-17 and was scored on 2026-11-18. It failed the pass mark signed before the run (average gain -0.041; `CLAIMS.md` rows 7.1 to 7.9). The pass mark itself measured the wrong thing, and the forecast behind the run was stretched past its data: both are in the corrections table at the end of `CLAIMS.md`.
+6. The next test is the paper's own: does the 54-document lens read the unspoken middle step of a prompt (six kinds: two-hop facts, translation, order of operations, rhymes, typos, association)? Its pass mark and controls are in `prereg/bars/J54-concept-bar-v4.2.md`, committed here before the capture run. No result exists yet.
 
 ## Layout
 

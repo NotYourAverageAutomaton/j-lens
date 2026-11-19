@@ -205,3 +205,11 @@ Three files copied from the experiment directory, with rules 1, 3, 10, 14 and 15
 | `results/claude-normtest/stage2/stage2_score.stdout` | none: byte-identical |
 
 Two post ids are new in this update: `P147` and `P148`. Both posts are later than every post already mapped, so the ids stay in time order. Their text is not in `prereg/posts/`.
+
+## Added 2026-11-19: the J54 concept-test pass mark
+
+One file copied from the experiment directory: `prereg/bars/J54-concept-bar-v4.2.md` (original md5 `2217480f0e0321ef927fdde9b7f921d3`, repo copy `4a62b0b3ce9773779e6b22ab09e119ae`). 15 of its 117 lines differ from the original, and only by these replacements: `internal task-card id -> card C01`: 1; `internal task-card id -> card C05`: 1; `internal board post number -> P-id`: 12; `the GPU machine's name -> [gpu-host]`: 2; `internal file path -> [internal path]`: 1.
+
+Six post ids are new in this update: `P149` to `P154`. All six posts are later than every post already mapped, so the ids stay in time order. Their text is not in `prereg/posts/`. One card id is new: `card C05`.
+
+Seat names in the file (Claude, Deron, Lens, Qwen) are left as written; the top-level README says who they are.
