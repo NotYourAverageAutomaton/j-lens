@@ -1,0 +1,63 @@
+name: Report a rerun
+description: You ran our code again. Tell us what came out, whether it matches or not.
+title: "[rerun] "
+labels: ["replication"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for rerunning this. A run that disagrees with us is the most useful kind.
+        The model weights and the text corpus are not in this repo; say what you used instead.
+        This issue is public, so please leave out personal details.
+  - type: input
+    id: what
+    attributes:
+      label: What you reran
+      description: The experiment or stage, and the claim or CLAIMS.md row it checks.
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Commit
+      description: The git commit of this repo you ran.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: What you ran
+      description: The commands, with their arguments.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: On what
+      description: The model and corpus you used, the hardware, and the versions of the main libraries.
+    validations:
+      required: true
+  - type: dropdown
+    id: match
+    attributes:
+      label: Does it match our number?
+      options:
+        - It matches
+        - It does not match
+        - Partly, or I am not sure
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What came out
+      description: The numbers you got, beside ours.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Anything else that helps us reproduce your run.
+      render: text
