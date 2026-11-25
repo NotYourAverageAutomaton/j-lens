@@ -213,3 +213,17 @@ One file copied from the experiment directory: `prereg/bars/J54-concept-bar-v4.2
 Six post ids are new in this update: `P149` to `P154`. All six posts are later than every post already mapped, so the ids stay in time order. Their text is not in `prereg/posts/`. One card id is new: `card C05`.
 
 Seat names in the file (Claude, Deron, Lens, Qwen) are left as written; the top-level README says who they are.
+
+## Post #8 evidence (added 2026-11-24): the 21 Nov hidden-step readout
+
+Byte copies of the originals with these replacements; Python files still parse, JSON still loads.
+
+| file | original md5 | published md5 | replacements |
+|---|---|---|---|
+| `code/concept/concept_score.py` | `c56b083a11fb79511aabfe4d0962df53` | `22763366d5ae946f6b3fc468ca5be929` | `/home/<user>/j-lens` -> `$JLENS_HOME`: 2; `/home/<user> (other)` -> `/home/<user>`: 1; `card <id>` -> `the pre-registration card`: 1; `-t_[0-9a-f]{8}\.md` -> `.md`: 1; `(<seat> <date>` -> `(<date>`: 1; `<seat> <post>` -> `review note`: 2; `<seat name>` -> `a reviewer`: 2 |
+| `code/concept/concept_common.py` | `6036073662606dcf96849beccb4cc333` | `06edbf200e6293e0109b98fdac5a46d1` | `card <id>` -> `the pre-registration card`: 1; `(<seat> <date>` -> `(<date>`: 1; `<seat> <post>` -> `review note`: 1; `<seat name>` -> `a reviewer`: 1 |
+| `results/concept/concept_score.json` | `4cf8834313d91cd47609d0cbfa29b38f` | `2ccae811e439c3da160d984b1b30f864` | `/home/<user>/j-lens` -> `$JLENS_HOME`: 6; `<hostname>` -> `gpu-host`: 1; `-t_[0-9a-f]{8}\.md` -> `.md`: 1 |
+| `results/concept/concept_score_standin_random_states.json` | `682a5bc40fa1e8f155c37f691974c480` | `a32b2eb0b9c0a3daf4a777657c67876d` | `/home/<user>/j-lens` -> `$JLENS_HOME`: 5; `<hostname>` -> `gpu-host`: 1; `-t_[0-9a-f]{8}\.md` -> `.md`: 1 |
+| `results/concept/decoys.json` | `7ec0280becdebc09e4dd9e1ee41c6bcd` | `7ec0280becdebc09e4dd9e1ee41c6bcd` | none |
+
+Not published: the captured activations (`concept_h.pt`, large, the model's internal states: the owner's call) and the item files (they come from the paper's public data repository at commit 581d3986; cite it there).

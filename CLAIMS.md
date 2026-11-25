@@ -123,3 +123,28 @@ Site: the J-Lens page, sections "Stage 2: more data did not help", "What we got 
 | "About an hour per document", "six weeks" for 1,000 | #2 (row 2.10) | The log gives 38 to 59 minutes, mean 45, so about a month. Correction owed in the next update. The conclusion (too slow to do exactly) is unchanged. |
 | Stage 2's pass mark (next-word agreement, kl) as a fair test of the lens | #6 (row 6.10); `prereg/posts/P137.md` | The wrong measure: the paper that introduced the lens says the lens loses to the plain logit lens on it through most of the network, by design (row 7.7). The FAIL (row 7.2) stands as measured. The next test scores hidden steps, the paper's own test. |
 | The fitted curves as grounds for building a 54-document lens | #6 (row 6.9) | A forecast stretched about 2.5 times past the measured range (row 7.8). It predicted a gain of 0.25 to 1.30; the run measured -0.041 (row 7.5). |
+
+## Post #8: the 21 Nov hidden-step readout (published 2026-11-24 on the owner's decision; evidence in `results/concept/`, scorer in `code/concept/`)
+Site: the J-Lens page (v4.7), the 21 Nov hidden-step readout test.
+
+| id | claim | number as posted | evidence (file : key) | script | check | status |
+|---|---|---|---|---|---|---|
+| 8.1 | An adaptation of the paper's hidden-step readout test: on 406 kept items over 6 sets, J54 surfaced the known hidden step more often than the plain logit lens (pooled pass@k AUC, bands L20-44) | +0.102, 95% CI [0.076, 0.129]; 406 | `concept_score.json` : `gate.G1.mean`, `gate.G1.ci95`; `counts.kept` | `concept_score.py` | verified in file | stands |
+| 8.2 | J54 ranked the true hidden step above a decoy (another item's step from the same task set) | +0.294, CI [0.266, 0.322] | `gate.G2` | same | verified in file | stands |
+| 8.3 | The pass mark (G1 and G2 both CI low > 0, G3 control not void) was written and frozen before the data | none | bar md5 2217480f; `concept_score.json` : `bar`, `pins` | n/a | verified in file | stands |
+| 8.4 | Only 4 of the 6 sets were filtered for the model answering correctly (multihop 49, multilingual 63, order-ops 20, poetry 76 = 208); typo 96 and association 102 were not filtered (198) | 208; 198 | `counts.kept` | same | verified in file | stands |
+| 8.5 | Per set, J54 minus logit: association +0.177 [0.129, 0.228]; multihop +0.176 [0.078, 0.273]; multilingual +0.189 [0.144, 0.235]; order-ops +0.125 [0.010, 0.245]; poetry +0.118 [0.080, 0.162]; typo -0.089 [-0.158, -0.019] | as listed | `report.per_set.<set>.J54_minus_logit` | same | verified in file | stands |
+| 8.6 | TYPO is the exception: J54 reads it WORSE than the logit lens (the paper reports J ahead on all six) | -0.089 [-0.158, -0.019] | `report.per_set.typo` | same | verified in file | stands |
+| 8.7 | Per set, J54 minus decoy: association +0.260 [0.203, 0.317]; multihop +0.311 [0.192, 0.432]; multilingual +0.387 [0.339, 0.435]; order-ops +0.193 [0.060, 0.297]; poetry +0.025 [-0.024, 0.074]; typo +0.495 [0.443, 0.550]. POETRY does not clear its decoy | as listed | `report.per_set.<set>.J54_minus_decoy` | same | verified in file | stands |
+| 8.8 | By read position (our lens was fitted on positions 16 and over only): under 16, 214 items, J54 minus logit +0.049 [0.009, 0.090], minus decoy +0.397 [0.358, 0.435]; 16 and over, 192 items, +0.161 [0.129, 0.196] and +0.180 [0.140, 0.219] | as listed | `report.by_read_position...` : `under_16`, `16_and_over` gate-on-half (report-only) | same | verified in file | stands (report-only, never the verdict) |
+| 8.9 | On random states (a stand-in dry run) the same G1 measure also cleared zero, +0.034, so G1 alone is not evidence of a read; G2 carries it | +0.034 | `concept_score_standin_random_states.json` : `gate.G1`, `dry_synthetic` = true | same | verified in file | stands |
+| 8.10 | Differences from the paper: 54 fit documents (paper ~1,000 sequences); FINAL-layer target (paper: penultimate); positions under 16 skipped in the fit; 7 strided layers (L20-44 by 4); no tuned-lens baseline; nothing causal | none | `prereg/bars/J54-concept-bar-v4.2.md` lines 9, 74-77, 114 | n/a | in prereg | stands |
+
+### Rows whose evidence is still inside the lab (2026-11-24 publishing rule: none may stand as verified without a public file)
+
+| row | what | status now |
+|---|---|---|
+| 1.7 | the 'what we got wrong' narrative | narrative; its record is not public yet: read as unverifiable |
+| 2.11 | the themes lead, withdrawn | no evidence file: read as unverifiable |
+| 7.9 | 'seven nights of GPU time' | schedule log not public: the number is unverified |
+| 2.7 | the 4 Nov pass mark was written before its run | rests on internal timestamps: self-reported (from now on a public commit is the clock) |

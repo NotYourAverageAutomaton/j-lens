@@ -1,0 +1,5278 @@
+{
+"0": {
+"word": "France",
+"form_ids": [
+47358,
+9338
+],
+"partner_idx": 88,
+"fallback": false
+},
+"1": {
+"word": "Vatican",
+"form_ids": [
+44993
+],
+"partner_idx": 26,
+"fallback": false
+},
+"2": {
+"word": "field",
+"form_ids": [
+2482,
+2002,
+1812,
+8338
+],
+"partner_idx": 61,
+"fallback": false
+},
+"3": {
+"word": "boss",
+"form_ids": [
+32211,
+13005,
+55069,
+30530
+],
+"partner_idx": 40,
+"fallback": false
+},
+"4": {
+"word": "underwater",
+"form_ids": [
+43860
+],
+"partner_idx": 43,
+"fallback": false
+},
+"5": {
+"word": "Mozart",
+"form_ids": [
+91400
+],
+"partner_idx": 19,
+"fallback": false
+},
+"6": {
+"word": "frustrated",
+"form_ids": [
+31457
+],
+"partner_idx": 31,
+"fallback": false
+},
+"7": {
+"word": "winter",
+"form_ids": [
+80065,
+12050,
+63952,
+19488
+],
+"partner_idx": 49,
+"fallback": false
+},
+"8": {
+"word": "past",
+"form_ids": [
+50656,
+3162,
+48427,
+22900
+],
+"partner_idx": 73,
+"fallback": false
+},
+"9": {
+"word": "anger",
+"form_ids": [
+3869,
+18654
+],
+"partner_idx": 30,
+"fallback": false
+},
+"10": {
+"word": "night",
+"form_ids": [
+9011,
+3603,
+48739,
+12458
+],
+"partner_idx": 72,
+"fallback": false
+},
+"11": {
+"word": "free",
+"form_ids": [
+10279,
+1845,
+10621,
+3455
+],
+"partner_idx": 79,
+"fallback": false
+},
+"12": {
+"word": "music",
+"form_ids": [
+30141,
+4477,
+23373,
+10401
+],
+"partner_idx": 64,
+"fallback": false
+},
+"13": {
+"word": "mother",
+"form_ids": [
+25567,
+6351,
+56886,
+20398
+],
+"partner_idx": 39,
+"fallback": false
+},
+"14": {
+"word": "Obama",
+"form_ids": [
+42865,
+6884
+],
+"partner_idx": 15,
+"fallback": false
+},
+"15": {
+"word": "court",
+"form_ids": [
+60644,
+5300,
+73184,
+6930
+],
+"partner_idx": 57,
+"fallback": false
+},
+"16": {
+"word": "relief",
+"form_ids": [
+15485,
+50633
+],
+"partner_idx": 7,
+"fallback": false
+},
+"17": {
+"word": "book",
+"form_ids": [
+2121,
+2236,
+6911,
+5711
+],
+"partner_idx": 91,
+"fallback": false
+},
+"18": {
+"word": "Armstrong",
+"form_ids": [
+43372
+],
+"partner_idx": 21,
+"fallback": false
+},
+"19": {
+"word": "K\u00f6nig",
+"form_ids": [
+181245
+],
+"partner_idx": 97,
+"fallback": false
+},
+"20": {
+"word": "Wright",
+"form_ids": [
+25887
+],
+"partner_idx": 22,
+"fallback": false
+},
+"21": {
+"word": "siblings",
+"form_ids": [
+50174,
+35467
+],
+"partner_idx": 37,
+"fallback": false
+},
+"22": {
+"word": "m\u00fasica",
+"form_ids": [
+67965,
+192601
+],
+"partner_idx": 101,
+"fallback": false
+},
+"23": {
+"word": "math",
+"form_ids": [
+10065,
+6673,
+8549,
+4013
+],
+"partner_idx": 65,
+"fallback": false
+},
+"24": {
+"word": "Churchill",
+"form_ids": [
+55260
+],
+"partner_idx": 17,
+"fallback": false
+},
+"25": {
+"word": "found",
+"form_ids": [
+14664,
+1669,
+6441,
+11962
+],
+"partner_idx": 80,
+"fallback": false
+},
+"26": {
+"word": "dawn",
+"form_ids": [
+37119,
+33362
+],
+"partner_idx": 48,
+"fallback": false
+},
+"27": {
+"word": "town",
+"form_ids": [
+26927,
+6092,
+66176,
+13570
+],
+"partner_idx": 60,
+"fallback": false
+},
+"28": {
+"word": "rivals",
+"form_ids": [
+33683
+],
+"partner_idx": 38,
+"fallback": false
+},
+"29": {
+"word": "poker",
+"form_ids": [
+20180,
+36324
+],
+"partner_idx": 46,
+"fallback": false
+},
+"30": {
+"word": "interview",
+"form_ids": [
+6906,
+59263,
+30433
+],
+"partner_idx": 47,
+"fallback": false
+},
+"31": {
+"word": "\u00e1gua",
+"form_ids": [
+172954,
+223141
+],
+"partner_idx": 100,
+"fallback": false
+},
+"32": {
+"word": "noir",
+"form_ids": [
+53695,
+70242
+],
+"partner_idx": 34,
+"fallback": false
+},
+"33": {
+"word": "fired",
+"form_ids": [
+13496,
+72283
+],
+"partner_idx": 5,
+"fallback": false
+},
+"34": {
+"word": "Edison",
+"form_ids": [
+71268
+],
+"partner_idx": 24,
+"fallback": false
+},
+"35": {
+"word": "science",
+"form_ids": [
+38248,
+7785,
+34229,
+9670
+],
+"partner_idx": 66,
+"fallback": false
+},
+"36": {
+"word": "poverty",
+"form_ids": [
+18432,
+66832
+],
+"partner_idx": 3,
+"fallback": false
+},
+"37": {
+"word": "Darwin",
+"form_ids": [
+42905
+],
+"partner_idx": 12,
+"fallback": false
+},
+"38": {
+"word": "lonely",
+"form_ids": [
+38257,
+82763
+],
+"partner_idx": 32,
+"fallback": false
+},
+"39": {
+"word": "home",
+"form_ids": [
+4955,
+2046,
+7380,
+5211
+],
+"partner_idx": 53,
+"fallback": false
+},
+"40": {
+"word": "game",
+"form_ids": [
+5623,
+1746,
+4712,
+3914
+],
+"partner_idx": 76,
+"fallback": false
+},
+"41": {
+"word": "Hollywood",
+"form_ids": [
+16728
+],
+"partner_idx": 27,
+"fallback": false
+},
+"42": {
+"word": "lie",
+"form_ids": [
+11234,
+9940,
+73874,
+20833
+],
+"partner_idx": 2,
+"fallback": false
+},
+"43": {
+"word": "school",
+"form_ids": [
+21178,
+2812,
+31664,
+5833
+],
+"partner_idx": 54,
+"fallback": false
+},
+"44": {
+"word": "Lincoln",
+"form_ids": [
+23608
+],
+"partner_idx": 14,
+"fallback": false
+},
+"45": {
+"word": "history",
+"form_ids": [
+18274,
+3712,
+13037,
+10776
+],
+"partner_idx": 67,
+"fallback": false
+},
+"46": {
+"word": "d\u00eda",
+"form_ids": [
+33707,
+186696
+],
+"partner_idx": 98,
+"fallback": false
+},
+"47": {
+"word": "Pennsylvania",
+"form_ids": [
+19168
+],
+"partner_idx": 8,
+"fallback": false
+},
+"48": {
+"word": "chess",
+"form_ids": [
+31634,
+85202,
+45808
+],
+"partner_idx": 45,
+"fallback": false
+},
+"49": {
+"word": "code",
+"form_ids": [
+1787,
+1970,
+2010,
+5927
+],
+"partner_idx": 70,
+"fallback": false
+},
+"50": {
+"word": "CIA",
+"form_ids": [
+171786,
+20816
+],
+"partner_idx": 25,
+"fallback": false
+},
+"51": {
+"word": "future",
+"form_ids": [
+20409,
+3725,
+23446,
+12140
+],
+"partner_idx": 74,
+"fallback": false
+},
+"52": {
+"word": "child",
+"form_ids": [
+2950,
+1623,
+3527,
+9112
+],
+"partner_idx": 83,
+"fallback": false
+},
+"53": {
+"word": "law",
+"form_ids": [
+19308,
+2253,
+36808,
+7271
+],
+"partner_idx": 68,
+"fallback": false
+},
+"54": {
+"word": "war",
+"form_ids": [
+11126,
+3980,
+27745,
+4843
+],
+"partner_idx": 51,
+"fallback": false
+},
+"55": {
+"word": "office",
+"form_ids": [
+25668,
+4998,
+23166,
+7988
+],
+"partner_idx": 56,
+"fallback": false
+},
+"56": {
+"word": "p\u00e8re",
+"form_ids": [
+180938,
+235203
+],
+"partner_idx": 95,
+"fallback": false
+},
+"57": {
+"word": "air",
+"form_ids": [
+1264,
+3594,
+24875,
+6350
+],
+"partner_idx": 86,
+"fallback": false
+},
+"58": {
+"word": "desert",
+"form_ids": [
+22865,
+40788
+],
+"partner_idx": 44,
+"fallback": false
+},
+"59": {
+"word": "Einstein",
+"form_ids": [
+52237
+],
+"partner_idx": 11,
+"fallback": false
+},
+"60": {
+"word": "shame",
+"form_ids": [
+20333,
+84518
+],
+"partner_idx": 33,
+"fallback": false
+},
+"61": {
+"word": "China",
+"form_ids": [
+21591,
+5440
+],
+"partner_idx": 89,
+"fallback": false
+},
+"62": {
+"word": "news",
+"form_ids": [
+9689,
+3543,
+13961,
+5230
+],
+"partner_idx": 71,
+"fallback": true
+},
+"63": {
+"word": "news",
+"form_ids": [
+9689,
+3543,
+13961,
+5230
+],
+"partner_idx": 71,
+"fallback": false
+},
+"64": {
+"word": "king",
+"form_ids": [
+10253,
+11148,
+32443,
+6016
+],
+"partner_idx": 81,
+"fallback": false
+},
+"65": {
+"word": "city",
+"form_ids": [
+8656,
+3177,
+12365,
+4170
+],
+"partner_idx": 59,
+"fallback": false
+},
+"66": {
+"word": "Newton",
+"form_ids": [
+73764,
+20042
+],
+"partner_idx": 18,
+"fallback": false
+},
+"67": {
+"word": "fairy",
+"form_ids": [
+43008,
+53226
+],
+"partner_idx": 36,
+"fallback": false
+},
+"68": {
+"word": "park",
+"form_ids": [
+27795,
+5926,
+61458,
+5367
+],
+"partner_idx": 58,
+"fallback": false
+},
+"69": {
+"word": "teacher",
+"form_ids": [
+22635,
+10756,
+43560,
+28120
+],
+"partner_idx": 42,
+"fallback": false
+},
+"70": {
+"word": "Berlin",
+"form_ids": [
+91149,
+19241
+],
+"partner_idx": 20,
+"fallback": false
+},
+"71": {
+"word": "Beatles",
+"form_ids": [
+53012
+],
+"partner_idx": 13,
+"fallback": false
+},
+"72": {
+"word": "neighbors",
+"form_ids": [
+76751,
+18146,
+56136
+],
+"partner_idx": 41,
+"fallback": false
+},
+"73": {
+"word": "father",
+"form_ids": [
+22300,
+6764,
+59246,
+19705
+],
+"partner_idx": 82,
+"fallback": false
+},
+"74": {
+"word": "proposal",
+"form_ids": [
+71363,
+13340,
+95230,
+63666
+],
+"partner_idx": 4,
+"fallback": false
+},
+"75": {
+"word": "water",
+"form_ids": [
+12615,
+2919,
+27336,
+9664
+],
+"partner_idx": 84,
+"fallback": false
+},
+"76": {
+"word": "film",
+"form_ids": [
+29170,
+4383,
+49753,
+16142
+],
+"partner_idx": 69,
+"fallback": false
+},
+"77": {
+"word": "search",
+"form_ids": [
+1773,
+2624,
+5708,
+7304
+],
+"partner_idx": 78,
+"fallback": false
+},
+"78": {
+"word": "space",
+"form_ids": [
+8481,
+3433,
+9620,
+11156
+],
+"partner_idx": 85,
+"fallback": false
+},
+"79": {
+"word": "love",
+"form_ids": [
+29069,
+2854,
+27334,
+10373
+],
+"partner_idx": 52,
+"fallback": false
+},
+"80": {
+"word": "church",
+"form_ids": [
+62027,
+8551,
+80919,
+8983
+],
+"partner_idx": 55,
+"fallback": false
+},
+"81": {
+"word": "divorce",
+"form_ids": [
+23757
+],
+"partner_idx": 6,
+"fallback": false
+},
+"82": {
+"word": "prohibition",
+"form_ids": [
+48189
+],
+"partner_idx": 9,
+"fallback": false
+},
+"83": {
+"word": "Pentagon",
+"form_ids": [
+33391
+],
+"partner_idx": 28,
+"fallback": false
+},
+"84": {
+"word": "NASA",
+"form_ids": [
+58913,
+20774
+],
+"partner_idx": 10,
+"fallback": false
+},
+"85": {
+"word": "death",
+"form_ids": [
+59822,
+4397,
+37960,
+15443
+],
+"partner_idx": 50,
+"fallback": false
+},
+"86": {
+"word": "Olympics",
+"form_ids": [
+30911
+],
+"partner_idx": 16,
+"fallback": false
+},
+"87": {
+"word": "race",
+"form_ids": [
+39823,
+6741,
+54112,
+22918
+],
+"partner_idx": 75,
+"fallback": false
+},
+"88": {
+"word": "UNESCO",
+"form_ids": [
+77989
+],
+"partner_idx": 29,
+"fallback": false
+},
+"89": {
+"word": "test",
+"form_ids": [
+1877,
+1228,
+2198,
+3284
+],
+"partner_idx": 77,
+"fallback": false
+},
+"90": {
+"word": "horror",
+"form_ids": [
+20795,
+49970
+],
+"partner_idx": 35,
+"fallback": false
+},
+"91": {
+"word": "grief",
+"form_ids": [
+36049
+],
+"partner_idx": 0,
+"fallback": false
+},
+"92": {
+"word": "\u00e9cole",
+"form_ids": [
+179893,
+197008,
+242474
+],
+"partner_idx": 93,
+"fallback": false
+},
+"93": {
+"word": "r\u00edo",
+"form_ids": [
+196240,
+195600
+],
+"partner_idx": 99,
+"fallback": false
+},
+"94": {
+"word": "Gandhi",
+"form_ids": [
+46295
+],
+"partner_idx": 23,
+"fallback": false
+},
+"95": {
+"word": "pregnant",
+"form_ids": [
+19664
+],
+"partner_idx": 1,
+"fallback": false
+},
+"96": {
+"word": "\u00e9glise",
+"form_ids": [
+213451
+],
+"partner_idx": 94,
+"fallback": false
+},
+"97": {
+"word": "caf\u00e9",
+"form_ids": [
+50203,
+63457
+],
+"partner_idx": 96,
+"fallback": false
+},
+"98": {
+"word": "store",
+"form_ids": [
+4173,
+3436,
+5903,
+8856
+],
+"partner_idx": 62,
+"fallback": false
+},
+"99": {
+"word": "time",
+"form_ids": [
+1619,
+854,
+1409,
+3984
+],
+"partner_idx": 92,
+"fallback": false
+},
+"100": {
+"word": "London",
+"form_ids": [
+38261,
+6924
+],
+"partner_idx": 90,
+"fallback": false
+},
+"101": {
+"word": "light",
+"form_ids": [
+4009,
+3000,
+13512,
+8394
+],
+"partner_idx": 87,
+"fallback": false
+},
+"102": {
+"word": "oxygen",
+"form_ids": [
+22817,
+83579
+],
+"partner_idx": 126,
+"fallback": false
+},
+"103": {
+"word": "March",
+"form_ids": [
+26631,
+5297
+],
+"partner_idx": 117,
+"fallback": false
+},
+"104": {
+"word": "Vatican",
+"form_ids": [
+44993
+],
+"partner_idx": 147,
+"fallback": true
+},
+"105": {
+"word": "Vatican",
+"form_ids": [
+44993
+],
+"partner_idx": 147,
+"fallback": false
+},
+"106": {
+"word": "Indonesia",
+"form_ids": [
+205898,
+23220
+],
+"partner_idx": 149,
+"fallback": false
+},
+"107": {
+"word": "May",
+"form_ids": [
+10786,
+3114
+],
+"partner_idx": 132,
+"fallback": false
+},
+"108": {
+"word": "high",
+"form_ids": [
+11553,
+1496,
+11635,
+4962
+],
+"partner_idx": 194,
+"fallback": false
+},
+"109": {
+"word": "bear",
+"form_ids": [
+65378,
+11385,
+85536,
+23237
+],
+"partner_idx": 121,
+"fallback": false
+},
+"110": {
+"word": "Michigan",
+"form_ids": [
+78745,
+14209
+],
+"partner_idx": 109,
+"fallback": false
+},
+"111": {
+"word": "July",
+"form_ids": [
+27499,
+5589
+],
+"partner_idx": 158,
+"fallback": false
+},
+"112": {
+"word": "China",
+"form_ids": [
+21591,
+5440
+],
+"partner_idx": 148,
+"fallback": false
+},
+"113": {
+"word": "France",
+"form_ids": [
+47358,
+9338
+],
+"partner_idx": 174,
+"fallback": false
+},
+"114": {
+"word": "February",
+"form_ids": [
+31691,
+7165
+],
+"partner_idx": 155,
+"fallback": false
+},
+"115": {
+"word": "down",
+"form_ids": [
+2829,
+1441,
+4308,
+6087
+],
+"partner_idx": 167,
+"fallback": false
+},
+"116": {
+"word": "war",
+"form_ids": [
+11126,
+3980,
+27745,
+4843
+],
+"partner_idx": 192,
+"fallback": false
+},
+"117": {
+"word": "6",
+"form_ids": [
+21
+],
+"partner_idx": 144,
+"fallback": false
+},
+"118": {
+"word": "March",
+"form_ids": [
+26631,
+5297
+],
+"partner_idx": 123,
+"fallback": false
+},
+"119": {
+"word": "China",
+"form_ids": [
+21591,
+5440
+],
+"partner_idx": 177,
+"fallback": true
+},
+"120": {
+"word": "China",
+"form_ids": [
+21591,
+5440
+],
+"partner_idx": 177,
+"fallback": false
+},
+"121": {
+"word": "Friday",
+"form_ids": [
+33475,
+6394
+],
+"partner_idx": 124,
+"fallback": false
+},
+"122": {
+"word": "Spain",
+"form_ids": [
+71792,
+17163
+],
+"partner_idx": 119,
+"fallback": false
+},
+"123": {
+"word": "China",
+"form_ids": [
+21591,
+5440
+],
+"partner_idx": 107,
+"fallback": false
+},
+"124": {
+"word": "October",
+"form_ids": [
+29209,
+6324
+],
+"partner_idx": 175,
+"fallback": false
+},
+"125": {
+"word": "spider",
+"form_ids": [
+33213,
+70430,
+27464
+],
+"partner_idx": 105,
+"fallback": false
+},
+"126": {
+"word": "violin",
+"form_ids": [
+59945
+],
+"partner_idx": 133,
+"fallback": false
+},
+"127": {
+"word": "mercury",
+"form_ids": [
+49044,
+42120
+],
+"partner_idx": 114,
+"fallback": true
+},
+"128": {
+"word": "mercury",
+"form_ids": [
+49044,
+42120
+],
+"partner_idx": 114,
+"fallback": false
+},
+"129": {
+"word": "two",
+"form_ids": [
+19186,
+1330,
+11280,
+8771
+],
+"partner_idx": 172,
+"fallback": false
+},
+"130": {
+"word": "6",
+"form_ids": [
+21
+],
+"partner_idx": 136,
+"fallback": false
+},
+"131": {
+"word": "3",
+"form_ids": [
+18
+],
+"partner_idx": 134,
+"fallback": false
+},
+"132": {
+"word": "south",
+"form_ids": [
+64240,
+9514,
+24225,
+4725
+],
+"partner_idx": 168,
+"fallback": false
+},
+"133": {
+"word": "calcium",
+"form_ids": [
+33474,
+91724
+],
+"partner_idx": 129,
+"fallback": false
+},
+"134": {
+"word": "Mars",
+"form_ids": [
+20403
+],
+"partner_idx": 104,
+"fallback": false
+},
+"135": {
+"word": "8",
+"form_ids": [
+23
+],
+"partner_idx": 143,
+"fallback": false
+},
+"136": {
+"word": "Earth",
+"form_ids": [
+42373,
+8964
+],
+"partner_idx": 116,
+"fallback": false
+},
+"137": {
+"word": "Italy",
+"form_ids": [
+68121,
+14898
+],
+"partner_idx": 150,
+"fallback": false
+},
+"138": {
+"word": "Kansas",
+"form_ids": [
+90627,
+19535
+],
+"partner_idx": 110,
+"fallback": false
+},
+"141": {
+"word": "east",
+"form_ids": [
+58463,
+10663,
+35139,
+6127
+],
+"partner_idx": 165,
+"fallback": false
+},
+"142": {
+"word": "India",
+"form_ids": [
+32436,
+6535
+],
+"partner_idx": 173,
+"fallback": true
+},
+"143": {
+"word": "India",
+"form_ids": [
+32436,
+6535
+],
+"partner_idx": 173,
+"fallback": false
+},
+"144": {
+"word": "February",
+"form_ids": [
+31691,
+7165
+],
+"partner_idx": 181,
+"fallback": false
+},
+"145": {
+"word": "France",
+"form_ids": [
+47358,
+9338
+],
+"partner_idx": 178,
+"fallback": false
+},
+"146": {
+"word": "death",
+"form_ids": [
+59822,
+4397,
+37960,
+15443
+],
+"partner_idx": 193,
+"fallback": false
+},
+"147": {
+"word": "five",
+"form_ids": [
+50897,
+4097,
+35792,
+20285
+],
+"partner_idx": 170,
+"fallback": false
+},
+"148": {
+"word": "copper",
+"form_ids": [
+22561,
+41126
+],
+"partner_idx": 113,
+"fallback": false
+},
+"149": {
+"word": "December",
+"form_ids": [
+31087,
+6443
+],
+"partner_idx": 153,
+"fallback": false
+},
+"150": {
+"word": "China",
+"form_ids": [
+21591,
+5440
+],
+"partner_idx": 151,
+"fallback": false
+},
+"151": {
+"word": "up",
+"form_ids": [
+446,
+685,
+2248,
+3038
+],
+"partner_idx": 166,
+"fallback": false
+},
+"152": {
+"word": "China",
+"form_ids": [
+21591,
+5440
+],
+"partner_idx": 179,
+"fallback": false
+},
+"153": {
+"word": "5",
+"form_ids": [
+20
+],
+"partner_idx": 135,
+"fallback": false
+},
+"154": {
+"word": "four",
+"form_ids": [
+32897,
+2943,
+26108,
+12937
+],
+"partner_idx": 120,
+"fallback": false
+},
+"155": {
+"word": "6",
+"form_ids": [
+21
+],
+"partner_idx": 141,
+"fallback": false
+},
+"156": {
+"word": "6",
+"form_ids": [
+21
+],
+"partner_idx": 138,
+"fallback": false
+},
+"157": {
+"word": "three",
+"form_ids": [
+26952,
+2250,
+19041,
+14095
+],
+"partner_idx": 169,
+"fallback": false
+},
+"158": {
+"word": "January",
+"form_ids": [
+31164,
+5869
+],
+"partner_idx": 157,
+"fallback": false
+},
+"159": {
+"word": "Russia",
+"form_ids": [
+43028,
+8100
+],
+"partner_idx": 146,
+"fallback": false
+},
+"165": {
+"word": "moon",
+"form_ids": [
+65001,
+17257,
+73418,
+16820
+],
+"partner_idx": 122,
+"fallback": false
+},
+"166": {
+"word": "copper",
+"form_ids": [
+22561,
+41126
+],
+"partner_idx": 115,
+"fallback": false
+},
+"167": {
+"word": "7",
+"form_ids": [
+22
+],
+"partner_idx": 145,
+"fallback": false
+},
+"168": {
+"word": "October",
+"form_ids": [
+29209,
+6324
+],
+"partner_idx": 180,
+"fallback": false
+},
+"169": {
+"word": "7",
+"form_ids": [
+22
+],
+"partner_idx": 142,
+"fallback": false
+},
+"170": {
+"word": "six",
+"form_ids": [
+48671,
+4590,
+40087,
+18117
+],
+"partner_idx": 187,
+"fallback": false
+},
+"171": {
+"word": "July",
+"form_ids": [
+27499,
+5589
+],
+"partner_idx": 152,
+"fallback": false
+},
+"172": {
+"word": "carbon",
+"form_ids": [
+70845,
+12141,
+35396,
+20829
+],
+"partner_idx": 128,
+"fallback": false
+},
+"173": {
+"word": "basketball",
+"form_ids": [
+18659,
+44936
+],
+"partner_idx": 106,
+"fallback": false
+},
+"174": {
+"word": "night",
+"form_ids": [
+9011,
+3603,
+48739,
+12458
+],
+"partner_idx": 182,
+"fallback": false
+},
+"175": {
+"word": "February",
+"form_ids": [
+31691,
+7165
+],
+"partner_idx": 176,
+"fallback": false
+},
+"176": {
+"word": "January",
+"form_ids": [
+31164,
+5869
+],
+"partner_idx": 156,
+"fallback": true
+},
+"177": {
+"word": "January",
+"form_ids": [
+31164,
+5869
+],
+"partner_idx": 156,
+"fallback": false
+},
+"178": {
+"word": "July",
+"form_ids": [
+27499,
+5589
+],
+"partner_idx": 159,
+"fallback": false
+},
+"179": {
+"word": "Christmas",
+"form_ids": [
+56624,
+9777
+],
+"partner_idx": 108,
+"fallback": false
+},
+"180": {
+"word": "gold",
+"form_ids": [
+33392,
+6414,
+24629,
+7186
+],
+"partner_idx": 111,
+"fallback": false
+},
+"181": {
+"word": "heart",
+"form_ids": [
+17207,
+4593,
+43870,
+17429
+],
+"partner_idx": 130,
+"fallback": false
+},
+"182": {
+"word": "iron",
+"form_ids": [
+2395,
+10679,
+44847,
+16082
+],
+"partner_idx": 112,
+"fallback": false
+},
+"183": {
+"word": "October",
+"form_ids": [
+29209,
+6324
+],
+"partner_idx": 154,
+"fallback": false
+},
+"184": {
+"word": "Seattle",
+"form_ids": [
+69237,
+15875
+],
+"partner_idx": 118,
+"fallback": false
+},
+"187": {
+"word": "5",
+"form_ids": [
+20
+],
+"partner_idx": 184,
+"fallback": false
+},
+"188": {
+"word": "kidney",
+"form_ids": [
+36690
+],
+"partner_idx": 131,
+"fallback": false
+},
+"189": {
+"word": "4",
+"form_ids": [
+19
+],
+"partner_idx": 137,
+"fallback": true
+},
+"190": {
+"word": "4",
+"form_ids": [
+19
+],
+"partner_idx": 137,
+"fallback": false
+},
+"191": {
+"word": "Brazil",
+"form_ids": [
+64931,
+15477
+],
+"partner_idx": 102,
+"fallback": false
+},
+"192": {
+"word": "Saturn",
+"form_ids": [
+47503
+],
+"partner_idx": 125,
+"fallback": false
+},
+"193": {
+"word": "Brazil",
+"form_ids": [
+64931,
+15477
+],
+"partner_idx": 103,
+"fallback": false
+},
+"194": {
+"word": "six",
+"form_ids": [
+48671,
+4590,
+40087,
+18117
+],
+"partner_idx": 171,
+"fallback": false
+},
+"195": {
+"word": "Persian",
+"form_ids": [
+48183
+],
+"partner_idx": 246,
+"fallback": false
+},
+"196": {
+"word": "portugu\u00eas",
+"form_ids": [
+195011,
+199969
+],
+"partner_idx": 258,
+"fallback": false
+},
+"197": {
+"word": "Bulgarian",
+"form_ids": [
+85573
+],
+"partner_idx": 240,
+"fallback": false
+},
+"198": {
+"word": "Spanish",
+"form_ids": [
+59713,
+14712
+],
+"partner_idx": 195,
+"fallback": false
+},
+"199": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 257,
+"fallback": false
+},
+"200": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 277,
+"fallback": false
+},
+"201": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 256,
+"fallback": false
+},
+"202": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 232,
+"fallback": false
+},
+"203": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 289,
+"fallback": false
+},
+"204": {
+"word": "Spanish",
+"form_ids": [
+59713,
+14712
+],
+"partner_idx": 233,
+"fallback": false
+},
+"205": {
+"word": "Czech",
+"form_ids": [
+32050
+],
+"partner_idx": 215,
+"fallback": false
+},
+"206": {
+"word": "portugu\u00eas",
+"form_ids": [
+195011,
+199969
+],
+"partner_idx": 283,
+"fallback": false
+},
+"207": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 263,
+"fallback": false
+},
+"208": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 222,
+"fallback": false
+},
+"209": {
+"word": "Spanish",
+"form_ids": [
+59713,
+14712
+],
+"partner_idx": 230,
+"fallback": false
+},
+"210": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 281,
+"fallback": false
+},
+"211": {
+"word": "portugu\u00eas",
+"form_ids": [
+195011,
+199969
+],
+"partner_idx": 268,
+"fallback": false
+},
+"212": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 275,
+"fallback": false
+},
+"213": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 197,
+"fallback": false
+},
+"214": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 262,
+"fallback": false
+},
+"215": {
+"word": "Dutch",
+"form_ids": [
+22510
+],
+"partner_idx": 205,
+"fallback": false
+},
+"216": {
+"word": "portugu\u00eas",
+"form_ids": [
+195011,
+199969
+],
+"partner_idx": 272,
+"fallback": false
+},
+"217": {
+"word": "portugu\u00eas",
+"form_ids": [
+195011,
+199969
+],
+"partner_idx": 260,
+"fallback": false
+},
+"218": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 296,
+"fallback": false
+},
+"219": {
+"word": "Polish",
+"form_ids": [
+30931
+],
+"partner_idx": 229,
+"fallback": false
+},
+"220": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 288,
+"fallback": false
+},
+"221": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 265,
+"fallback": false
+},
+"222": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 298,
+"fallback": false
+},
+"223": {
+"word": "Italian",
+"form_ids": [
+66771,
+14382
+],
+"partner_idx": 201,
+"fallback": false
+},
+"224": {
+"word": "Croatian",
+"form_ids": [
+95641
+],
+"partner_idx": 242,
+"fallback": false
+},
+"225": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 250,
+"fallback": false
+},
+"226": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 253,
+"fallback": false
+},
+"227": {
+"word": "Arabic",
+"form_ids": [
+32988
+],
+"partner_idx": 203,
+"fallback": false
+},
+"228": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 284,
+"fallback": false
+},
+"229": {
+"word": "portugu\u00eas",
+"form_ids": [
+195011,
+199969
+],
+"partner_idx": 291,
+"fallback": false
+},
+"230": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 223,
+"fallback": false
+},
+"231": {
+"word": "Romanian",
+"form_ids": [
+71096
+],
+"partner_idx": 219,
+"fallback": false
+},
+"232": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 271,
+"fallback": false
+},
+"233": {
+"word": "freeze",
+"form_ids": [
+49897,
+28953,
+75902
+],
+"partner_idx": 237,
+"fallback": false
+},
+"234": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 278,
+"fallback": false
+},
+"235": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 297,
+"fallback": false
+},
+"236": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 231,
+"fallback": false
+},
+"237": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 254,
+"fallback": false
+},
+"238": {
+"word": "Russian",
+"form_ids": [
+46118,
+8260
+],
+"partner_idx": 225,
+"fallback": false
+},
+"239": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 273,
+"fallback": false
+},
+"240": {
+"word": "Korean",
+"form_ids": [
+15659
+],
+"partner_idx": 204,
+"fallback": false
+},
+"241": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 270,
+"fallback": false
+},
+"242": {
+"word": "Portuguese",
+"form_ids": [
+40790
+],
+"partner_idx": 227,
+"fallback": false
+},
+"243": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 294,
+"fallback": false
+},
+"244": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 282,
+"fallback": false
+},
+"245": {
+"word": "Swedish",
+"form_ids": [
+29125
+],
+"partner_idx": 210,
+"fallback": false
+},
+"246": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 274,
+"fallback": false
+},
+"247": {
+"word": "Turkish",
+"form_ids": [
+22992
+],
+"partner_idx": 209,
+"fallback": false
+},
+"248": {
+"word": "fran\u00e7ais",
+"form_ids": [
+52543,
+175126
+],
+"partner_idx": 301,
+"fallback": false
+},
+"249": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 255,
+"fallback": false
+},
+"250": {
+"word": "Chinese",
+"form_ids": [
+43429,
+8193
+],
+"partner_idx": 198,
+"fallback": false
+},
+"251": {
+"word": "family",
+"form_ids": [
+18411,
+2902,
+14750,
+11888
+],
+"partner_idx": 235,
+"fallback": false
+},
+"252": {
+"word": "portugu\u00eas",
+"form_ids": [
+195011,
+199969
+],
+"partner_idx": 299,
+"fallback": false
+},
+"253": {
+"word": "Filipino",
+"form_ids": [
+60314
+],
+"partner_idx": 248,
+"fallback": false
+},
+"254": {
+"word": "Danish",
+"form_ids": [
+42234
+],
+"partner_idx": 213,
+"fallback": false
+},
+"255": {
+"word": "Hebrew",
+"form_ids": [
+35067
+],
+"partner_idx": 211,
+"fallback": false
+},
+"256": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 238,
+"fallback": false
+},
+"257": {
+"word": "Italian",
+"form_ids": [
+66771,
+14382
+],
+"partner_idx": 224,
+"fallback": false
+},
+"258": {
+"word": "Slovak",
+"form_ids": [
+59196
+],
+"partner_idx": 243,
+"fallback": false
+},
+"259": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 290,
+"fallback": false
+},
+"260": {
+"word": "time",
+"form_ids": [
+1619,
+854,
+1409,
+3984
+],
+"partner_idx": 279,
+"fallback": false
+},
+"261": {
+"word": "Ukrainian",
+"form_ids": [
+32512
+],
+"partner_idx": 239,
+"fallback": false
+},
+"262": {
+"word": "Norwegian",
+"form_ids": [
+43142
+],
+"partner_idx": 214,
+"fallback": false
+},
+"263": {
+"word": "Hungarian",
+"form_ids": [
+54871
+],
+"partner_idx": 220,
+"fallback": false
+},
+"264": {
+"word": "Finnish",
+"form_ids": [
+55913
+],
+"partner_idx": 212,
+"fallback": false
+},
+"265": {
+"word": "Greek",
+"form_ids": [
+91090,
+17326
+],
+"partner_idx": 206,
+"fallback": false
+},
+"266": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 285,
+"fallback": false
+},
+"267": {
+"word": "opposite",
+"form_ids": [
+13600
+],
+"partner_idx": 244,
+"fallback": false
+},
+"268": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 266,
+"fallback": false
+},
+"269": {
+"word": "Thai",
+"form_ids": [
+66840,
+25548
+],
+"partner_idx": 216,
+"fallback": false
+},
+"270": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 276,
+"fallback": false
+},
+"271": {
+"word": "portugu\u00eas",
+"form_ids": [
+195011,
+199969
+],
+"partner_idx": 267,
+"fallback": false
+},
+"272": {
+"word": "Spanish",
+"form_ids": [
+59713,
+14712
+],
+"partner_idx": 221,
+"fallback": false
+},
+"273": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 252,
+"fallback": false
+},
+"274": {
+"word": "Polish",
+"form_ids": [
+30931
+],
+"partner_idx": 208,
+"fallback": false
+},
+"275": {
+"word": "Russian",
+"form_ids": [
+46118,
+8260
+],
+"partner_idx": 200,
+"fallback": false
+},
+"276": {
+"word": "Portuguese",
+"form_ids": [
+40790
+],
+"partner_idx": 202,
+"fallback": false
+},
+"277": {
+"word": "portugu\u00eas",
+"form_ids": [
+195011,
+199969
+],
+"partner_idx": 287,
+"fallback": false
+},
+"278": {
+"word": "Dutch",
+"form_ids": [
+22510
+],
+"partner_idx": 228,
+"fallback": false
+},
+"279": {
+"word": "Chinese",
+"form_ids": [
+43429,
+8193
+],
+"partner_idx": 226,
+"fallback": false
+},
+"280": {
+"word": "Irish",
+"form_ids": [
+17097
+],
+"partner_idx": 245,
+"fallback": false
+},
+"281": {
+"word": "opposite",
+"form_ids": [
+13600
+],
+"partner_idx": 247,
+"fallback": false
+},
+"282": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 264,
+"fallback": false
+},
+"283": {
+"word": "espa\u00f1ol",
+"form_ids": [
+67522,
+183047
+],
+"partner_idx": 286,
+"fallback": false
+},
+"284": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 293,
+"fallback": false
+},
+"285": {
+"word": "Hindi",
+"form_ids": [
+42524
+],
+"partner_idx": 207,
+"fallback": false
+},
+"286": {
+"word": "Serbian",
+"form_ids": [
+84157
+],
+"partner_idx": 241,
+"fallback": false
+},
+"287": {
+"word": "Japanese",
+"form_ids": [
+49732,
+10452
+],
+"partner_idx": 199,
+"fallback": false
+},
+"288": {
+"word": "size",
+"form_ids": [
+2073,
+1331,
+1635,
+8218
+],
+"partner_idx": 280,
+"fallback": false
+},
+"289": {
+"word": "Vietnamese",
+"form_ids": [
+46862
+],
+"partner_idx": 217,
+"fallback": false
+},
+"290": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 251,
+"fallback": false
+},
+"291": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 269,
+"fallback": false
+},
+"292": {
+"word": "German",
+"form_ids": [
+31022,
+5753
+],
+"partner_idx": 234,
+"fallback": false
+},
+"293": {
+"word": "fran\u00e7ais",
+"form_ids": [
+52543,
+175126
+],
+"partner_idx": 300,
+"fallback": false
+},
+"294": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 261,
+"fallback": false
+},
+"295": {
+"word": "Indonesian",
+"form_ids": [
+56839
+],
+"partner_idx": 218,
+"fallback": false
+},
+"296": {
+"word": "Italian",
+"form_ids": [
+66771,
+14382
+],
+"partner_idx": 236,
+"fallback": false
+},
+"297": {
+"word": "portugu\u00eas",
+"form_ids": [
+195011,
+199969
+],
+"partner_idx": 259,
+"fallback": false
+},
+"298": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 292,
+"fallback": false
+},
+"299": {
+"word": "time",
+"form_ids": [
+1619,
+854,
+1409,
+3984
+],
+"partner_idx": 295,
+"fallback": false
+},
+"300": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 249,
+"fallback": false
+},
+"301": {
+"word": "French",
+"form_ids": [
+41772,
+8323
+],
+"partner_idx": 196,
+"fallback": false
+},
+"302": {
+"word": "6",
+"form_ids": [
+21
+],
+"partner_idx": 316,
+"fallback": false
+},
+"303": {
+"word": "subtraction",
+"form_ids": [
+72677
+],
+"partner_idx": 309,
+"fallback": false
+},
+"304": {
+"word": "subtraction",
+"form_ids": [
+72677
+],
+"partner_idx": 323,
+"fallback": false
+},
+"305": {
+"word": "subtraction",
+"form_ids": [
+72677
+],
+"partner_idx": 310,
+"fallback": false
+},
+"306": {
+"word": "division",
+"form_ids": [
+27822,
+12436,
+49513,
+14074
+],
+"partner_idx": 320,
+"fallback": false
+},
+"307": {
+"word": "6",
+"form_ids": [
+21
+],
+"partner_idx": 329,
+"fallback": false
+},
+"308": {
+"word": "multiplication",
+"form_ids": [
+44896
+],
+"partner_idx": 321,
+"fallback": false
+},
+"309": {
+"word": "3",
+"form_ids": [
+18
+],
+"partner_idx": 305,
+"fallback": false
+},
+"310": {
+"word": "mod",
+"form_ids": [
+2508,
+1410,
+4312,
+5473
+],
+"partner_idx": 326,
+"fallback": false
+},
+"311": {
+"word": "division",
+"form_ids": [
+27822,
+12436,
+49513,
+14074
+],
+"partner_idx": 314,
+"fallback": false
+},
+"312": {
+"word": "6",
+"form_ids": [
+21
+],
+"partner_idx": 345,
+"fallback": false
+},
+"313": {
+"word": "9",
+"form_ids": [
+24
+],
+"partner_idx": 319,
+"fallback": true
+},
+"314": {
+"word": "9",
+"form_ids": [
+24
+],
+"partner_idx": 319,
+"fallback": false
+},
+"315": {
+"word": "7",
+"form_ids": [
+22
+],
+"partner_idx": 304,
+"fallback": false
+},
+"316": {
+"word": "subtraction",
+"form_ids": [
+72677
+],
+"partner_idx": 317,
+"fallback": false
+},
+"317": {
+"word": "addition",
+"form_ids": [
+5089,
+75955
+],
+"partner_idx": 348,
+"fallback": false
+},
+"318": {
+"word": "9",
+"form_ids": [
+24
+],
+"partner_idx": 350,
+"fallback": true
+},
+"319": {
+"word": "mod",
+"form_ids": [
+2508,
+1410,
+4312,
+5473
+],
+"partner_idx": 350,
+"fallback": false
+},
+"320": {
+"word": "squared",
+"form_ids": [
+50509,
+85253
+],
+"partner_idx": 352,
+"fallback": false
+},
+"321": {
+"word": "squared",
+"form_ids": [
+50509,
+85253
+],
+"partner_idx": 351,
+"fallback": false
+},
+"322": {
+"word": "subtraction",
+"form_ids": [
+72677
+],
+"partner_idx": 342,
+"fallback": false
+},
+"323": {
+"word": "3",
+"form_ids": [
+18
+],
+"partner_idx": 333,
+"fallback": false
+},
+"324": {
+"word": "addition",
+"form_ids": [
+5089,
+75955
+],
+"partner_idx": 322,
+"fallback": false
+},
+"325": {
+"word": "6",
+"form_ids": [
+21
+],
+"partner_idx": 343,
+"fallback": false
+},
+"326": {
+"word": "3",
+"form_ids": [
+18
+],
+"partner_idx": 327,
+"fallback": false
+},
+"327": {
+"word": "subtraction",
+"form_ids": [
+72677
+],
+"partner_idx": 344,
+"fallback": false
+},
+"328": {
+"word": "addition",
+"form_ids": [
+5089,
+75955
+],
+"partner_idx": 336,
+"fallback": false
+},
+"329": {
+"word": "7",
+"form_ids": [
+22
+],
+"partner_idx": 338,
+"fallback": false
+},
+"330": {
+"word": "multiplication",
+"form_ids": [
+44896
+],
+"partner_idx": 340,
+"fallback": false
+},
+"331": {
+"word": "squared",
+"form_ids": [
+50509,
+85253
+],
+"partner_idx": 354,
+"fallback": false
+},
+"332": {
+"word": "addition",
+"form_ids": [
+5089,
+75955
+],
+"partner_idx": 306,
+"fallback": false
+},
+"333": {
+"word": "division",
+"form_ids": [
+27822,
+12436,
+49513,
+14074
+],
+"partner_idx": 355,
+"fallback": false
+},
+"334": {
+"word": "addition",
+"form_ids": [
+5089,
+75955
+],
+"partner_idx": 307,
+"fallback": false
+},
+"335": {
+"word": "multiplication",
+"form_ids": [
+44896
+],
+"partner_idx": 324,
+"fallback": false
+},
+"336": {
+"word": "subtraction",
+"form_ids": [
+72677
+],
+"partner_idx": 308,
+"fallback": false
+},
+"337": {
+"word": "addition",
+"form_ids": [
+5089,
+75955
+],
+"partner_idx": 311,
+"fallback": false
+},
+"338": {
+"word": "multiplication",
+"form_ids": [
+44896
+],
+"partner_idx": 349,
+"fallback": false
+},
+"339": {
+"word": "division",
+"form_ids": [
+27822,
+12436,
+49513,
+14074
+],
+"partner_idx": 312,
+"fallback": false
+},
+"340": {
+"word": "6",
+"form_ids": [
+21
+],
+"partner_idx": 318,
+"fallback": false
+},
+"341": {
+"word": "multiplication",
+"form_ids": [
+44896
+],
+"partner_idx": 331,
+"fallback": true
+},
+"342": {
+"word": "4",
+"form_ids": [
+19
+],
+"partner_idx": 331,
+"fallback": false
+},
+"343": {
+"word": "4",
+"form_ids": [
+19
+],
+"partner_idx": 315,
+"fallback": false
+},
+"344": {
+"word": "9",
+"form_ids": [
+24
+],
+"partner_idx": 337,
+"fallback": false
+},
+"345": {
+"word": "5",
+"form_ids": [
+20
+],
+"partner_idx": 302,
+"fallback": false
+},
+"346": {
+"word": "5",
+"form_ids": [
+20
+],
+"partner_idx": 347,
+"fallback": false
+},
+"347": {
+"word": "3",
+"form_ids": [
+18
+],
+"partner_idx": 353,
+"fallback": false
+},
+"348": {
+"word": "division",
+"form_ids": [
+27822,
+12436,
+49513,
+14074
+],
+"partner_idx": 356,
+"fallback": false
+},
+"349": {
+"word": "7",
+"form_ids": [
+22
+],
+"partner_idx": 346,
+"fallback": false
+},
+"350": {
+"word": "5",
+"form_ids": [
+20
+],
+"partner_idx": 303,
+"fallback": false
+},
+"351": {
+"word": "multiplication",
+"form_ids": [
+44896
+],
+"partner_idx": 332,
+"fallback": false
+},
+"352": {
+"word": "subtraction",
+"form_ids": [
+72677
+],
+"partner_idx": 334,
+"fallback": false
+},
+"353": {
+"word": "division",
+"form_ids": [
+27822,
+12436,
+49513,
+14074
+],
+"partner_idx": 330,
+"fallback": false
+},
+"354": {
+"word": "multiplication",
+"form_ids": [
+44896
+],
+"partner_idx": 328,
+"fallback": false
+},
+"355": {
+"word": "8",
+"form_ids": [
+23
+],
+"partner_idx": 339,
+"fallback": false
+},
+"356": {
+"word": "mod",
+"form_ids": [
+2508,
+1410,
+4312,
+5473
+],
+"partner_idx": 325,
+"fallback": false
+},
+"357": {
+"word": "make",
+"form_ids": [
+6711,
+1236,
+7825,
+7170
+],
+"partner_idx": 445,
+"fallback": false
+},
+"358": {
+"word": "face",
+"form_ids": [
+1509,
+3460,
+15802,
+18036
+],
+"partner_idx": 383,
+"fallback": false
+},
+"359": {
+"word": "near",
+"form_ids": [
+49918,
+3043,
+50215,
+29404
+],
+"partner_idx": 418,
+"fallback": false
+},
+"360": {
+"word": "mistake",
+"form_ids": [
+16036
+],
+"partner_idx": 397,
+"fallback": false
+},
+"361": {
+"word": "grow",
+"form_ids": [
+63982,
+2965,
+54889,
+45004
+],
+"partner_idx": 376,
+"fallback": true
+},
+"362": {
+"word": "grow",
+"form_ids": [
+63982,
+2965,
+54889,
+45004
+],
+"partner_idx": 376,
+"fallback": false
+},
+"363": {
+"word": "find",
+"form_ids": [
+3772,
+1423,
+9592,
+7145
+],
+"partner_idx": 388,
+"fallback": false
+},
+"364": {
+"word": "end",
+"form_ids": [
+400,
+809,
+3601,
+3839
+],
+"partner_idx": 406,
+"fallback": false
+},
+"365": {
+"word": "book",
+"form_ids": [
+2121,
+2236,
+6911,
+5711
+],
+"partner_idx": 430,
+"fallback": false
+},
+"366": {
+"word": "get",
+"form_ids": [
+447,
+615,
+1882,
+2058
+],
+"partner_idx": 429,
+"fallback": true
+},
+"367": {
+"word": "get",
+"form_ids": [
+447,
+615,
+1882,
+2058
+],
+"partner_idx": 429,
+"fallback": false
+},
+"368": {
+"word": "start",
+"form_ids": [
+2388,
+1151,
+3367,
+4980
+],
+"partner_idx": 436,
+"fallback": false
+},
+"369": {
+"word": "three",
+"form_ids": [
+26952,
+2250,
+19041,
+14095
+],
+"partner_idx": 421,
+"fallback": false
+},
+"370": {
+"word": "mat",
+"form_ids": [
+8210,
+5344,
+11242,
+6653
+],
+"partner_idx": 396,
+"fallback": false
+},
+"371": {
+"word": "free",
+"form_ids": [
+10279,
+1845,
+10621,
+3455
+],
+"partner_idx": 372,
+"fallback": false
+},
+"372": {
+"word": "race",
+"form_ids": [
+39823,
+6741,
+54112,
+22918
+],
+"partner_idx": 414,
+"fallback": false
+},
+"373": {
+"word": "grave",
+"form_ids": [
+74011,
+23431,
+71235
+],
+"partner_idx": 364,
+"fallback": false
+},
+"374": {
+"word": "know",
+"form_ids": [
+30979,
+1366,
+37137,
+13781
+],
+"partner_idx": 448,
+"fallback": false
+},
+"375": {
+"word": "apart",
+"form_ids": [
+10431,
+67150,
+33554
+],
+"partner_idx": 378,
+"fallback": false
+},
+"376": {
+"word": "great",
+"form_ids": [
+45324,
+2172,
+20740,
+8252
+],
+"partner_idx": 452,
+"fallback": false
+},
+"377": {
+"word": "kiss",
+"form_ids": [
+20411,
+42185
+],
+"partner_idx": 379,
+"fallback": false
+},
+"378": {
+"word": "bed",
+"form_ids": [
+2634,
+4690,
+15225,
+12715
+],
+"partner_idx": 394,
+"fallback": false
+},
+"379": {
+"word": "found",
+"form_ids": [
+14664,
+1669,
+6441,
+11962
+],
+"partner_idx": 454,
+"fallback": false
+},
+"380": {
+"word": "see",
+"form_ids": [
+3924,
+1436,
+9538,
+3382
+],
+"partner_idx": 422,
+"fallback": false
+},
+"381": {
+"word": "heart",
+"form_ids": [
+17207,
+4593,
+43870,
+17429
+],
+"partner_idx": 374,
+"fallback": false
+},
+"382": {
+"word": "call",
+"form_ids": [
+6450,
+1562,
+6994,
+6920
+],
+"partner_idx": 437,
+"fallback": false
+},
+"383": {
+"word": "far",
+"form_ids": [
+22824,
+2944,
+31795,
+13065
+],
+"partner_idx": 405,
+"fallback": false
+},
+"384": {
+"word": "same",
+"form_ids": [
+23310,
+1788,
+18618,
+24919
+],
+"partner_idx": 417,
+"fallback": false
+},
+"385": {
+"word": "keep",
+"form_ids": [
+12718,
+2426,
+18844,
+13262
+],
+"partner_idx": 395,
+"fallback": false
+},
+"386": {
+"word": "fly",
+"form_ids": [
+20979,
+11137,
+51221,
+19569
+],
+"partner_idx": 403,
+"fallback": false
+},
+"387": {
+"word": "cry",
+"form_ids": [
+59078,
+15268,
+41290
+],
+"partner_idx": 404,
+"fallback": false
+},
+"388": {
+"word": "round",
+"form_ids": [
+1014,
+4625,
+26605,
+16594
+],
+"partner_idx": 453,
+"fallback": false
+},
+"389": {
+"word": "grown",
+"form_ids": [
+59207,
+14276
+],
+"partner_idx": 391,
+"fallback": false
+},
+"390": {
+"word": "cold",
+"form_ids": [
+84068,
+8981,
+73804,
+22461
+],
+"partner_idx": 362,
+"fallback": false
+},
+"391": {
+"word": "old",
+"form_ids": [
+787,
+2235,
+17740,
+10306
+],
+"partner_idx": 381,
+"fallback": false
+},
+"392": {
+"word": "key",
+"form_ids": [
+767,
+1328,
+1536,
+5141
+],
+"partner_idx": 423,
+"fallback": false
+},
+"393": {
+"word": "name",
+"form_ids": [
+591,
+803,
+657,
+3855
+],
+"partner_idx": 360,
+"fallback": false
+},
+"394": {
+"word": "sound",
+"form_ids": [
+26640,
+4950,
+15629,
+14174
+],
+"partner_idx": 369,
+"fallback": false
+},
+"395": {
+"word": "seem",
+"form_ids": [
+2714
+],
+"partner_idx": 389,
+"fallback": false
+},
+"396": {
+"word": "play",
+"form_ids": [
+1315,
+1432,
+8864,
+6834
+],
+"partner_idx": 410,
+"fallback": false
+},
+"397": {
+"word": "love",
+"form_ids": [
+29069,
+2854,
+27334,
+10373
+],
+"partner_idx": 433,
+"fallback": false
+},
+"398": {
+"word": "map",
+"form_ids": [
+2117,
+2336,
+2155,
+4866
+],
+"partner_idx": 384,
+"fallback": false
+},
+"399": {
+"word": "wine",
+"form_ids": [
+69013,
+12701,
+30782
+],
+"partner_idx": 359,
+"fallback": false
+},
+"400": {
+"word": "way",
+"form_ids": [
+3017,
+1560,
+33894,
+11801
+],
+"partner_idx": 411,
+"fallback": false
+},
+"401": {
+"word": "light",
+"form_ids": [
+4009,
+3000,
+13512,
+8394
+],
+"partner_idx": 371,
+"fallback": false
+},
+"402": {
+"word": "town",
+"form_ids": [
+26927,
+6092,
+66176,
+13570
+],
+"partner_idx": 424,
+"fallback": false
+},
+"403": {
+"word": "late",
+"form_ids": [
+4913,
+3200,
+59383,
+34644
+],
+"partner_idx": 451,
+"fallback": false
+},
+"404": {
+"word": "through",
+"form_ids": [
+19139,
+1472,
+23111,
+16410
+],
+"partner_idx": 365,
+"fallback": false
+},
+"405": {
+"word": "year",
+"form_ids": [
+3056,
+1007,
+9210,
+9452
+],
+"partner_idx": 402,
+"fallback": false
+},
+"406": {
+"word": "met",
+"form_ids": [
+3923,
+2197,
+33525,
+6017
+],
+"partner_idx": 427,
+"fallback": false
+},
+"407": {
+"word": "wall",
+"form_ids": [
+15949,
+6784,
+31521,
+9447
+],
+"partner_idx": 382,
+"fallback": false
+},
+"408": {
+"word": "look",
+"form_ids": [
+6975,
+1353,
+10071,
+8919
+],
+"partner_idx": 431,
+"fallback": false
+},
+"409": {
+"word": "back",
+"form_ids": [
+1371,
+1142,
+3581,
+6627
+],
+"partner_idx": 440,
+"fallback": false
+},
+"410": {
+"word": "down",
+"form_ids": [
+2829,
+1441,
+4308,
+6087
+],
+"partner_idx": 425,
+"fallback": false
+},
+"411": {
+"word": "write",
+"form_ids": [
+4775,
+3165,
+7734,
+9357
+],
+"partner_idx": 408,
+"fallback": false
+},
+"412": {
+"word": "place",
+"form_ids": [
+1940,
+1925,
+16860,
+10454
+],
+"partner_idx": 413,
+"fallback": false
+},
+"413": {
+"word": "led",
+"form_ids": [
+806,
+5879,
+58800,
+30616
+],
+"partner_idx": 450,
+"fallback": false
+},
+"414": {
+"word": "won",
+"form_ids": [
+52830,
+2677,
+73245,
+41039
+],
+"partner_idx": 443,
+"fallback": false
+},
+"415": {
+"word": "fear",
+"form_ids": [
+8415,
+87263,
+40580
+],
+"partner_idx": 401,
+"fallback": false
+},
+"416": {
+"word": "trust",
+"form_ids": [
+54759,
+6734,
+44031,
+16324
+],
+"partner_idx": 368,
+"fallback": false
+},
+"417": {
+"word": "climb",
+"form_ids": [
+24562
+],
+"partner_idx": 390,
+"fallback": false
+},
+"418": {
+"word": "low",
+"form_ids": [
+9997,
+3238,
+23428,
+11698
+],
+"partner_idx": 446,
+"fallback": false
+},
+"419": {
+"word": "set",
+"form_ids": [
+723,
+716,
+1591,
+2488
+],
+"partner_idx": 428,
+"fallback": true
+},
+"420": {
+"word": "set",
+"form_ids": [
+723,
+716,
+1591,
+2488
+],
+"partner_idx": 428,
+"fallback": false
+},
+"421": {
+"word": "small",
+"form_ids": [
+8732,
+2526,
+24504,
+14560
+],
+"partner_idx": 438,
+"fallback": false
+},
+"422": {
+"word": "game",
+"form_ids": [
+5623,
+1746,
+4712,
+3914
+],
+"partner_idx": 416,
+"fallback": false
+},
+"423": {
+"word": "pain",
+"form_ids": [
+88464,
+6437,
+33323
+],
+"partner_idx": 375,
+"fallback": false
+},
+"424": {
+"word": "spoke",
+"form_ids": [
+11938
+],
+"partner_idx": 393,
+"fallback": false
+},
+"425": {
+"word": "case",
+"form_ids": [
+5461,
+1105,
+4068,
+11206
+],
+"partner_idx": 415,
+"fallback": false
+},
+"426": {
+"word": "home",
+"form_ids": [
+4955,
+2046,
+7380,
+5211
+],
+"partner_idx": 399,
+"fallback": false
+},
+"427": {
+"word": "more",
+"form_ids": [
+6183,
+777,
+7418,
+4254
+],
+"partner_idx": 377,
+"fallback": false
+},
+"428": {
+"word": "dead",
+"form_ids": [
+32636,
+5418,
+27400,
+14585
+],
+"partner_idx": 370,
+"fallback": false
+},
+"429": {
+"word": "blue",
+"form_ids": [
+11855,
+6105,
+10025,
+8432
+],
+"partner_idx": 398,
+"fallback": false
+},
+"430": {
+"word": "land",
+"form_ids": [
+1867,
+4128,
+40571,
+11098
+],
+"partner_idx": 439,
+"fallback": false
+},
+"431": {
+"word": "deep",
+"form_ids": [
+31788,
+5365,
+32354,
+17642
+],
+"partner_idx": 361,
+"fallback": false
+},
+"432": {
+"word": "black",
+"form_ids": [
+11124,
+3565,
+14004,
+5068
+],
+"partner_idx": 441,
+"fallback": false
+},
+"433": {
+"word": "told",
+"form_ids": [
+3125
+],
+"partner_idx": 426,
+"fallback": false
+},
+"434": {
+"word": "part",
+"form_ids": [
+4332,
+919,
+5619,
+3534
+],
+"partner_idx": 435,
+"fallback": false
+},
+"435": {
+"word": "done",
+"form_ids": [
+10128,
+2725,
+16936,
+26472
+],
+"partner_idx": 442,
+"fallback": false
+},
+"436": {
+"word": "day",
+"form_ids": [
+1247,
+1834,
+9857,
+5870
+],
+"partner_idx": 409,
+"fallback": false
+},
+"437": {
+"word": "space",
+"form_ids": [
+8481,
+3433,
+9620,
+11156
+],
+"partner_idx": 412,
+"fallback": false
+},
+"438": {
+"word": "alone",
+"form_ids": [
+30537,
+7249,
+66962
+],
+"partner_idx": 366,
+"fallback": true
+},
+"439": {
+"word": "alone",
+"form_ids": [
+30537,
+7249,
+66962
+],
+"partner_idx": 366,
+"fallback": false
+},
+"440": {
+"word": "fate",
+"form_ids": [
+23611,
+56932
+],
+"partner_idx": 385,
+"fallback": false
+},
+"441": {
+"word": "wine",
+"form_ids": [
+69013,
+12701,
+30782
+],
+"partner_idx": 367,
+"fallback": false
+},
+"442": {
+"word": "sight",
+"form_ids": [
+13529,
+63131
+],
+"partner_idx": 407,
+"fallback": false
+},
+"443": {
+"word": "soon",
+"form_ids": [
+63826,
+4970,
+63864,
+30720
+],
+"partner_idx": 373,
+"fallback": false
+},
+"444": {
+"word": "took",
+"form_ids": [
+87246,
+3738,
+86610
+],
+"partner_idx": 432,
+"fallback": false
+},
+"445": {
+"word": "run",
+"form_ids": [
+5917,
+1542,
+6516,
+6250
+],
+"partner_idx": 386,
+"fallback": false
+},
+"446": {
+"word": "art",
+"form_ids": [
+461,
+1880,
+9010,
+5001
+],
+"partner_idx": 434,
+"fallback": false
+},
+"447": {
+"word": "door",
+"form_ids": [
+10470,
+5817,
+50506,
+23432
+],
+"partner_idx": 392,
+"fallback": false
+},
+"448": {
+"word": "death",
+"form_ids": [
+59822,
+4397,
+37960,
+15443
+],
+"partner_idx": 357,
+"fallback": false
+},
+"449": {
+"word": "lies",
+"form_ids": [
+46497,
+14995,
+74450
+],
+"partner_idx": 380,
+"fallback": false
+},
+"450": {
+"word": "bone",
+"form_ids": [
+19153,
+16732,
+60230,
+44084
+],
+"partner_idx": 358,
+"fallback": false
+},
+"451": {
+"word": "star",
+"form_ids": [
+11531,
+6561,
+12335,
+7436
+],
+"partner_idx": 419,
+"fallback": false
+},
+"452": {
+"word": "red",
+"form_ids": [
+1114,
+2438,
+5844,
+3605
+],
+"partner_idx": 449,
+"fallback": false
+},
+"453": {
+"word": "show",
+"form_ids": [
+3335,
+1420,
+7565,
+6712
+],
+"partner_idx": 447,
+"fallback": false
+},
+"454": {
+"word": "break",
+"form_ids": [
+8689,
+1387,
+21825,
+15164
+],
+"partner_idx": 444,
+"fallback": false
+},
+"455": {
+"word": "running",
+"form_ids": [
+26299,
+4162,
+18417,
+27119
+],
+"partner_idx": 489,
+"fallback": false
+},
+"456": {
+"word": "young",
+"form_ids": [
+78380,
+3777,
+39233,
+12878
+],
+"partner_idx": 514,
+"fallback": false
+},
+"457": {
+"word": "within",
+"form_ids": [
+53977,
+2785,
+40574,
+23475
+],
+"partner_idx": 543,
+"fallback": false
+},
+"458": {
+"word": "language",
+"form_ids": [
+11197,
+3992,
+13410,
+11106
+],
+"partner_idx": 455,
+"fallback": false
+},
+"459": {
+"word": "since",
+"form_ids": [
+10957,
+2394,
+12189,
+8439
+],
+"partner_idx": 547,
+"fallback": false
+},
+"460": {
+"word": "little",
+"form_ids": [
+53532,
+2545,
+36843,
+14250
+],
+"partner_idx": 500,
+"fallback": false
+},
+"461": {
+"word": "major",
+"form_ids": [
+35299,
+3478,
+33331,
+16617
+],
+"partner_idx": 516,
+"fallback": false
+},
+"462": {
+"word": "function",
+"form_ids": [
+1628,
+709,
+4987,
+5534
+],
+"partner_idx": 475,
+"fallback": false
+},
+"463": {
+"word": "human",
+"form_ids": [
+24509,
+3611,
+32850,
+10774
+],
+"partner_idx": 515,
+"fallback": false
+},
+"464": {
+"word": "market",
+"form_ids": [
+18718,
+2981,
+37538,
+7742
+],
+"partner_idx": 540,
+"fallback": false
+},
+"465": {
+"word": "source",
+"form_ids": [
+2348,
+2450,
+3488,
+8483
+],
+"partner_idx": 545,
+"fallback": false
+},
+"466": {
+"word": "write",
+"form_ids": [
+4775,
+3165,
+7734,
+9357
+],
+"partner_idx": 513,
+"fallback": false
+},
+"467": {
+"word": "person",
+"form_ids": [
+8716,
+1637,
+10364,
+7126
+],
+"partner_idx": 541,
+"fallback": false
+},
+"468": {
+"word": "project",
+"form_ids": [
+4826,
+2313,
+7601,
+5606
+],
+"partner_idx": 520,
+"fallback": false
+},
+"469": {
+"word": "number",
+"form_ids": [
+3946,
+1324,
+2742,
+5447
+],
+"partner_idx": 542,
+"fallback": false
+},
+"470": {
+"word": "security",
+"form_ids": [
+16539,
+4610,
+14906,
+7977
+],
+"partner_idx": 527,
+"fallback": false
+},
+"471": {
+"word": "across",
+"form_ids": [
+3808,
+88762,
+55224
+],
+"partner_idx": 457,
+"fallback": false
+},
+"472": {
+"word": "different",
+"form_ids": [
+61501,
+2086,
+66783,
+32290
+],
+"partner_idx": 465,
+"fallback": false
+},
+"473": {
+"word": "village",
+"form_ids": [
+13721,
+23316
+],
+"partner_idx": 492,
+"fallback": false
+},
+"474": {
+"word": "night",
+"form_ids": [
+9011,
+3603,
+48739,
+12458
+],
+"partner_idx": 534,
+"fallback": false
+},
+"475": {
+"word": "level",
+"form_ids": [
+3187,
+2119,
+4303,
+9116
+],
+"partner_idx": 508,
+"fallback": false
+},
+"476": {
+"word": "first",
+"form_ids": [
+3765,
+1118,
+5170,
+5339
+],
+"partner_idx": 548,
+"fallback": false
+},
+"477": {
+"word": "material",
+"form_ids": [
+7986,
+3558,
+13028,
+9926
+],
+"partner_idx": 525,
+"fallback": false
+},
+"478": {
+"word": "until",
+"form_ids": [
+37448,
+2980,
+23718,
+28025
+],
+"partner_idx": 461,
+"fallback": false
+},
+"479": {
+"word": "between",
+"form_ids": [
+40486,
+1881,
+24667,
+26260
+],
+"partner_idx": 482,
+"fallback": false
+},
+"480": {
+"word": "order",
+"form_ids": [
+1310,
+1906,
+4286,
+6991
+],
+"partner_idx": 510,
+"fallback": false
+},
+"481": {
+"word": "right",
+"form_ids": [
+1246,
+1245,
+5791,
+9785
+],
+"partner_idx": 535,
+"fallback": false
+},
+"482": {
+"word": "something",
+"form_ids": [
+32228,
+2414,
+22367,
+23879
+],
+"partner_idx": 463,
+"fallback": false
+},
+"483": {
+"word": "although",
+"form_ids": [
+34946,
+7643,
+15337,
+10022
+],
+"partner_idx": 502,
+"fallback": false
+},
+"484": {
+"word": "control",
+"form_ids": [
+2772,
+2444,
+3168,
+7533
+],
+"partner_idx": 536,
+"fallback": false
+},
+"485": {
+"word": "division",
+"form_ids": [
+27822,
+12436,
+49513,
+14074
+],
+"partner_idx": 522,
+"fallback": false
+},
+"486": {
+"word": "several",
+"form_ids": [
+3679,
+33613,
+24876
+],
+"partner_idx": 483,
+"fallback": false
+},
+"487": {
+"word": "building",
+"form_ids": [
+22572,
+4599,
+29149,
+16366
+],
+"partner_idx": 479,
+"fallback": false
+},
+"488": {
+"word": "always",
+"form_ids": [
+31063,
+2590,
+35865,
+22516
+],
+"partner_idx": 497,
+"fallback": false
+},
+"489": {
+"word": "million",
+"form_ids": [
+56351,
+3410,
+32417
+],
+"partner_idx": 491,
+"fallback": false
+},
+"490": {
+"word": "course",
+"form_ids": [
+11517,
+3199,
+22615,
+16127
+],
+"partner_idx": 530,
+"fallback": false
+},
+"491": {
+"word": "family",
+"form_ids": [
+18411,
+2902,
+14750,
+11888
+],
+"partner_idx": 506,
+"fallback": false
+},
+"492": {
+"word": "country",
+"form_ids": [
+10818,
+3046,
+15927,
+13702
+],
+"partner_idx": 485,
+"fallback": false
+},
+"493": {
+"word": "great",
+"form_ids": [
+45324,
+2172,
+20740,
+8252
+],
+"partner_idx": 532,
+"fallback": false
+},
+"494": {
+"word": "business",
+"form_ids": [
+25316,
+2478,
+22020,
+7773
+],
+"partner_idx": 464,
+"fallback": false
+},
+"495": {
+"word": "original",
+"form_ids": [
+9596,
+3889,
+17848,
+16722
+],
+"partner_idx": 523,
+"fallback": false
+},
+"496": {
+"word": "already",
+"form_ids": [
+43967,
+2582,
+37098,
+38205
+],
+"partner_idx": 487,
+"fallback": false
+},
+"497": {
+"word": "present",
+"form_ids": [
+27803,
+2945,
+20545,
+25790
+],
+"partner_idx": 518,
+"fallback": false
+},
+"498": {
+"word": "science",
+"form_ids": [
+38248,
+7785,
+34229,
+9670
+],
+"partner_idx": 470,
+"fallback": false
+},
+"499": {
+"word": "property",
+"form_ids": [
+3573,
+3234,
+2954,
+8391
+],
+"partner_idx": 526,
+"fallback": false
+},
+"500": {
+"word": "height",
+"form_ids": [
+2479,
+2521,
+3517,
+20775
+],
+"partner_idx": 469,
+"fallback": false
+},
+"501": {
+"word": "short",
+"form_ids": [
+8412,
+2716,
+12115,
+10382
+],
+"partner_idx": 550,
+"fallback": false
+},
+"502": {
+"word": "light",
+"form_ids": [
+4009,
+3000,
+13512,
+8394
+],
+"partner_idx": 533,
+"fallback": false
+},
+"503": {
+"word": "search",
+"form_ids": [
+1773,
+2624,
+5708,
+7304
+],
+"partner_idx": 458,
+"fallback": false
+},
+"504": {
+"word": "change",
+"form_ids": [
+3264,
+2222,
+3936,
+10079
+],
+"partner_idx": 495,
+"fallback": false
+},
+"505": {
+"word": "action",
+"form_ids": [
+1265,
+1852,
+2432,
+5411
+],
+"partner_idx": 546,
+"fallback": false
+},
+"506": {
+"word": "together",
+"form_ids": [
+3658,
+78194,
+30135
+],
+"partner_idx": 473,
+"fallback": false
+},
+"507": {
+"word": "library",
+"form_ids": [
+17526,
+6522,
+16420,
+11300
+],
+"partner_idx": 471,
+"fallback": false
+},
+"508": {
+"word": "island",
+"form_ids": [
+12552,
+10404
+],
+"partner_idx": 498,
+"fallback": false
+},
+"509": {
+"word": "special",
+"form_ids": [
+14703,
+3175,
+19747,
+9493
+],
+"partner_idx": 484,
+"fallback": false
+},
+"510": {
+"word": "again",
+"form_ids": [
+31685,
+1495,
+29396,
+13364
+],
+"partner_idx": 503,
+"fallback": false
+},
+"511": {
+"word": "message",
+"form_ids": [
+1927,
+1876,
+1984,
+4701
+],
+"partner_idx": 493,
+"fallback": false
+},
+"512": {
+"word": "house",
+"form_ids": [
+7432,
+3626,
+27672,
+4526
+],
+"partner_idx": 531,
+"fallback": false
+},
+"513": {
+"word": "single",
+"form_ids": [
+14892,
+3074,
+10570,
+11000
+],
+"partner_idx": 499,
+"fallback": false
+},
+"514": {
+"word": "college",
+"form_ids": [
+65158,
+7524,
+54555,
+8853
+],
+"partner_idx": 490,
+"fallback": false
+},
+"515": {
+"word": "account",
+"form_ids": [
+4459,
+2605,
+7133,
+8352
+],
+"partner_idx": 474,
+"fallback": false
+},
+"516": {
+"word": "often",
+"form_ids": [
+58768,
+3428,
+74284,
+33759
+],
+"partner_idx": 517,
+"fallback": false
+},
+"517": {
+"word": "without",
+"form_ids": [
+28049,
+1973,
+25208,
+16643
+],
+"partner_idx": 480,
+"fallback": false
+},
+"518": {
+"word": "February",
+"form_ids": [
+31691,
+7165
+],
+"partner_idx": 472,
+"fallback": false
+},
+"519": {
+"word": "really",
+"form_ids": [
+51859,
+2098,
+47153,
+27291
+],
+"partner_idx": 466,
+"fallback": false
+},
+"520": {
+"word": "would",
+"form_ids": [
+39013,
+1000,
+27083,
+18315
+],
+"partner_idx": 537,
+"fallback": false
+},
+"521": {
+"word": "program",
+"form_ids": [
+14475,
+1957,
+10374,
+6477
+],
+"partner_idx": 504,
+"fallback": false
+},
+"522": {
+"word": "against",
+"form_ids": [
+66425,
+2272,
+81406,
+28188
+],
+"partner_idx": 476,
+"fallback": false
+},
+"523": {
+"word": "training",
+"form_ids": [
+29653,
+4706,
+35705,
+15676
+],
+"partner_idx": 528,
+"fallback": false
+},
+"524": {
+"word": "another",
+"form_ids": [
+40576,
+2361,
+13634,
+12908
+],
+"partner_idx": 481,
+"fallback": false
+},
+"525": {
+"word": "study",
+"form_ids": [
+53116,
+3788,
+47086,
+18593
+],
+"partner_idx": 512,
+"fallback": false
+},
+"526": {
+"word": "review",
+"form_ids": [
+18828,
+3286,
+18842,
+9988
+],
+"partner_idx": 468,
+"fallback": false
+},
+"527": {
+"word": "because",
+"form_ids": [
+26756,
+1521,
+17413,
+8938
+],
+"partner_idx": 460,
+"fallback": false
+},
+"528": {
+"word": "people",
+"form_ids": [
+15596,
+1208,
+15450,
+8586
+],
+"partner_idx": 462,
+"fallback": false
+},
+"529": {
+"word": "water",
+"form_ids": [
+12615,
+2919,
+27336,
+9664
+],
+"partner_idx": 539,
+"fallback": false
+},
+"530": {
+"word": "which",
+"form_ids": [
+7949,
+864,
+22365,
+15451
+],
+"partner_idx": 488,
+"fallback": false
+},
+"531": {
+"word": "company",
+"form_ids": [
+9838,
+2724,
+14076,
+7931
+],
+"partner_idx": 486,
+"fallback": false
+},
+"532": {
+"word": "model",
+"form_ids": [
+2448,
+1558,
+1652,
+4744
+],
+"partner_idx": 505,
+"fallback": false
+},
+"533": {
+"word": "future",
+"form_ids": [
+20409,
+3725,
+23446,
+12140
+],
+"partner_idx": 507,
+"fallback": false
+},
+"534": {
+"word": "position",
+"form_ids": [
+3374,
+2234,
+3684,
+12026
+],
+"partner_idx": 524,
+"fallback": false
+},
+"535": {
+"word": "world",
+"form_ids": [
+14194,
+1814,
+9833,
+4196
+],
+"partner_idx": 538,
+"fallback": false
+},
+"536": {
+"word": "second",
+"form_ids": [
+5394,
+2018,
+15207,
+10130
+],
+"partner_idx": 544,
+"fallback": false
+},
+"537": {
+"word": "field",
+"form_ids": [
+2482,
+2002,
+1812,
+8338
+],
+"partner_idx": 467,
+"fallback": false
+},
+"538": {
+"word": "already",
+"form_ids": [
+43967,
+2582,
+37098,
+38205
+],
+"partner_idx": 501,
+"fallback": false
+},
+"539": {
+"word": "address",
+"form_ids": [
+4834,
+2534,
+4146,
+8904
+],
+"partner_idx": 459,
+"fallback": false
+},
+"540": {
+"word": "around",
+"form_ids": [
+18864,
+2094,
+42138,
+31728
+],
+"partner_idx": 477,
+"fallback": false
+},
+"541": {
+"word": "power",
+"form_ids": [
+12793,
+2279,
+14552,
+7185
+],
+"partner_idx": 511,
+"fallback": false
+},
+"542": {
+"word": "football",
+"form_ids": [
+81425,
+8693,
+83341,
+20128
+],
+"partner_idx": 529,
+"fallback": false
+},
+"543": {
+"word": "success",
+"form_ids": [
+5453,
+2316,
+6962,
+12674
+],
+"partner_idx": 494,
+"fallback": false
+},
+"544": {
+"word": "those",
+"form_ids": [
+51819,
+1782,
+21543,
+12597
+],
+"partner_idx": 549,
+"fallback": false
+},
+"545": {
+"word": "support",
+"form_ids": [
+22637,
+1761,
+7666,
+8913
+],
+"partner_idx": 521,
+"fallback": false
+},
+"546": {
+"word": "important",
+"form_ids": [
+14887,
+2894,
+50525,
+42370
+],
+"partner_idx": 478,
+"fallback": false
+},
+"547": {
+"word": "length",
+"form_ids": [
+3993,
+2984,
+4232,
+16777
+],
+"partner_idx": 496,
+"fallback": false
+},
+"548": {
+"word": "product",
+"form_ids": [
+2935,
+1918,
+4662,
+5466
+],
+"partner_idx": 519,
+"fallback": false
+},
+"549": {
+"word": "local",
+"form_ids": [
+2359,
+2136,
+7090,
+8509
+],
+"partner_idx": 509,
+"fallback": false
+},
+"550": {
+"word": "government",
+"form_ids": [
+83767,
+2936,
+59395,
+9908
+],
+"partner_idx": 456,
+"fallback": false
+}
+}
